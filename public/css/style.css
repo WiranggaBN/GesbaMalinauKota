@@ -1,0 +1,890 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(245, 245, 245);   
+}
+
+.navbar {
+    z-index: 3;    
+}
+
+* {
+    z-index: 2;
+}
+
+/* Slider Section */
+#slider {
+    background-image: url(../pray.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 100px 0px;
+}
+
+#slider .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+/* Hero Section */
+
+#hero {
+    background: rgb(245, 245, 245);   
+    height: 37.5vh;
+    width: 100%;
+}
+
+/* .carousel- {
+    margin-top: 105px;    
+    margin-left: -150px;
+}
+
+.carousel-inner {
+    margin-top: 105px;    
+    margin-left: -150px;
+    margin-right: -116.7px;
+} */
+
+/* Keep Update */
+
+#keep {
+    background-color: rgb(220, 53, 69);
+    height: 100vh;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 100px 0px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #fff;
+}
+
+.card-keep {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220, 53, 69);
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+
+.card-keep h3 {
+    font-size: 30px;
+    color: rgb(220, 53, 69);
+
+    transition: all .2s ease-in;
+}
+
+.card-keep p {
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/* Hover */
+.card-keep:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: rgb(104, 12, 12);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+
+    transition: all .2s ease-in;
+}
+.card-keep:hover .circle-icon {
+    background-color: #fff;
+    transition: all .1s ease-in;
+}
+
+.card-keep:hover h3 {
+    font-size: 30px;
+    color: #fff;
+
+    transition: all .2s ease-in;
+}
+
+.card-keep:hover p {
+    font-size: 14px;
+    color: #fff;
+
+    transition: all .3s ease-in;
+}
+
+/* KPK Update */
+
+#kpk {
+    background-color: rgb(245, 245, 245);
+    height: 200px;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 0px 0px;
+}
+
+.judulkpk {
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+}
+
+.subtitle-kpk {
+    font-size: 18px;
+    color: #000;
+}
+
+/* Informasi */
+
+#informasi {
+    background-color: rgb(220, 53, 69);
+    height: 100vh;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 50px 0px;
+}
+
+.button-informasi {
+    width: 230px;
+    height: 63px;
+    background-color: rgb(131, 12, 12);
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+
+#informasi h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-informasi h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-informasi span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-informasi h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-informasi button {
+    background-color: rgb(196, 24, 39);
+    border: none;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-informasi .overlay {
+    background-color: rgb(104, 12, 12, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-informasi .overlay:hover {
+    background-color: rgb(104, 12, 12, 0.6);
+    opacity: 1;
+}
+
+.button-vector-left {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+
+.button-vector-right {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+
+/* Pers */
+
+#pers {
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 50px 0px;
+}
+
+#pers h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+}
+
+#pers span {
+    color: #000;
+    font-size: 16px;
+}
+
+.button-shopee {
+    width: 150px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+}
+
+.button-shopee:hover {
+    width: 150px;
+    height: 55px;
+    background-color: rgb(104, 12, 12, 0.6);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all ease-in-out .3s;
+}
+
+.shopee {
+    width: 130px;
+    height: 50px;
+}
+
+.dana {
+    width: 110px;
+    height: 30px;
+}
+
+.gopay {
+    width: 110px;
+    height: 25px;
+}
+
+/* Hubungi Style */
+#hubungi {
+    background-image: url(../pray.jpg);
+    height: 100vh;
+    /* margin-right: -116.7px; */
+    color: #000;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hubungi .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#hubungi .container {
+    padding: 148px 0px 0px 148px;
+}
+
+#hubungi h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#hubungi h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 19px 0px 14px 0px;
+}
+
+.hubungi a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.link-malkot {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.card-hubungi {
+    width: 100%;
+    height: 445px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-hubungi h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.form-control {
+    height: 75px !important;
+    background: #C4C4C4;
+    border-radius: 0;
+}
+
+.form-floating label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-hubungi {
+    width: 100%;
+    height: 75px;
+    background: rgb(220, 53, 69);
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+footer {
+    width: 1349px;
+    height: 270px;
+    background: #000000;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Sejarah Style */
+/* Sejarah */
+#sejarah {
+    background-image: url(../sejarah.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sejarah .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#sejarah h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Sejarah */
+#content-sejarah {
+    background-color: rgb(245, 245, 245);
+    height: 1900px;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button-sejarah {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+
+#content-sejarah p {
+    color: #000;
+    text-align: justify;
+}
+
+/* Bottom Sejarah */
+#bottom-sejarah {
+    background-image: url(../bg-pattern-bottom1.png);
+    /* background-color: blue; */
+    height: 200px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+#footer-sejarah {
+    margin-left: -116.1px;
+}
+
+footer {
+    width: 1349px;
+    height: 270px;
+    background: #000000;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* Sejarah Style */
+
+/* VisiMisi Style */
+/* Hero Style */
+#visimisi {
+    background-image: url(../sejarah.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#visimisi .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#visimisi h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content VisiMisi */
+#content-visimisi {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: 270px;
+    background-color: rgb(245, 245, 245);
+}
+
+#content-visimisi h2 {
+    color: #000;
+}
+
+#content-visimisi span {
+    color: #000;
+}
+
+.button-visimisi {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+
+footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* VisiMisi Style */
+
+/* Persembahan Style */
+/* Persembahan */
+#persembahan {
+    background-image: url(../persembahan.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#persembahan .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#persembahan h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Persembahan */
+#content-persembahan {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: 500px;
+    background-color: rgb(245, 245, 245);
+}
+
+.gambarpersembahan {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+}
+
+.button-persembahan {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+/* Persembahan Style */
+
+/* Ibadah Raya Style */
+#ibadahraya {
+    background-image: url(../sejarah.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ibadahraya .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#ibadahraya h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Ibadah Raya */
+#content-ibadahraya {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+#content-ibadahraya h2 {
+    color: #000;
+}
+
+#content-ibadahraya span {
+    color: #000;
+}
+
+.button-ibadahraya {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+}
+
+.img-calendar {
+    width: 35px;
+    height: 35px;
+}
+
+.card-ibadahraya {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    padding: 30px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+
+    transition: all .2s ease-in;
+}
+
+.jam {
+    width: 20px;
+    height: 20px;
+}
+
+.tempat {
+    width: 20px;
+    height: 20px;
+}
+
+.card-ibadahraya h3 {
+    font-size: 30px;
+    color: rgb(220, 53, 69);
+
+    transition: all .2s ease-in;
+}
+
+.card-ibadahraya p {
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/* Hover */
+.card-ibadahraya:hover {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 1.5) ;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+
+    transition: all .2s ease-in;
+}
+
+.card-ibadahraya:hover h3 {
+    font-size: 30px;
+    color: #000;
+
+    transition: all .2s ease-in;
+}
+
+.card-ibadahraya:hover p {
+    font-size: 14px;
+    color: #000;
+
+    transition: all .3s ease-in;
+}
+/* Ibadah Raya Style */
+
+/* Doa dan Puasa Style */
+#doadanpuasa {
+    background-image: url(../doadanpuasa.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#doadanpuasa .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#doadanpuasa h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Doa dan Puasa*/
+#content-doadanpuasa {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: 150vh;
+    background-color: rgb(245, 245, 245);
+}
+
+#content-doadanpuasa h4 {
+    color: #000;
+}
+
+#content-doadanpuasa p {
+    color: #000;
+    text-align: justify;
+}
+
+.button-doadanpuasa {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+    color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+}
+
+.button-doadanpuasa2 {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    padding: 0;
+    color: #000;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+}
+
+.card-juduldoadanpuasa {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-left: 10px solid rgb(220, 53, 69);
+    padding: 10px 0px 5px 15px;
+    text-align: left!important;
+    border-bottom: 1px dashed #000;
+    
+}
+
+/* hover */
+.button-doadanpuasa2:hover {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(220, 53, 69);
+    padding: 0;
+    color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+
+    transition: all .2s ease-in;
+}
+
+/* Doa dan Puasa Style */
+
+/* Jadwal Doa dan Puasa Style */
+#jadwaldoadanpuasa {
+    background-image: url(../doadanpuasa.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jadwaldoadanpuasa .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#jadwaldoadanpuasa h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Doa dan Puasa*/
+#content-jadwaldoadanpuasa {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+#content-jadwaldoadanpuasa h4 {
+    color: #000;
+}
+
+#content-jadwaldoadanpuasa p {
+    color: #000;
+    text-align: justify;
+}
+
+.button-jadwaldoadanpuasa {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    padding: 0;
+    color: #000;
+}
+
+.button-jadwaldoadanpuasa2 {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(104, 12, 12);
+    padding: 0;
+    color: #fff;
+}
+
+/* hover */
+.button-jadwaldoadanpuasa:hover {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(220, 53, 69);
+    padding: 0;
+    color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+
+    transition: all .2s ease-in;
+}
+/* Jadwal Doa dan Puasa Style */
+
+
+
+
+
+
