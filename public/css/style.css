@@ -1,12 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;
-    background: rgb(245, 245, 245);   
+    font-family: "Poppins", sans-serif;
+    background: rgb(245, 245, 245);
 }
 
 .navbar {
-    z-index: 3;    
+    z-index: 3;
 }
 
 * {
@@ -33,21 +33,10 @@ body {
 /* Hero Section */
 
 #hero {
-    background: rgb(245, 245, 245);   
+    background: rgb(245, 245, 245);
     height: 37.5vh;
     width: 100%;
 }
-
-/* .carousel- {
-    margin-top: 105px;    
-    margin-left: -150px;
-}
-
-.carousel-inner {
-    margin-top: 105px;    
-    margin-left: -150px;
-    margin-right: -116.7px;
-} */
 
 /* Keep Update */
 
@@ -77,9 +66,9 @@ h2 {
     border-radius: 5px;
     background-color: rgb(254, 254, 254);
     padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .circle-icon {
@@ -88,20 +77,20 @@ h2 {
     background-color: rgb(220, 53, 69);
     border-radius: 50%;
 
-    transition: all .1s ease-in;
+    transition: all 0.1s ease-in;
 }
 
 .card-keep h3 {
     font-size: 30px;
     color: rgb(220, 53, 69);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .card-keep p {
     font-size: 14px;
 
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 /* Hover */
@@ -111,27 +100,27 @@ h2 {
     border-radius: 5px;
     background-color: rgb(104, 12, 12);
     padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 .card-keep:hover .circle-icon {
     background-color: #fff;
-    transition: all .1s ease-in;
+    transition: all 0.1s ease-in;
 }
 
 .card-keep:hover h3 {
     font-size: 30px;
     color: #fff;
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .card-keep:hover p {
     font-size: 14px;
     color: #fff;
 
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 /* KPK Update */
@@ -212,7 +201,7 @@ h2 {
 .card-informasi .overlay {
     background-color: rgb(104, 12, 12, 0);
     opacity: 0;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .card-informasi .overlay:hover {
@@ -266,7 +255,7 @@ h2 {
     background-color: #fff;
     border-radius: 50px;
     border: none;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 }
 
 .button-shopee:hover {
@@ -276,7 +265,7 @@ h2 {
     border-radius: 50px;
     border: none;
     box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .shopee {
@@ -318,14 +307,14 @@ h2 {
     font-weight: 600;
     font-size: 40px;
     line-height: 60px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #hubungi h6 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 19px 0px 14px 0px;
 }
 
@@ -333,7 +322,7 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     margin-left: 18px;
     width: 332px;
@@ -344,14 +333,14 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .card-hubungi {
     width: 100%;
     height: 445px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 5px;
     padding: 52px 48px;
 }
@@ -367,7 +356,7 @@ h2 {
 
 .form-control {
     height: 75px !important;
-    background: #C4C4C4;
+    background: #c4c4c4;
     border-radius: 0;
 }
 
@@ -386,7 +375,7 @@ h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* Footer */
@@ -408,7 +397,7 @@ footer a {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -497,7 +486,7 @@ footer a {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 /* Sejarah Style */
@@ -554,7 +543,7 @@ footer a {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 /* VisiMisi Style */
@@ -594,7 +583,7 @@ footer a {
     width: 350px;
     height: 350px;
     border-radius: 10px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 }
 
 .button-persembahan {
@@ -665,9 +654,9 @@ footer a {
     border-radius: 5px;
     background-color: rgb(254, 254, 254);
     padding: 30px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .jam {
@@ -684,13 +673,13 @@ footer a {
     font-size: 30px;
     color: rgb(220, 53, 69);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .card-ibadahraya p {
     font-size: 14px;
 
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 /* Hover */
@@ -700,25 +689,25 @@ footer a {
     border-radius: 5px;
     background-color: rgb(245, 245, 245);
     padding: 30px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 1.5) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 1.5);
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .card-ibadahraya:hover h3 {
     font-size: 30px;
     color: #000;
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .card-ibadahraya:hover p {
     font-size: 14px;
     color: #000;
 
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 /* Ibadah Raya Style */
 
@@ -769,7 +758,7 @@ footer a {
     background-color: rgb(104, 12, 12);
     padding: 0;
     color: #fff;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 }
 
 .button-doadanpuasa2 {
@@ -780,7 +769,7 @@ footer a {
     background-color: #fff;
     padding: 0;
     color: #000;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 }
 
 .card-juduldoadanpuasa {
@@ -788,9 +777,8 @@ footer a {
     margin-bottom: 25px;
     border-left: 10px solid rgb(220, 53, 69);
     padding: 10px 0px 5px 15px;
-    text-align: left!important;
+    text-align: left !important;
     border-bottom: 1px dashed #000;
-    
 }
 
 /* hover */
@@ -802,9 +790,9 @@ footer a {
     background-color: rgb(220, 53, 69);
     padding: 0;
     color: #fff;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 /* Doa dan Puasa Style */
@@ -877,14 +865,100 @@ footer a {
     background-color: rgb(220, 53, 69);
     padding: 0;
     color: #fff;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
 
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 /* Jadwal Doa dan Puasa Style */
 
+/* Baptisan */
+.persyaratan {
+    background-color: #fff;
+    height: auto;
+    text-align: justify;
+}
 
+.protokol {
+    background-color: #fff;
+    height: auto;
+    text-align: justify;
+}
 
+.datadiri {
+    height: auto;
+    background-color: #fff;
+}
 
+.form-label {
+    height: 20px;
+    border-radius: 10px;
+}
 
+.input-group-btn > .btn {
+    position: relative;
+}
+/* Baptisan */
 
+/* Pemberkatan Nikah */
+#content-pemberkatannikah {
+    height: auto;
+}
+/* Pemberkatan Nikah */
+
+/* Penyerahan Anak */
+#content-penyerahananak {
+    height: 850px;
+}
+
+.batam {
+    background-color: #dbdbdb;
+}
+/* Penyerahan Anak */
+
+/* Penghiburan */
+#content-penghiburan {
+    height: auto;
+}
+/* Penghiburan */
+
+/* Doa Ucapan Syukur */
+#content-doaucapansyukur {
+    background-color: rgb(245, 245, 245);
+    height: auto;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    margin-bottom: 20px;
+}
+
+.card-doaucapansyukur {
+    width: 100%;
+    height: 213px;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    padding: 20px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-doaucapansyukur p {
+    font-size: 14px;
+}
+
+.card-doaucapansyukur1 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    padding: 20px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-doaucapansyukur1 p {
+    font-size: 14px;
+}
+
+.form-check-input {
+    width: 30px;
+    height: 20px;
+}
+/* Doa Ucapan Syukur */
