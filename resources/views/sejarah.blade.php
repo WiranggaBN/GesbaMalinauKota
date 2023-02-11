@@ -15,8 +15,18 @@
 </section>
 {{-- hero section --}}
 
+@foreach ($sejarah as $sejarahs)
+    <button class="button-sejarah mt-4 mb-3">
+      <img src="Vector1.png" alt="">
+    </button>
+    <article>
+      <h2><a href="/sejarahs/{{ $sejarahs->slug }}"></a></h2>
+      {!! $sejarahs->body !!}
+    </article>
+@endforeach
+
 {{-- Content Section --}}
-<section id="content-sejarah">
+{{-- <section id="content-sejarah">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -73,7 +83,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 {{-- Content Section --}}
 
 {{-- Bg Pattern Bottom Section --}}

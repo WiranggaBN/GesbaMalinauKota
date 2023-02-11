@@ -1,7 +1,10 @@
 <?php
 
+use App\Models\Sejarah;
 use App\Http\Controllers\Home;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SejarahController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +21,8 @@ Route::get('/', function() {
     return view('home');
 });
 
-Route::get('/sejarah', function() {
-    return view('sejarah');
-});
+Route::get('/sejarah', [SejarahController::class, 'index']);
+Route::get('/sejarah/{sejarahs:slug}', [SejarahController::class, 'show']);
 
 Route::get('/visimisi', function() {
     return view('visimisi');
@@ -70,8 +72,16 @@ Route::get('/doasemalaman', function() {
     return view('doasemalaman');
 });
 
+Route::get('/jadwaldoasemalaman', function() {
+    return view('jadwaldoasemalaman');
+});
+
 Route::get('/kunjungandoa', function() {
     return view('kunjungandoa');
+});
+
+Route::get('/jadwalkunjungandoa', function() {
+    return view('jadwalkunjungandoa');
 });
 
 Route::get('/pencariandana', function() {
@@ -101,3 +111,5 @@ Route::get('/doaucapansyukur', function() {
 Route::get('/persembahan', function() {
     return view('persembahan');
 });
+
+Route::get('/login', [LoginController::class, 'index']);

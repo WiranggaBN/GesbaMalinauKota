@@ -21,39 +21,39 @@
       <div class="container">
         <div class="row">
           <div>
-            <a href="/doadanpuasa">
+            <a href="/doasemalaman">
               <button class="button-doadanpuasa mt-4 mb-3 me-3">
-                Manfaat Doa dan Puasa
+                Manfaat Doa Semalaman
               </button>
             </a>
-            <a href="/jadwaldoadanpuasa">
+            <a href="/jadwaldoasemalaman">
               <button class="button-doadanpuasa2 mt-4 mb-3">
-                Jadwal & Lokasi Doa dan Puasa
+                Jadwal & Lokasi Semalaman
               </button>
             </a>
           </div>
           <div>
             <p>Shalom . . . Merupakan suatu kehormatan bagi GBI - PRJ yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk pagi-pagi benar datang bersekutu dan mencari wajah Tuhan di Doa Fajar. Selamat Berjuang . . . !</p>
             <div class="card-juduldoadanpuasa">
-              <h4>Definisi Doa dan Puasa</h4>
+              <h4>Definisi Doa Semalaman</h4>
             </div>
             <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
-              <h4>Makna Doa dan Puasa</h4>
+              <h4>Makna Doa Semalaman</h4>
             </div>
             <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
-              <h4>Keuntungan dari mengikuti Doa dan Puasa</h4>
+              <h4>Keuntungan dari mengikuti Doa Semalaman</h4>
             </div>
             <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
-              <h4>Penghalang untuk datang ke Doa dan Puasa</h4>
+              <h4>Penghalang untuk datang ke Doa Semalaman</h4>
             </div>
             <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
               <h4>Solusi untuk mengalahkan penghalang</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Doa Semalaman adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
           </div>
         </div>
       </div>

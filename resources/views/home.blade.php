@@ -185,7 +185,7 @@
 {{-- Informasi Section --}}
 
 {{-- Persembahan Section --}}
-<section id="pers" class="overflow-hidden">
+<section id="pers" class="overflow-hidden"> 
   <div class="container">
     <div class="row">
       <div class="col-9 text-center">
@@ -216,7 +216,7 @@
 {{-- Persembahan Section --}}
 
 {{-- Hubungi Section --}}
-<section id="hubungi">
+{{-- <section id="hubungi">
   <div class="container-fluid overlay h-100">
     <div class="container">
       <div class="row">
@@ -270,8 +270,67 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 {{-- Hubungi Section --}}
+
+{{-- Hubungi2 Section --}}
+<section id="hubungi2">
+  <div class="container overlay h-100">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <h2 class="judulhubungi2 mt-4">Hubungi Kami</h2>
+          <span class="subtitle-hubungi2">Office : OTP of GBI PRJ (CK7) Jl. Angkasa 1 No.9, RW.10, Gn. Sahari Selatan, Kec.      Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610</span>
+        </div>
+        <div class="section-body mt-5 mb-5">
+          <form method="POST" action="modul/forms/contact/act.php?modul=contact&amp;action=insert" id="form_contact" novalidate="novalidate">
+              <div class="row">
+                  <div class="col-xs-12 col-md-6 mt-3">
+                      <div class="form-group">
+                          <label>Nama</label>
+                          <input type="text" class="form-control" name="nama">
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 mt-3">
+                      <div class="form-group">
+                          <label>Alamat</label>
+                          <input type="text" class="form-control" name="alamat">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-md-6 mt-3">
+                      <div class="form-group">
+                          <label>No. Telp / Whatsapp</label>
+                          <input type="text" class="form-control telp" name="telp" maxlength="14">
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 mt-3">
+                      <div class="form-group">
+                          <label>Email</label>
+                          <input type="email" class="form-control" name="email">
+                      </div>
+                  </div>
+              </div>
+              <div class="form-group mt-3">
+                  <label>Pesan</label>
+                  <textarea class="form-control" rows="5" name="message"></textarea>
+              </div>
+              <div class="alert alert-danger errormsg mt-3 text-center" id="form_contact_error">Periksa Kembali Data Yang Diinput</div>
+              <div class="text-center">
+                  <button class="btn btn-primary m-t-15 btn-rounded">
+                      <span class="btn-label">
+                          <i class="far fa-paper-plane"></i>
+                      </span> Kirim
+                  </button>
+              </div>
+          </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{-- Hubungi2 Section --}}
 
 {{-- Footer Section --}}
 <footer class="d-flex align-items-center position-relative">

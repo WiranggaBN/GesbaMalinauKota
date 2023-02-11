@@ -7,7 +7,8 @@
 
     <link rel="icon" href="logo.png">
 
-    {{-- Bootstrap CSS --}}    
+    {{-- Bootstrap CSS --}}   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
     
@@ -36,11 +37,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">                
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">HOME</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="/profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Profil
+                  PROFIL
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/sejarah">Sejarah Gereja</a></li>
@@ -51,7 +52,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Jadwal Ibadah
+                  JADWAL IBADAH
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/ibadahraya">Ibadah Raya</a></li>
@@ -59,32 +60,32 @@
                   {{-- <li><hr class="dropdown-divider"></li> --}}
                   <li><a class="dropdown-item" href="/ibadahsm">Ibadah Sekolah Minggu</a></li>
                   <li><a class="dropdown-item" href="/ibadahrt">Ibadah Rumah Tangga</a></li>
-                  <li><a class="dropdown-item" href="/ibadahpersekutuan">Ibadah Persekutuan</a></li>
-                  <li><a class="dropdown-item" href="/doadanpuasa">Doa dan Puasa</a></li>
+                  <li><a class="dropdown-item" href="/ibadahpersekutuan">Ibadah Persekutuan</a></li>                  
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Berita
+                  INFO ROHANI
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/kabarpengantenkristus">Kabar Penganten Kristus</a></li>
-                  <li><a class="dropdown-item" href="/khotbah">Khotbah</a></li>                  
+                  <li><a class="dropdown-item" href="/kabarpengantenkristus">Materi Pengajaran</a></li>
+                  <li><a class="dropdown-item" href="/khotbah">Ringkasan Khotbah</a></li>                  
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Layanan
+                  LAYANAN
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/doasemalaman">Doa Semalaman</a></li>
+                  <li><a class="dropdown-item" href="/doadanpuasa">Doa dan Puasa</a></li>
                   <li><a class="dropdown-item" href="/kunjungandoa">Kunjungan Doa</a></li>                  
                   <li><a class="dropdown-item" href="/pencariandana">Pencarian Dana</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Kami Peduli
+                  KAMI PEDULI
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/pemberkatannikah">Pemberkatan Nikah</a></li>
@@ -96,7 +97,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/persembahan">Persembahan</a>
+                <a class="nav-link" aria-current="page" href="/persembahan">PERSEMBAHAN</a>
               </li>              
           </div>
         </div>
