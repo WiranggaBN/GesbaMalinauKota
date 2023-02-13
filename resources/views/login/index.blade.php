@@ -9,6 +9,11 @@
     <title>Login</title>
     <link rel="icon" href="logo.png">
 
+    {{-- Bootstrap CSS --}}   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 
     <link href="css/sign-in.css" rel="stylesheet">
@@ -77,33 +82,57 @@
     <!-- Custom styles for this template -->
     
   </head>
-  <body class="text-center">
-    
+  
+<body class="text-center">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+
+    @if(session()->has('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      {{ session('success') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if(session()->has('loginError'))
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      {{ session('loginError') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form action="/login" method="post">
+    @csrf
     <img class="mb-4" src="logo.png" alt="" width="120" height="120">
     <h1 class="h3 mb-3 fw-normal">Silahkan Masuk</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="Masukkan email anda">
-      {{-- <label for="floatingInput"> Alamat Email</label> --}}
+      <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="Email" autofocus required value="{{ old('email') }}">
+      <label for="floatingInput"> Alamat Email</label>
+      @error('email')
+        <div class="invalid-feedback">  
+          {{ $message }}
+        </div>
+      @enderror
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      {{-- <label for="floatingPassword"> Sandi</label> --}}
+      <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+      <label for="floatingPassword"> Sandi</label>
     </div>
-
+{{-- 
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me">Ingat saya
       </label>
-    </div>
-    <button class="masuk w-100 btn btn-lg btn-primary" type="submit">Masuk</button>
+    </div> --}}
+    <button class="masuk w-100 btn btn-lg btn-primary" type="submit">Masuk</button><br><br>
+    <small>Belum mendaftar?<a href="/register" class="daftar"> Mendaftar sekarang!</a></small>
     <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
   </form>
 </main>
 
-
-    
+</div>
+</div>
   </body>
 </html>

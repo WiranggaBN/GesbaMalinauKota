@@ -1,10 +1,15 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Models\Sejarah;
 use App\Http\Controllers\Home;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SejarahController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\VisimisiController;
+use App\Http\Controllers\GembalasidangController;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,13 +29,15 @@ Route::get('/', function() {
 Route::get('/sejarah', [SejarahController::class, 'index']);
 Route::get('/sejarah/{sejarahs:slug}', [SejarahController::class, 'show']);
 
-Route::get('/visimisi', function() {
-    return view('visimisi');
-});
+Route::get('/visimisi', [VisimisiController::class, 'index']);
+Route::get('/visimisi/{visimisis:title}', [VisimisiController::class, 'show']);
 
-Route::get('/pendeta', function() {
-    return view('pendeta');
-});
+Route::get('/gembalasidang', [GembalasidangController::class, 'index']);
+Route::get('/gembalasidang/{gembalasidang:body}', [GembalasidangController::class, 'show']);
+
+// Route::get('/pendeta', function() {
+//     return view('pendeta');
+// });
 
 Route::get('/ibadahraya', function() {
     return view('ibadahraya');
@@ -104,12 +111,17 @@ Route::get('/penghiburan', function() {
     return view('penghiburan');
 });
 
-Route::get('/doaucapansyukur', function() {
-    return view('doaucapansyukur');
-});
-
 Route::get('/persembahan', function() {
     return view('persembahan');
 });
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/dashboard', function() {
+    return view('dashboard.index');
+})->middleware('auth');

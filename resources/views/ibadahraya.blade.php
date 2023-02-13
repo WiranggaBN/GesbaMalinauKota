@@ -24,12 +24,12 @@
             <button class="button-ibadahraya mt-4 mb-3 me-2">
               <img src="Vector1.png" alt="">
             </button>
-            <button class="button-ibadahraya mt-4 mb-3">
+            {{-- <button class="button-ibadahraya mt-4 mb-3">
                 <img src="icons8-calendar-48.png" alt="" class="img-calendar">
-              </button>
+              </button> --}}
           </div>
           <div class="row mt-3">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="card-ibadahraya">
                 <h3 class="">Ibadah Raya 1 (Onsite)</h3>                
                 <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>

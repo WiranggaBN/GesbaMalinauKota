@@ -10,6 +10,7 @@
     {{-- Bootstrap CSS --}}   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
     {{-- Google Font --}}
@@ -47,7 +48,7 @@
                   <li><a class="dropdown-item" href="/sejarah">Sejarah Gereja</a></li>
                   <li><a class="dropdown-item" href="/visimisi">Visi dan Misi</a></li>
                   {{-- <li><hr class="dropdown-divider"></li> --}}
-                  <li><a class="dropdown-item" href="/pendeta">Gembala Sidang</a></li>
+                  <li><a class="dropdown-item" href="/gembalasidang">Gembala Sidang</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -78,8 +79,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/doasemalaman">Doa Semalaman</a></li>
-                  <li><a class="dropdown-item" href="/doadanpuasa">Doa dan Puasa</a></li>
-                  <li><a class="dropdown-item" href="/kunjungandoa">Kunjungan Doa</a></li>                  
+                  <li><a class="dropdown-item" href="/doadanpuasa">Doa dan Puasa</a></li>                 
                   <li><a class="dropdown-item" href="/pencariandana">Pencarian Dana</a></li>
                 </ul>
               </li>
@@ -93,7 +93,7 @@
                   {{-- <li><hr class="dropdown-divider"></li> --}}
                   <li><a class="dropdown-item" href="/baptisan">Baptisan</a></li>
                   <li><a class="dropdown-item" href="/penghiburan">Penghiburan</a></li>
-                  <li><a class="dropdown-item" href="/doaucapansyukur">Doa Ucapan Syukur</a></li>                  
+                  <li><a class="dropdown-item" href="/kunjungandoa">Kunjungan Doa</a></li>                  
                 </ul>
               </li>
               <li class="nav-item">

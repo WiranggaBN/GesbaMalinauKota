@@ -25,20 +25,21 @@
               <img src="Vector1.png" alt="">
             </button>
           </div>
+          @foreach ($visimisi as $visimisis)
           <div class="col-md-6 text-center">          
-            <h2>Visi</h2>
+            <h2>{{ $visimisis->title }}</h2>
             <span>
-              Ayo!! Bergabung menjadi Merchant CK7 Emoney
-              Saling memberkati, dari Jemaat untuk Jemaat
+              {{ $visimisis->body }}
             </span>
           </div>
-          <div class="col-md-6 text-center">
-            <h2>Misi</h2>
+          @endforeach
+          {{-- <div class="col-md-6 text-center">
+            <h2>{{ $visimisis->title }}</h2>
             <span>
               Ayo!! Bergabung menjadi Merchant CK7 Emoney
               Saling memberkati, dari Jemaat untuk Jemaat
             </span>
-          </div>        
+          </div>         --}}
         </div>
       </div>
     </div>

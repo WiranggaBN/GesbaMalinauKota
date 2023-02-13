@@ -1,0 +1,90 @@
+html,
+body {
+    height: 500px;
+    background-color: rgb(245, 245, 245);
+}
+
+body {
+    /* display: flex; */
+    overflow: hidden;
+    align-items: center;
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.form-register {
+    background-color: #fff;
+    border: 2px solid#622e77;
+    box-shadow: 0 0 7px 3px rgb(98, 46, 130, 1);
+    border-radius: 10px;
+    /* max-width: 330px; */
+    padding: 15px;
+    /* text-align: center;
+    margin-left: 480px;
+    margin-top: 25px; */
+}
+
+.form-register .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-register input[type="text"] {
+    margin-bottom: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    /* width: 240px;
+    height: 30px; */
+}
+
+.form-register input[type="email"] {
+    margin-bottom: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    /* width: 240px;
+    height: 30px; */
+}
+
+.form-register input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* width: 240px;
+    height: 30px; */
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+.masuk {
+    background-color: #622e77;
+
+    transition: all 0.2s ease-in;
+}
+
+.masuk:hover {
+    background-color: royalblue;
+    transition: all 0.2s ease-in;
+}
+
+.form-control {
+    padding-left: 10px;
+}
+
+.daftar {
+    text-decoration: none;
+    color: #622e77;
+    transition: all 0.2s ease-in;
+}
+
+.daftar:hover {
+    text-decoration: none;
+    color: royalblue;
+    transition: all 0.2s ease-in;
+}
+
+/* .salah {
+    color: red;
+} */
