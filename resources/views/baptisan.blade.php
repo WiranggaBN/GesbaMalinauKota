@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="persyaratan col-md-12">
-                    <h4 class="mt-4">> Persyaratan</h4>
+                    <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan</h4>
                       <ol>
                         <li>Membawa Pas foto 3 x 4 (2 lembar) ditulis nama dibelakang foto</li>
                         <li>Menggunakan Masker Medis</li>
@@ -35,72 +35,58 @@
                         <li>Wajib membawa Handuk (tidak disediakan) & Baju Ganti</li>
                         <li>Pk. 08.30 - 09.00 (registrasi ulang)</li>
                         <li>Tempat pelaksanaan baptisan air: <br> GBI Intercon : Komplek Intercon Plaza Blok A.7-8, Jl. Meruya Ilir Raya No. 14, RT. 1 RW. 9, Srengseng, Kembangan, Jakarta Barat, <br> 021-5863208</li>
-                        <a href="#" class="more">Selengkapnya ...</a>
                       </ol>
                       <hr class="m-t-20 m-b-20">
-                </div>
-                <div class="protokol col-md-12">
-                  <h4 class="mt-4">> Protokol Kesehatan Baptisan CK7</h4>
-                    <ol>
-                      <li>Sterilisasi ruangan sebelum dan saat prosesi baptis</li>
-                      <li>Penambahan kadar kaporit 2 kali lipat di kolam baptis</li>
-                      <li>Dibatasi 15 orang per sesi baptis dan duduk berjarak 1 m</li>
-                      <li>Memakai masker saat di ruangan, test suhu, sterilisasi badan dan kaki sebelum masuk ruangan</li>
-                      <li>Ruang ganti baju didisinfektan setiap berganti jemaat</li>
-                    </ol>
                 </div>
                 <div class="datadiri col-md-12 mt-4">
                   <h4 class="mt-4">Data Diri</h4>
                   <form class="row g-3">
-                    <div class="col-12">
+                    <div class="col-6">
                       <label for="inputNama" class="form-label">Nama Lengkap</label>
-                      <input type="text" class="form-control" id="inputNama" placeholder="Boy William">
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">Nama Panggilan</label>
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">Nama Ayah</label>
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">Nama Ibu</label>
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">Jenis Kelamin</label><br>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label me-5 ms-1" for="inlineRadio1"> Laki-Laki</label>                                           
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label ms-1" for="inlineRadio2"> Perempuan</label>                     
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">Tempat & Tgl Lahir</label>
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Alamat Lengkap</label>
+                      {{-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> --}}
+                      <textarea class="form-control" id="inputAddress" rows="3"></textarea>
+                    </div>
+                    <div class="col-6">
+                      <label for="inputNama" class="form-label">No. HP / Whatsapp</label>
+                      <input type="text" class="form-control" id="inputNama" placeholder="">
                     </div>
                     <div class="col-md-6">
                       <label for="inputEmail4" class="form-label">Email</label>
                       <input type="email" class="form-control" id="inputEmail4">
                     </div>
-                    <div class="col-md-6">
-                      <label for="inputPassword4" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress" class="form-label">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">City</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-4">
-                      <label for="inputState" class="form-label">State</label>
-                      <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12">
+                    {{-- <div class="col-12">
                       <button type="submit" class="btn btn-primary">Sign in</button>
-                    </div>
+                    </div> --}}
                   </form>
                   <hr class="m-t-50">
-                    <h3><i class="fa-regular fa-note-sticky m-r-10"></i>Surat Pernyataan</h3>
+                    {{-- <h3><i class="fa-regular fa-note-sticky m-r-10"></i>Surat Pernyataan</h3>
                     <div id="surat-pernyataan" class="m-b-20" style="overflow-y:auto; height:200px; padding:0 5px;">
                         <p>Saya yang bertanda tangan dibawah ini, </p>
                         <p>Nama : <span id="surat-pernyataan-nama"></span><br>
@@ -115,17 +101,17 @@
                         </ol>
 
                         <p>Demikian Surat Pernyataan ini saya buat dalam keadaan sehat dan tanpa adanya tekanan dari siapa atau dari pihak manapun juga.</p>
-                    </div>
+                    </div> --}}
                     <div class="form-group">
                         <!-- <label class="label-title">Centang untuk setuju</label> -->
-                        <div class="checkbox checkbox-info">
+                        <div class="checkbox checkbox-info mt-3">
                             <input id="setuju" type="checkbox" name="setuju" value="1">
-                            <label for="setuju">Dengan ini saya menyatakan telah membaca dan menyetujui isi dari Surat Pernyataan diatas serta menyatakan bersedia dibaptis atas kemauan sendiri dan mengikuti KOM setelah dibaptis</label>
+                            <label for="setuju">Dengan ini saya menyatakan telah membaca dan menyetujui.</label>
                         </div>
                     </div>
-                    <hr class="m-b-20">
-                    <div class="alert alert-danger errormsg m-b-20" id="form_baptisan_air_error">Periksa Kembali Data Yang Diinput</div>
-                    <button class="btn btn-primary btn-block visible-sm visible-xs submit mb-4"><i class="fa-regular fa-paper-plane m-r-10"></i>SUBMIT</button>
+                    {{-- <hr class="m-b-20"> --}}
+                    {{-- <div class="alert alert-danger errormsg m-b-20" id="form_baptisan_air_error">Periksa Kembali Data Yang Diinput</div> --}}
+                    <button class="btn btn-primary btn-block visible-sm visible-xs submit mb-4 mt-3"><i class="bi bi-send me-1"></i> SUBMIT</button>
                     {{-- <button class="btn btn-primary hidden-sm hidden-xs submit"><i class="fa-regular fa-paper-plane m-r-10"></i>SUBMIT</button> --}}
                 </form>
                 </div>

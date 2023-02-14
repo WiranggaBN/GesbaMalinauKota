@@ -33,48 +33,13 @@
             </a>
           </div>
           <div class="row mt-3">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 1 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
+                <h3 class="">Doa dan Puasa</h3>                
+                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Sabtu, Pk. 00:00 - 16:00 WIB</p>
+                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> GESBA Malinau Kota</p>
               </div>
             </div>    
-            <div class="col-md-6">
-              <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 2 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
-              </div>
-            </div>
-            <div class="col-md-6 mt-4">
-              <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 3 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
-              </div>
-            </div> 
-            <div class="col-md-6 mt-4">
-              <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 1 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
-              </div>
-            </div>
-            <div class="col-md-6 mt-4">
-              <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 2 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
-              </div>
-            </div> 
-            <div class="col-md-6 mt-4">
-              <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 3 (Onsite)</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
-              </div>
-            </div>
         </div>
       </div>
     </div>

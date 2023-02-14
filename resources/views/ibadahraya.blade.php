@@ -31,12 +31,12 @@
           <div class="row mt-3">
             <div class="col-md-12">
               <div class="card-ibadahraya">
-                <h3 class="">Ibadah Raya 1 (Onsite)</h3>                
+                <h3 class="">Ibadah Raya</h3>                
                 <p class="mt-3"><img src="jam.png" alt="" class="jam"> Pk. 09:00 - 11:30 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Lt. 10 Grand Ballroom</p>
+                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> GESBA Malinau Kota</p>
               </div>
             </div>    
-            </div>      
+          </div>      
         </div>
       </div>
     </div>

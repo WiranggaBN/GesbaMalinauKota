@@ -26,11 +26,11 @@
 </head>
 <body>
     {{-- Navbar --}}
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
-            <b>Gereja Segala Bangsa</b>
+            <b>GESBA Malinau Kota</b>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

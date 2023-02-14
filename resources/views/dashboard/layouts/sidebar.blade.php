@@ -3,12 +3,16 @@
       <ul class="nav flex-column">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">
-            <span data-feather="home" class="align-text-bottom"></span>
-            Dashboard
+            <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-houses"></i> Dashboard
           </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/dashboard/home">
+              <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-house-door"></i> Home
+            </a>
+          </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Jadwal Ibadah</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Jadwal Ibadah</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Ibadah Raya</a></li>
             <li><a class="dropdown-item" href="#">Ibadah Pemuda</a></li>
@@ -19,14 +23,14 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Info Rohani</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Materi Pengajaran</a></li>
             <li><a class="dropdown-item" href="#">Ringkasan Khotbah</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Layanan</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-trello"></i> Layanan</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Doa Semalaman</a></li>
             <li><a class="dropdown-item" href="#">Doa dan Puasa</a></li>
@@ -34,7 +38,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Kami Peduli</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Pemberkatan Nikah</a></li>
             <li><a class="dropdown-item" href="#">Penyerahan Anak</a></li>
@@ -44,8 +48,14 @@
           </ul>
         </li>
         <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-telephone-forward"></i>
+              Hubungi Kami
+            </a>
+          </li>
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">
-            <span data-feather="home" class="align-text-bottom"></span>
+            <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-cash"></i>
             Persembahan
           </a>
         </li>

@@ -21,12 +21,12 @@
         <div class="container">
             <div class="row">
                 <div class="persyaratan col-md-12">
-                  <h4 class="mt-4">> Persyaratan Umum</h4>
+                  <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan Umum</h4>
                   <ol>
-                    <li><strong>Penyerahan Anak (Khusus Online)</strong> baru dapat dijalankan jika jumlah pendaftar <strong>minimal 5 peserta</strong>.</li>
+                    <li><strong>Penyerahan Anak</strong> baru dapat dijalankan jika jumlah pendaftar <strong>minimal 5 peserta</strong>.</li>
                     <li>Mengisi e-form dengan lengkap</li>
                     <li>Menyerahkan Pas Foto berwarna anak <strong>ukuran 3x4 sebanyak 2 (dua) lembar</strong>, untuk sertifikat Penyerahan Anak, <strong>dengan menuliskan nama anak di belakang</strong> di counter secretariat cabang masing-masing. Atau dapat dikirim ke alamat sbb:</li>
-                    <pre class="batam"> Sekretariat GBI PRJ <br> Jl. Angkasa 1 No. 9, Kemayoran, Jakarta Pusat 10610 <br> Up. Grace Natalia / Yemima.</pre>
+                    <pre class="batam mt-1"> Sekretariat GBI PRJ <br> Jl. Angkasa 1 No. 9, Kemayoran, Jakarta Pusat 10610 <br> Up. Grace Natalia / Yemima.</pre>
                     <li>Melampirkan :</li>
                     <ol>
                         <li>Foto Keluarga dengan minimal resolusi 1920 x 1080 pxl dengan ketentuan:</li>
@@ -41,7 +41,7 @@
                     </ol>
                 </ol>
                       <hr class="m-t-20 m-b-20"> 
-                  <h4 class="mt-4">> Persyaratan Khusus</h4>
+                  <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan Khusus</h4>
                   <ol>
                     <li>Salah satu atau Kedua orang tua sudah dibaptis selam;</li>
                     <li>Mengisi dan menandatangani Surat Pernyataan yang telah disediakan apabila:</li>
@@ -53,13 +53,11 @@
                 </ol>
                 <hr class="m-t-30 m-b-30">
                 <div class="checkbox checkbox-success">
-                  <input id="setuju" type="checkbox" autocomplete="off">
-                  <label for="setuju">Dengan melanjutkan proses pendaftaran ini saya mengkonfirmasi bahwa saya sudah mengerti dan menyetujui semua ketentuan-ketentuan di atas.</label>
+                  <input id="setuju" type="checkbox" autocomplete="off"><label for="setuju" class="ms-2">Dengan melanjutkan proses pendaftaran ini saya mengkonfirmasi bahwa saya sudah mengerti dan menyetujui.</label>
               </div>
               <hr class="m-t-30 m-b-20">
-              <div class="confirm-next" style="display: none;">
-                <a class="btn btn-primary btn-block visible-sm visible-xs" href="page.php?modul=penyerahan-anak&amp;halaman=data-diri-anak&amp;token=cDNmZHJZaTZDMjBVRnY0WWJ0bVFackQ0bzRyZFluRHJLdFh1WXBrMHFKVzArRitQYUdISXM0N0ZOaXA1M1kwdlBGc2NLV1JkUXJTQXcwL3IyTDdKRVE9PQ==">SELANJUTNYA<i class="fas fa-angle-double-right m-l-10"></i></a>
-                <a class="btn btn-primary hidden-sm hidden-xs" href="page.php?modul=penyerahan-anak&amp;halaman=data-diri-anak&amp;token=cDNmZHJZaTZDMjBVRnY0WWJ0bVFackQ0bzRyZFluRHJLdFh1WXBrMHFKVzArRitQYUdISXM0N0ZOaXA1M1kwdlBGc2NLV1JkUXJTQXcwL3IyTDdKRVE9PQ==">SELANJUTNYA<i class="fas fa-angle-double-right m-l-10"></i></a>
+              <div class="confirm-next mb-3" style="display :block;">
+                <a class="btn btn-primary btn-block visible-sm visible-xs" href="/halpenyerahananak">SELANJUTNYA<i class="fa fa-angle-double-right m-l-10"></i></a>
                 </div>
                 </div>
             </div>

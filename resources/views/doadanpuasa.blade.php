@@ -33,27 +33,31 @@
             </a>
           </div>
           <div>
-            <p>Shalom . . . Merupakan suatu kehormatan bagi GBI - PRJ yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk pagi-pagi benar datang bersekutu dan mencari wajah Tuhan di Doa Fajar. Selamat Berjuang . . . !</p>
+            <p>Shalom . . . Merupakan suatu kehormatan bagi GESBA Malinau Kota yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk datang berdoa dan berpuasa serta bersekutu dan mencari wajah Tuhan di Doa dan Puasa. Selamat Berjuang . . . !</p>
             <div class="card-juduldoadanpuasa">
               <h4>Definisi Doa dan Puasa</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Definisi doa dan puasa adalah suatu hubungan yang dilakukan secara rutin untuk berkomunikasi kepada Tuhan dengan cara tidak makan, minum dan menjaga sikap serta hanya fokus pada persekutuan dengan Tuhan melalui Firman dan Roh Tuhan.</p>
             <div class="card-juduldoadanpuasa">
               <h4>Makna Doa dan Puasa</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Mengikuti Teladan Yesus dan Nabi-nabi serta Rasul-rasul.
+              Matius 17:1-4</p>
             <div class="card-juduldoadanpuasa">
               <h4>Keuntungan dari mengikuti Doa dan Puasa</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
-            <div class="card-juduldoadanpuasa">
+            <p>Membatalkan bencana yang Tuhan akan lakukan seperti di Ninewe
+              Yunus 3:7-10 <br>
+              Mendapat kuasa dari Tuhan untuk mengusir kuasa setan
+              Matius 17:21</p>
+            {{-- <div class="card-juduldoadanpuasa">
               <h4>Penghalang untuk datang ke Doa dan Puasa</h4>
             </div>
             <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
               <h4>Solusi untuk mengalahkan penghalang</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p> --}}
           </div>
         </div>
       </div>

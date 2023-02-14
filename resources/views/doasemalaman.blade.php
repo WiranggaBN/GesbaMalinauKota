@@ -33,27 +33,27 @@
             </a>
           </div>
           <div>
-            <p>Shalom . . . Merupakan suatu kehormatan bagi GBI - PRJ yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk pagi-pagi benar datang bersekutu dan mencari wajah Tuhan di Doa Fajar. Selamat Berjuang . . . !</p>
+            <p>Shalom . . . Merupakan suatu kehormatan bagi GESBA Malinau Kota yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk semalaman datang bersekutu dan mencari wajah Tuhan di Doa Semalaman. Selamat Berjuang . . . !</p>
             <div class="card-juduldoadanpuasa">
               <h4>Definisi Doa Semalaman</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Definisi doa semalaman adalah salah satu sarana yang disediakan oleh GESBA Malinau Kota bagi Tuhan untuk dapat datang berdoa memuji Tuhan dalam pesekutuan dengan Tuhan. Melalui firman Tuhan dan Roh Kudus dalam penyembahan dalam Roh dan Kebenaran. 1 Kor 14:26-33, Matius 7:7-8, Yesaya 33:3</p>
             <div class="card-juduldoadanpuasa">
               <h4>Makna Doa Semalaman</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Mengikuti teladan dan karakter Yesus untuk memilih 12 murid Lukas 6:12-17</p>
             <div class="card-juduldoadanpuasa">
               <h4>Keuntungan dari mengikuti Doa Semalaman</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
-            <div class="card-juduldoadanpuasa">
+            <p>Doa semalaman untuk menyampaikan doa dan pergumulan kita kepada Tuhan agar Tuhan memberikan sukacita dan menjawab apa yang kita minta Mazmur 3:6</p>
+            {{-- <div class="card-juduldoadanpuasa">
               <h4>Penghalang untuk datang ke Doa Semalaman</h4>
             </div>
-            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Doa fajar adalah salah satu sarana yang di sediakan oleh GESBA Malinau Kota bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
             <div class="card-juduldoadanpuasa">
               <h4>Solusi untuk mengalahkan penghalang</h4>
             </div>
-            <p>Doa Semalaman adalah salah satu sarana yang di sediakan oleh GBI - PRJ bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p>
+            <p>Doa Semalaman adalah salah satu sarana yang di sediakan oleh GESBA Malinau Kota bagi jemaat Tuhan untuk dapat datang dan Berdoa, Memuji dan Menyembah Tuhan dalam keintiman (saat teduh) secara bersama-sama dan menerima pengajaran Firman Tuhan.</p> --}}
           </div>
         </div>
       </div>

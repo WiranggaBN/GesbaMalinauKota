@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Doa Ucapan Syukur</h2>
+                    <h2>Kunjungan Doa</h2>
                 </div>
             </div>
         </div>
@@ -55,78 +55,57 @@
             <div class="col-md-8">
               <div class="card-doaucapansyukur1">
                 <form class="row g-3">
+                  <div class="col-md-12">
+                    <label for="inputNama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="inputNama">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="inputNama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="inputNama">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="inputNama" class="form-label">Jenis Kelamin</label><br>
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label me-5 ms-1" for="inlineRadio1"> Laki-Laki</label>                                           
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label ms-1" for="inlineRadio2"> Perempuan</label>                     
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputNama" class="form-label">No. HP / Whatsapp</label>
+                    <input type="text" class="form-control" id="inputNama">
+                  </div>
                   <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email</label>
                     <input type="email" class="form-control" id="inputEmail4">
                   </div>
                   <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <label for="inputNama" class="form-label">Jenis Pelayanan</label>
+                    <input type="text" class="form-control" id="inputNama">
                   </div>
                   <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <label for="inputNama" class="form-label">Detail / Pokok Doa</label>
+                    <input type="text" class="form-control" id="inputNama">
                   </div>
-                  <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
+                  <div class="col-md-6">
+                    <label for="inputNama" class="form-label">Tanggal Doa</label>
+                    <input type="text" class="form-control" id="inputNama">
                   </div>
-                  <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
+                  <div class="col-md-6">
+                    <label for="inputNama" class="form-label">Waktu Doa</label>
+                    <input type="text" class="form-control" id="inputNama">
                   </div>
-                  <div class="col-12">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="gridCheck">
-                      <label class="form-check-label" for="gridCheck">
-                        Check me out
-                      </label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                  </div>
-                  <hr>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                  </div>
-                  <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                  </div>
-                  <div class="col-12">
+                  {{-- <div class="col-12">
                     <label for="inputAddress2" class="form-label">Ingin Dikunjungi?</label>
                     <div class="form-check form-switch">
                       <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
                     </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
+                  </div> --}}
                   <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary"><i class="bi bi-send me-1"></i> SUBMIT</button>
                   </div>
                 </form>
               </div>

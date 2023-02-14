@@ -27,13 +27,13 @@
                     <div class="card-juduldoadanpuasa">
                       <h4>Pemberkatan Nikah</h4>
                     </div>
-                    <p>Informasi Persyaratan dan Pendaftaran Pernikahan di GBI PRJ Group (CK7) dapat menghubungi :</p>
+                    <p>Informasi Persyaratan dan Pendaftaran Pernikahan di GESBA Malinau Kota dapat menghubungi :</p>
                       <ul>
-                        <li>GBI PRJ & PRJ Mandarin Service
+                        <li>GESBA Malinau Kota Jemaat Service
                           Ibu Grace Natalia (08568505054)
                         </li>
                         <li>
-                          GBI Intercon
+                          GESBA Malinau Kota
                           Ibu Regina (081314452402)
                         </li>
                       </ul>

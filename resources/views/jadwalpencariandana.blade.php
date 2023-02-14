@@ -2,12 +2,12 @@
 
 @section('container')
 {{-- hero section --}}
-<section id="ibadahraya">
+<section id="jadwaldoadanpuasa">
     <div class="container-fluid overlay h-100">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Ibadah Raya</h2>
+                    <h2>Pencarian Dana</h2>
                 </div>
             </div>
         </div>
@@ -16,27 +16,30 @@
 {{-- hero section --}}
 
 {{-- Content Section --}}
-<section id="content-ibadahraya" >
+<section id="content-jadwaldoadanpuasa" >
     <div class="container-fluid">
       <div class="container">
         <div class="row">
           <div>
-            <button class="button-ibadahraya mt-4 mb-3 me-2">
-              <img src="Vector1.png" alt="">
-            </button>
-            {{-- <button class="button-ibadahraya mt-4 mb-3">
-                <img src="icons8-calendar-48.png" alt="" class="img-calendar">
-              </button> --}}
+            <a href="/pencariandana">
+              <button class="button-jadwaldoadanpuasa mt-4 mb-3 me-3">
+                Tujuan Pencarian Dana
+              </button>
+            </a>
+            <a href="/jadwaldoadanpuasa">
+              <button class="button-jadwaldoadanpuasa2 mt-4 mb-3">
+                Jadwal & Lokasi Pencarian Dana
+              </button>
+            </a>
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
               <div class="card-ibadahraya">
-                <h3 class="">Ibadah Rumah Tangga</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Selasa, Pk. 19:30 - 21:00 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> Kediaman Pak Joko Widodo</p>
+                <h3 class="">Pencarian Dana</h3>                
+                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Sabtu, Pk. 00:00 - 16:00 WIB</p>
+                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> GESBA Malinau Kota</p>
               </div>
             </div>    
-            </div>      
         </div>
       </div>
     </div>

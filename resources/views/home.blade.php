@@ -101,7 +101,7 @@
 <section id="kpk">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center mb-4">
         <h2 class="judulkpk mt-4">Kabar Penganten Kristus</h2>
         <span class="subtitle-kpk">“Sebab seorang anak telah lahir untuk kita, seorang putera telah diberikan untuk kita; lambang pemerintahan ada di atas bahunya, dan namanya disebutkan orang: Penasihat Ajaib, Allah yang Perkasa, Bapa yang Kekal, Raja Damai.” <br> (Yesaya 9: 6)</span>
       </div>
@@ -139,33 +139,33 @@
             </div>
           </div> 
           <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info1.jpg" alt="">
+            <img src="info2.jpg" alt="">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
               <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Baptisan</h5>
-                <span>Informasi tentang baptisan bersama</span>
+                <h5>Fellowship</h5>
+                <span>Informasi tentang Fellowship Night</span>
                 <h6>Februari</h6>
                 <button>Lihat Info</button>
               </div>
             </div>
           </div>
           <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info1.jpg" alt="">
+            <img src="info3.jpg" alt="">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
               <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Baptisan</h5>
-                <span>Informasi tentang baptisan bersama</span>
+                <h5>Kesempatan Melayani</h5>
+                <span>Informasi tentang kesempatan melayani</span>
                 <h6>Februari</h6>
                 <button>Lihat Info</button>
               </div>
             </div>
           </div>
           <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info1.jpg" alt="">
+            <img src="info5.jpg" alt="">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
               <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Baptisan</h5>
-                <span>Informasi tentang baptisan bersama</span>
+                <h5>Media Sosial</h5>
+                <span>Informasi tentang media sosial</span>
                 <h6>Februari</h6>
                 <button>Lihat Info</button>
               </div>
@@ -280,7 +280,7 @@
       <div class="col-12">
         <div class="text-center">
           <h2 class="judulhubungi2 mt-4">Hubungi Kami</h2>
-          <span class="subtitle-hubungi2">Office : OTP of GBI PRJ (CK7) Jl. Angkasa 1 No.9, RW.10, Gn. Sahari Selatan, Kec.      Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610</span>
+          <span class="subtitle-hubungi2">Office : GESBA Malinau Kota Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</span>
         </div>
         <div class="section-body mt-5 mb-5">
           <form method="POST" action="modul/forms/contact/act.php?modul=contact&amp;action=insert" id="form_contact" novalidate="novalidate">
@@ -316,11 +316,11 @@
                   <label>Pesan</label>
                   <textarea class="form-control" rows="5" name="message"></textarea>
               </div>
-              <div class="alert alert-danger errormsg mt-3 text-center" id="form_contact_error">Periksa Kembali Data Yang Diinput</div>
-              <div class="text-center">
+              {{-- <div class="alert alert-danger errormsg mt-3 text-center" id="form_contact_error">Periksa Kembali Data Yang Diinput</div> --}}
+              <div class="text-center mt-5">
                   <button class="btn btn-primary m-t-15 btn-rounded">
                       <span class="btn-label">
-                          <i class="far fa-paper-plane"></i>
+                          <i class="fa fa-paper-plane"></i>
                       </span> Kirim
                   </button>
               </div>

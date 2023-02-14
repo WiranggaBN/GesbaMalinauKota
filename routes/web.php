@@ -95,12 +95,20 @@ Route::get('/pencariandana', function() {
     return view('pencariandana');
 });
 
+Route::get('/jadwalpencariandana', function() {
+    return view('jadwalpencariandana');
+});
+
 Route::get('/pemberkatannikah', function() {
     return view('pemberkatannikah');
 });
 
 Route::get('/penyerahananak', function() {
     return view('penyerahananak');
+});
+
+Route::get('/halpenyerahananak', function() {
+    return view('halpenyerahananak');
 });
 
 Route::get('/baptisan', function() {
