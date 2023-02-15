@@ -280,7 +280,7 @@
       <div class="col-12">
         <div class="text-center">
           <h2 class="judulhubungi2 mt-4">Hubungi Kami</h2>
-          <span class="subtitle-hubungi2">Office : GESBA Malinau Kota Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</span>
+          <span class="subtitle-hubungi2">GESBA Malinau Kota Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</span>
         </div>
         <div class="section-body mt-5 mb-5">
           <form method="POST" action="modul/forms/contact/act.php?modul=contact&amp;action=insert" id="form_contact" novalidate="novalidate">

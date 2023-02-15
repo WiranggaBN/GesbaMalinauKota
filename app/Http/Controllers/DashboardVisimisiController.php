@@ -48,7 +48,9 @@ class DashboardVisimisiController extends Controller
      */
     public function show(Visimisi $visimisi)
     {
-        //
+        return view('dashboard.visimisi.show', [
+            'visimisi' => $visimisi
+        ]);
     }
 
     /**
