@@ -27,8 +27,8 @@
 <body>
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
-        <div class="container">
-          <a class="navbar-brand" href="/">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5 mx-4" href="/">
             <img src="logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
             <b>GESBA Malinau Kota</b>
           </a>
@@ -36,7 +36,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">                
+            <ul class="navbar-nav mb-lg-0">                
               <li class="nav-item">
                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">HOME</a>
               </li>
@@ -98,7 +98,10 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link {{ Request::is('persembahan') ? 'active' : '' }}" aria-current="page" href="/persembahan">PERSEMBAHAN</a>
-              </li>              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {{ Request::is('hubungikami') ? 'active' : '' }}" aria-current="page" href="/hubungikami">HUBUNGI KAMI</a>
+              </li>                
           </div>
         </div>
       </nav>

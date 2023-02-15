@@ -128,6 +128,10 @@ Route::get('/persembahan', function() {
     return view('persembahan');
 });
 
+Route::get('/hubungikami', function() {
+    return view('hubungikami');
+});
+
 // Backend Route
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');

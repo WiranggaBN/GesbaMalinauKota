@@ -1150,3 +1150,33 @@ footer a {
 }
 
 /* Khotbah */
+
+/* Hubungi Kami Section */
+#content-hubungi2 {
+    margin-left: -116.1px;
+    width: 1349px;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+}
+
+.section-hubungi {
+    color: #000;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.1);
+    /* margin-left: 120px; */
+}
+
+.btn {
+    background-color: rgb(122, 63, 158);
+    border: 1px solid rgb(122, 63, 158);
+    transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(74, 15, 110);
+    border: 1px solid rgb(74, 15, 110);
+    transition: all ease-in-out 0.3s;
+}
+/* Hubungi Kami Section */
