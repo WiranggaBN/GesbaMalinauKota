@@ -16,7 +16,7 @@ body {
 
 /* Slider Section */
 #slider {
-    background-image: url(../pray.jpg);
+    /* background-image: url(../pray.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
