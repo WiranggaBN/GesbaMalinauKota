@@ -101,6 +101,15 @@
         @enderror
     </div>
     <div class="form-floating">
+      <input type="text" name="username" class="form-control @error('username') is-invalid @enderror" id="name" placeholder="Masukkan username anda" required autofocus value="{{ old('username') }}">
+      <label for="floatingPassword"> Username</label>
+      @error('username')
+      <div class="invalid-feedback">
+          {{ $message }}
+      </div>
+      @enderror
+  </div>
+    <div class="form-floating">
       <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="Masukkan email anda" required value="{{ old('email') }}">
       <label for="floatingPassword"> Alamat Email</label>
         @error('email')
@@ -118,9 +127,9 @@
         </div>
         @enderror
     </div>
-    <button class="masuk w-100 btn btn-lg btn-primary" type="submit">Daftar</button><br><br>
+    <button class="masuk w-100 btn btn-lg btn-primary" type="submit">Daftar</button>
     <small>Sudah mendaftar?<a href="/login" class="daftar"> Masuk.</a></small>
-    <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+    <p class="mt-2 mb-3 text-muted">&copy; 2023</p>
   </form>
 </main>
 

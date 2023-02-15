@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
+
 use App\Models\Sejarah;
+use App\Models\User;
 use App\Http\Controllers\Home;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
@@ -9,6 +10,7 @@ use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
 use App\Http\Controllers\GembalasidangController;
+use App\Http\Controllers\DashboardSejarahController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -21,6 +23,8 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// Frontend Route
 
 Route::get('/', function() {
     return view('home');
@@ -123,6 +127,8 @@ Route::get('/persembahan', function() {
     return view('persembahan');
 });
 
+// Backend Route
+
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
@@ -133,3 +139,12 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/dashboard', function() {
     return view('dashboard.index');
 })->middleware('auth');
+
+Route::resource('/dashboard/sejarah', DashboardSejarahController::class)-> middleware('auth');
+
+Route::get('/authors/{author:username}', function (User $author) {
+    return view('sejarah', [
+        'slug' => 'sejarah-gereja',
+        'sejarah' => $author->sejarah->load('author'),
+    ]);
+});

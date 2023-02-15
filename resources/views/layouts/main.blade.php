@@ -38,10 +38,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">                
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">HOME</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('sejarah', 'visimisi', 'gembalasidang') ? 'active' : '' }}" href="/profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   PROFIL
                 </a>
                 <ul class="dropdown-menu">
@@ -52,7 +52,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('ibadahraya', 'ibadahpemuda', 'ibadahsm', 'ibadahrt', 'ibadahpersekutuan') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   JADWAL IBADAH
                 </a>
                 <ul class="dropdown-menu">
@@ -65,7 +65,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('kabarpengantenkristus', 'khotbah') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   INFO ROHANI
                 </a>
                 <ul class="dropdown-menu">
@@ -74,7 +74,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('doasemalaman', 'doadanpuasa', 'pencariandana') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   LAYANAN
                 </a>
                 <ul class="dropdown-menu">
@@ -84,7 +84,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('pemberkatannikah', 'penyerahananak', 'baptisan', 'penghiburan', 'kunjungandoa') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   KAMI PEDULI
                 </a>
                 <ul class="dropdown-menu">
@@ -97,7 +97,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/persembahan">PERSEMBAHAN</a>
+                <a class="nav-link {{ Request::is('persembahan') ? 'active' : '' }}" aria-current="page" href="/persembahan">PERSEMBAHAN</a>
               </li>              
           </div>
         </div>

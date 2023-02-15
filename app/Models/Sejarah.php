@@ -11,4 +11,9 @@ class Sejarah extends Model
 
     // protected $fillable = ['body'];
     protected $guarded = ['id'];
+
+    public function author()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
 }

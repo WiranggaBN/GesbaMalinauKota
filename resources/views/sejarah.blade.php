@@ -15,10 +15,10 @@
 </section>
 {{-- hero section --}}
 
-@foreach ($sejarah as $sejarahs)
-    <button class="button-sejarah mt-4 mb-3">
-      <img src="Vector1.png" alt="">
-    </button>
+<button class="button-sejarah mt-4 mb-3">
+  <img src="Vector1.png" alt="">
+</button>
+@foreach ($sejarah as $sejarahs) 
     <article>
       <h2><a href="/sejarahs/{{ $sejarahs->slug }}"></a></h2>
       {!! $sejarahs->body !!}

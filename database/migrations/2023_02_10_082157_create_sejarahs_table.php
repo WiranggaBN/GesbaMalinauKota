@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('sejarahs', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id');
             $table->string('slug')->unique();
             $table->text('body');
             $table->timestamp('published_at')->nullable();
