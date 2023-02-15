@@ -14,7 +14,9 @@ class DashboardVisimisiController extends Controller
      */
     public function index()
     {
-        return view('dashboard.visimisi.index');
+        return view('dashboard.visimisi.index', [
+            'visimisi' => Visimisi::all() 
+        ]);
     }
 
     /**

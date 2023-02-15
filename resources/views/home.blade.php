@@ -13,10 +13,10 @@
                 <img src="Sider follow.jpg" class="d-block" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Untitled-2.jpg" class="d-block" alt="...">
+                <img src="Slide-Profil.jpg" class="d-block" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Untitled-1.jpg" class="d-block" alt="...">
+                <img src="Sider-jadwal-ibadah.jpg" class="d-block" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -48,6 +48,19 @@
   </div>
 </section> --}}
 {{-- Hero Section --}}
+
+{{-- KPK Section --}}
+<section id="kpk">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="judulkpk mt-4">Kabar Penganten Kristus</h2>
+        <span class="subtitle-kpk">“Sebab seorang anak telah lahir untuk kita, seorang putera telah diberikan untuk kita; lambang pemerintahan ada di atas bahunya, dan namanya disebutkan orang: Penasihat Ajaib, Allah yang Perkasa, Bapa yang Kekal, Raja Damai.” <br> (Yesaya 9: 6)</span>
+      </div>
+    </div>
+  </div>
+</section>
+{{-- KPK Section --}}
 
 {{-- Keep Update Section --}}
 <section id="keep">
@@ -97,21 +110,8 @@
 </section>
 {{-- Keep Update Section --}}
 
-{{-- KPK Section --}}
-<section id="kpk">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="judulkpk mt-4">Kabar Penganten Kristus</h2>
-        <span class="subtitle-kpk">“Sebab seorang anak telah lahir untuk kita, seorang putera telah diberikan untuk kita; lambang pemerintahan ada di atas bahunya, dan namanya disebutkan orang: Penasihat Ajaib, Allah yang Perkasa, Bapa yang Kekal, Raja Damai.” <br> (Yesaya 9: 6)</span>
-      </div>
-    </div>
-  </div>
-</section>
-{{-- KPK Section --}}
-
 {{-- Informasi Section --}}
-<section id="informasi" class="overflow-hidden">
+{{-- <section id="informasi" class="overflow-hidden">
   <div class="container position-relative">
     <div class="row">
       <div class="col-9">
@@ -181,7 +181,7 @@
       </button>
     </div>
   </div>
-</section>
+</section> --}}
 {{-- Informasi Section --}}
 
 {{-- Persembahan Section --}}

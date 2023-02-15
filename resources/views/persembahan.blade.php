@@ -26,13 +26,13 @@
             </button>
           </div>
           <div class="col-md-4 text-center">          
-            <img src="give-1.jpg" alt="" class="gambarpersembahan">
+            <img src="persembahan1.jpg" alt="" class="gambarpersembahan">
           </div>
           <div class="col-md-4 text-center">
-            <img src="give-2a.jpg" alt="" class="gambarpersembahan">
+            <img src="persembahan3.jpg" alt="" class="gambarpersembahan">
           </div>   
           <div class="col-md-4 text-center">
-            <img src="give-3.jpg" alt="" class="gambarpersembahan">
+            <img src="persembahan2.jpg" alt="" class="gambarpersembahan">
           </div>      
         </div>
       </div>

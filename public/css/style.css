@@ -28,7 +28,7 @@ body {
 
 #slider .overlay {
     background: rgba(0, 0, 0, 0.5);
-    height: 100vh;
+    height: auto;
 }
 
 /* Hero Section */
@@ -127,7 +127,7 @@ h2 {
 
 /* Kabar Penganten Kristus */
 #khotbah {
-    background-image: url(../Sider\ info-rohani.jpg);
+    background-image: url(../Untitle1d-1.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;

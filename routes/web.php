@@ -154,7 +154,8 @@ Route::resource('/dashboard/visimisi', DashboardVisimisiController::class)-> mid
 
 Route::get('/authors/{author:username}', function (User $author) {
     return view('visimisi', [
-        'slug' => 'sejarah-gereja',
+        'title' => 'Visi',
+        'body' => 'Visi',
         'visimisi' => $author->visimisi->load('author'),
     ]);
 });
