@@ -28,7 +28,7 @@
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img src="logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
             <b>GESBA Malinau Kota</b>
           </a>

@@ -11,6 +11,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
 use App\Http\Controllers\GembalasidangController;
 use App\Http\Controllers\DashboardSejarahController;
+use App\Http\Controllers\DashboardVisimisiController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -146,5 +147,14 @@ Route::get('/authors/{author:username}', function (User $author) {
     return view('sejarah', [
         'slug' => 'sejarah-gereja',
         'sejarah' => $author->sejarah->load('author'),
+    ]);
+});
+
+Route::resource('/dashboard/visimisi', DashboardVisimisiController::class)-> middleware('auth');
+
+Route::get('/authors/{author:username}', function (User $author) {
+    return view('visimisi', [
+        'slug' => 'sejarah-gereja',
+        'visimisi' => $author->visimisi->load('author'),
     ]);
 });

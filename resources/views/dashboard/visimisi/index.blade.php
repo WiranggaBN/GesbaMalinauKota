@@ -10,19 +10,19 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Slug</th>
+              <th scope="col">Title</th>
               <th scope="col">Body</th>
               <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
-            @foreach ($sejarah as $sejarahs)
+            @foreach ($visimisi as $visimisis)
             <tr>
               <td>{{ $loop->iteration }}</td>
-              <td>{{ $sejarahs->slug }}</td>
-              <td>{{ $sejarahs->body }}</td>
+              <td>{{ $visimisis->title }}</td>
+              <td>{{ $visimisis->body }}</td>
               <td>
-                <a href="/dashboard/sejarah/{{ $sejarahs->slug }}" class="badge bg-info"><i class="bi bi-eye-fill"></i></a>
+                <a href="/dashboard/visimisi/{{ $visimisis->title }}" class="badge bg-info"><i class="bi bi-eye-fill"></i></a>
                 <a href="" class="badge bg-warning"><i class="bi bi-pencil-square"></i></i></a>
                 <a href="" class="badge bg-danger"><i class="bi bi-x-square"></i></i></i></a>
               </td>

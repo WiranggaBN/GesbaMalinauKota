@@ -126,6 +126,27 @@ h2 {
 /* Keep Update */
 
 /* Kabar Penganten Kristus */
+#khotbah {
+    background-image: url(../Sider\ info-rohani.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#khotbah .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#khotbah h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
 .judulkpk {
     color: #000;
 }
@@ -347,10 +368,19 @@ h2 {
 /* Hubungi2 */
 
 /* Footer */
-footer {
+.footer {
     width: 1349px;
-    height: 270px;
+    height: 450px;
     background: #000000;
+}
+
+.ogol {
+    margin-left: 500px;
+    margin-top: -100px;
+}
+
+.ng {
+    margin-top: -10px;
 }
 
 .copyright {
@@ -361,18 +391,29 @@ footer {
     line-height: 21px;
 }
 
-footer a {
-    font-weight: 700;
-    font-size: 20px;
+.ala {
+    margin-left: 360px;
+}
+
+.alam {
+    font-weight: 500;
+    font-size: 15px;
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
+}
+
+.grs {
+    border: 1px solid #fff;
+    width: 1349px;
+    margin-left: -120px;
 }
 
 /* Sejarah Style */
 /* Sejarah */
 #sejarah {
-    background-image: url(../sejarah.jpg);
+    background-image: url(../Slide-Profil.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -462,7 +503,7 @@ footer a {
 /* VisiMisi Style */
 /* Hero Style */
 #visimisi {
-    background-image: url(../sejarah.jpg);
+    background-image: url(../Slide-Profil.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -526,7 +567,7 @@ footer a {
 /* Persembahan Style */
 /* Persembahan */
 #persembahan {
-    background-image: url(../persembahan.jpg);
+    background-image: url(../Sider-Persembahan.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -573,7 +614,7 @@ footer a {
 
 /* Ibadah Raya Style */
 #ibadahraya {
-    background-image: url(../sejarah.jpg);
+    background-image: url(../Sider-jadwal-ibadah.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -688,7 +729,7 @@ footer a {
 
 /* Doa dan Puasa Style */
 #doadanpuasa {
-    background-image: url(../doadanpuasa.jpg);
+    background-image: url(../Sider-layanan.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -774,7 +815,7 @@ footer a {
 
 /* Jadwal Doa dan Puasa Style */
 #jadwaldoadanpuasa {
-    background-image: url(../doadanpuasa.jpg);
+    background-image: url(../Sider-layanan.jpg);
     /* background-color: blue; */
     height: 500px;
     margin-right: -116.7px;
@@ -875,6 +916,28 @@ footer a {
 /* Baptisan */
 
 /* Pemberkatan Nikah */
+#pemberkatannikah {
+    background-image: url(../Siderrr-kami\ -peduli.jpg);
+    /* background-color: blue; */
+    height: 500px;
+    margin-right: -116.7px;
+    color: #fff;
+    margin-left: -150px;
+    /* padding: 148px 0px 0px 148px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pemberkatannikah .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#pemberkatannikah h2 {
+    color: #fff;
+    padding: 270px 0px;
+}
+
+/* Content Pemberkatan Nikah */
 #content-pemberkatannikah {
     height: auto;
 }

@@ -12,11 +12,11 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle {{ Request::is('dashboard/sejarah') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Profil</a>
+            <a class="nav-link dropdown-toggle {{ Request::is('dashboard/sejarah', 'dashboard/visimisi', 'dashboard/gembalasidang') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Profil</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/dashboard/sejarah">Sejarah Gereja</a></li>
-              <li><a class="dropdown-item" href="#">Visi Misi</a></li>
-              <li><a class="dropdown-item" href="#">Gembala Sidang</a></li>
+              <li><a class="dropdown-item" href="/dashboard/visimisi">Visi Misi</a></li>
+              <li><a class="dropdown-item" href="/dashboard/gembalasidang">Gembala Sidang</a></li>
             </ul>
           </li>
         <li class="nav-item dropdown">

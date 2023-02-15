@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Sejarah;
+use App\Models\Visimisi;
 use Illuminate\Http\Request;
 
-class DashboardSejarahController extends Controller
+class DashboardVisimisiController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +14,7 @@ class DashboardSejarahController extends Controller
      */
     public function index()
     {
-        return view('dashboard.sejarah.index', [
-            'sejarah' => Sejarah::where('user_id', auth()->user()->id)->get()
-        ]);
+        return view('dashboard.visimisi.index');
     }
 
     /**
@@ -36,30 +34,28 @@ class DashboardSejarahController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    { 
+    {
         //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Visimisi  $visimisi
      * @return \Illuminate\Http\Response
      */
-    public function show(Sejarah $sejarah)
+    public function show(Visimisi $visimisi)
     {
-        return view('dashboard.sejarah.show', [
-            'sejarah' => $sejarah
-        ]);
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Visimisi  $visimisi
      * @return \Illuminate\Http\Response
      */
-    public function edit(Sejarah $sejarah)
+    public function edit(Visimisi $visimisi)
     {
         //
     }
@@ -68,10 +64,10 @@ class DashboardSejarahController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Visimisi  $visimisi
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Sejarah $sejarah)
+    public function update(Request $request, Visimisi $visimisi)
     {
         //
     }
@@ -79,10 +75,10 @@ class DashboardSejarahController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Visimisi  $visimisi
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Sejarah $sejarah)
+    public function destroy(Visimisi $visimisi)
     {
         //
     }
