@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Visimisi extends Model
+class Hubungikami extends Model
 {
     use HasFactory;
 
@@ -13,6 +13,6 @@ class Visimisi extends Model
 
     public function getRouteKeyName()
     {
-        return 'title';
+        return 'name';
     }
 }

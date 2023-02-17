@@ -9,8 +9,12 @@ class SejarahController extends Controller
 {
     public function index() 
     {
+        // return view('sejarah', [
+        //     "sejarah" => Sejarah::with(['author'])->latest()->get()
+        // ]);
+
         return view('sejarah', [
-            "sejarah" => Sejarah::with(['author'])->latest()->get()
+            "sejarah" => Sejarah::all()
         ]);
     }
 

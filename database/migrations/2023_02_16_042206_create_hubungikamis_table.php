@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('gembalasidangs', function (Blueprint $table) {
+        Schema::create('hubungikamis', function (Blueprint $table) {
             $table->id();
-            $table->string('slug')->unique();
-            $table->text('body');
+            $table->string('name');
+            $table->string('alamat');
+            $table->string('telp');
+            $table->string('email')->unique();
+            $table->string('pesan');
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
@@ -29,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gembalasidangs');
+        Schema::dropIfExists('hubungikamis');
     }
 };

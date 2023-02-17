@@ -89,7 +89,7 @@
             <img src="Icons8-Windows-8-Holidays-Holy-Bible.48.png" alt=""
             class="position-absolute top-50 start-50 translate-middle">
           </div>
-          <h3 class="mt-4">Renungan Harian</h3>
+          <h3 class="mt-4">Pencarian Dana</h3>
           <p class="mt-3">Jangan lewatkan update terbaru jadwal ibadah di Gereja Segala Bangsa Malinau Kota. Pastikan anda beribadah bersama kami.</p>
         </div>
       </div>

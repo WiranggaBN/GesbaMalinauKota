@@ -20,23 +20,45 @@
   <div class="container overlay h-100">
     <div class="row">
       <div class="col-12">
-        {{-- <div class="text-center">
-          <h2 class="judulhubungi2 mt-4">Hubungi Kami</h2>
-          <span class="subtitle-hubungi2">Office : GESBA Malinau Kota Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</span>
-        </div> --}}
+        <div class="col-4">
+          @if(session()->has('success'))
+          <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          @endif
+
+          @if(session()->has('loginError'))
+          <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+            {{ session('loginError') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          @endif
+        </div>
         <div class="section-hubungi mt-5 mb-5">
-          <form method="POST" action="modul/forms/contact/act.php?modul=contact&amp;action=insert" id="form_contact" novalidate="novalidate">
+          <form method="post" action="/hubungikami"">
+            @csrf
               <div class="row">
                   <div class="col-xs-12 col-md-6 mt-3">
                       <div class="form-group">
                           <label>Nama</label>
-                          <input type="text" class="form-control" name="nama">
+                          <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" required autofocus value="{{ old('name') }}">
+                          @error('name')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                          @enderror
                       </div>
                   </div>
                   <div class="col-xs-12 col-md-6 mt-3">
                       <div class="form-group">
                           <label>Alamat</label>
-                          <input type="text" class="form-control" name="alamat">
+                          <input type="text" class="form-control @error('alamat') is-invalid @enderror" name="alamat" id="alamat" required value="{{ old('alamat') }}">
+                          @error('alamat')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                          @enderror
                       </div>
                   </div>
               </div>
@@ -44,19 +66,35 @@
                   <div class="col-xs-12 col-md-6 mt-3">
                       <div class="form-group">
                           <label>No. Telp / Whatsapp</label>
-                          <input type="text" class="form-control telp" name="telp" maxlength="14">
+                          <input type="text" class="form-control telp @error('telp') is-invalid @enderror" name="telp" id="telp" required value="{{ old('telp') }}">
+                          @error('telp')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                          @enderror
                       </div>
                   </div>
                   <div class="col-xs-12 col-md-6 mt-3">
                       <div class="form-group">
                           <label>Email</label>
-                          <input type="email" class="form-control" name="email">
+                          <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" id="email" required value="{{ old('email') }}">
+                          @error('email')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                          @enderror
                       </div>
                   </div>
               </div>
               <div class="form-group mt-3">
                   <label>Pesan</label>
-                  <textarea class="form-control" rows="5" name="message"></textarea>
+                  <textarea type="text" class="form-control @error('pesan') is-invalid @enderror" rows="5" name="pesan" id="pesan" required value="{{ old('pesan') }}">
+                  </textarea>
+                  @error('pesan')
+                    <div class="invalid-feedback">  
+                      {{ $message }}
+                    </div>
+                  @enderror
               </div>
               {{-- <div class="alert alert-danger errormsg mt-3 text-center" id="form_contact_error">Periksa Kembali Data Yang Diinput</div> --}}
               <div class="text-center mt-5">

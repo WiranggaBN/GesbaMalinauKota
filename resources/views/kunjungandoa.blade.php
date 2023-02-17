@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
 @section('container')
+@push('style')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+@endpush
 {{-- hero section --}}
 <section id="pemberkatannikah">
     <div class="container-fluid overlay h-100">
@@ -23,76 +26,140 @@
         <div class="col-md-12">      
           <div class="row">
             <div class="col-md-4">
-              <div class="card-doaucapansyukur">
+              <div class="card-doaucapansyukur bg-info">
                 <label class="label-title mb-2">Jika Bpk/Ibu ada pertanyaan bisa menghubungi nomor berikut,</label>
                 <ul class="list-icons m-t-10">
-                  <li><i class="fa-solid fa-mobile text-dark"></i> <strong>Ibu Novi</strong> (<strong><a href="tel:081212262677">081212262677</a></strong>)</li>
-                  <li><i class="fa-solid fa-mobile text-dark"></i> <strong>Pak Indarwanto Tarigan</strong> (<strong><a href="tel:081291024270">081291024270</a></strong>)</li>
-                  <li><i class="fa-solid fa-mobile text-dark"></i> <strong>Pak Lukas</strong> (<strong><a href="tel:081398036651">081398036651</a></strong>)</li>
+                  <li><i class="fa fa-mobile text-dark"></i> <strong>Ibu Novi</strong> (<strong><a href="tel:081212262677" class="text-decoration-none text-dark">081212262677</a></strong>)</li>
+                  <li><i class="fa fa-mobile text-dark"></i> <strong>Pak Indarwanto Tarigan</strong> (<strong><a href="tel:081291024270" class="text-decoration-none text-dark">081291024270</a></strong>)</li>
+                  <li><i class="fa fa-mobile text-dark"></i> <strong>Pak Lukas</strong> (<strong><a href="tel:081398036651" class="text-decoration-none text-dark">081398036651</a></strong>)</li>
               </ul>
               </div>
+              <form class="row" method="post" action="/kunjungandoa">
+                @csrf
               <div class="card-doaucapansyukur mt-4">
                 <div class="form-group m-b-0">
                             <label class="label-title mb-2">Permintaan pelayanan ini ditujukan untuk? <span class="clr-alizarin">*</span></label>
                             <div class="row">                                    
                                 <div class="col-xs-12">
                                   <div class="radio radio-block radio-info">
-                                    <input type="radio" id="diminta_oleh1" value="1" name="diminta_oleh" class="diminta_oleh">
-                                    <label for="diminta_oleh1"> Diri Sendiri
-                                      </label>
+                                    <input type="radio" id="diminta_oleh" value="Diri Sendiri" name="diminta_oleh" class="diminta_oleh @error('diminta_oleh') is-invalid @enderror" required>
+                                    <label for="Diri_Sendiri"> Diri Sendiri</label>
                                     </div>
                                   </div>
                                   <div class="col-xs-12">
                                     <div class="radio radio-block radio-info">
-                                    <input type="radio" id="diminta_oleh0" value="0" name="diminta_oleh" class="diminta_oleh">
-                                    <label for="diminta_oleh0"> Orang Lain</label>
-                                  </div>
-                                </div>                            
-                                </div>
+                                      <input type="radio" id="diminta_oleh" value="Orang Lain" name="diminta_oleh" class="diminta_oleh @error('diminta_oleh') is-invalid @enderror" required>
+                                      <label for="Orang_Lain"> Orang Lain</label>
+                                    </div>
+                                  </div>                            
+                              </div>
                         </div>
               </div>
             </div>
             <div class="col-md-8">
+              <div class="col-4">
+                @if(session()->has('success'))
+                <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+                  {{ session('success') }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                @endif
+      
+                @if(session()->has('loginError'))
+                <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                  {{ session('loginError') }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                @endif
+              </div>
               <div class="card-doaucapansyukur1">
-                <form class="row g-3">
+                
                   <div class="col-md-12">
-                    <label for="inputNama" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="inputNama">
+                    <label for="inputNama" class="form-label">Nama Lengkap</label>
+                    <input type="text" name="fullname" class="form-control @error('fullname') is-invalid @enderror" id="fullname" required autofocus value="{{ old('fullname') }}">
+                    @error('fullname')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                        @enderror
                   </div>
-                  <div class="col-md-12">
-                    <label for="inputNama" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="inputNama">
-                  </div>
-                  <div class="col-md-12">
+                  {{-- <div class="col-12">
+                    <label for="join" class="form-label">Tanggal Lahir</label>
+                        <input type="datetime-local" class="form-control @error('birth_day') is-invalid @enderror" name="birth_day" id="birth_day" required>
+                        @error('birth_day')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                        @enderror
+                  </div> --}}
+                  <div class="col-12 mt-3">
                     <label for="inputNama" class="form-label">Jenis Kelamin</label><br>
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                      <label class="form-check-label me-5 ms-1" for="inlineRadio1"> Laki-Laki</label>                                           
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                      <label class="form-check-label ms-1" for="inlineRadio2"> Perempuan</label>                     
+                      <input class="form-check-input @error('gender') is-invalid @enderror" type="radio" name="gender" id="gender" value="Laki-Laki" required>
+                      <label class="form-check-label me-5 ms-1" for="Laki-Laki"> Laki-Laki</label>                                           
+                      <input class="form-check-input @error('gender') is-invalid @enderror" type="radio" name="gender" id="gender" value="Perempuan" required>
+                      <label class="form-check-label ms-1" for="Perempuan"> Perempuan</label>   
+                      @error('gender')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                      @enderror                  
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12 mt-3">
                     <label for="inputNama" class="form-label">No. HP / Whatsapp</label>
-                    <input type="text" class="form-control" id="inputNama">
+                    <input type="text" name="phone" class="form-control @error('phone') is-invalid @enderror" id="phone" required value="{{ old('phone') }}">
+                    @error('phone')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                    @enderror
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12 mt-3">
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" required value="{{ old('email') }}">
+                    @error('email')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                      @enderror
                   </div>
-                  <div class="col-md-6">
-                    <label for="inputNama" class="form-label">Jenis Pelayanan</label>
-                    <input type="text" class="form-control" id="inputNama">
+                  <div class="col-md-12 mt-3">
+                    <label for="inputEmail4" class="form-label">Jenis Pelayanan</label>
+                    <select type="text" class="form-select @error('type_of_service') is-invalid @enderror" name="type_of_service" id="type_of_service" aria-label="Default select example" required>
+                      <option selected></option>
+                      <option value="Jiwa Baru">Jiwa Baru</option>
+                      <option value="Ucapan Syukur">Ucapan Syukur</option>
+                      <option value="Masalah Ekonomi">Masalah Ekonomi</option>
+                      <option value="Masalah Keluarga">Masalah Keluarga</option>
+                      <option value="Masalah Okultisme">Masalah Okultisme</option>
+                      <option value="Masalah Pendidikan<">Masalah Pendidikan</option>
+                      <option value="Masalah Sakit Penyakit">Masalah Sakit Penyakit</option>
+                      <option value="Masalah Sosial">Masalah Sosial</option>
+                      <option value="Pemberkatan Gedung">Pemberkatan Gedung</option>
+                      <option value="Lainnya">Lainnya</option>
+                    </select>
+                    @error('type_of_service')
+                      <div class="invalid-feedback">  
+                        {{ $message }}
+                      </div>
+                    @enderror
                   </div>
-                  <div class="col-md-6">
-                    <label for="inputNama" class="form-label">Detail / Pokok Doa</label>
-                    <input type="text" class="form-control" id="inputNama">
+                  <div class="col-12 mt-3">
+                    <label for="join" class="form-label">Tanggal dan Waktu Doa</label>
+                        <input type="datetime-local" class="form-control @error('pray_day') is-invalid @enderror" name="pray_day" id="pray_day" required>
+                        @error('pray_day')
+                        <div class="invalid-feedback">  
+                          {{ $message }}
+                        </div>
+                        @enderror
                   </div>
-                  <div class="col-md-6">
-                    <label for="inputNama" class="form-label">Tanggal Doa</label>
-                    <input type="text" class="form-control" id="inputNama">
-                  </div>
-                  <div class="col-md-6">
-                    <label for="inputNama" class="form-label">Waktu Doa</label>
-                    <input type="text" class="form-control" id="inputNama">
+                  <div class="col-12 mt-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Detail / Pokok Doa</i></label>
+                    <textarea type="text" class="form-control @error('detail') is-invalid @enderror" id="detail" name="detail" rows="3" required value="{{ old('detail') }}"></textarea>
+                    @error('detail')
+                      <div class="invalid-feedback">  
+                        {{ $message }}
+                      </div>
+                    @enderror
                   </div>
                   {{-- <div class="col-12">
                     <label for="inputAddress2" class="form-label">Ingin Dikunjungi?</label>
@@ -100,11 +167,11 @@
                       <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
                     </div>
                   </div> --}}
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="mb-3 mt-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Pesan <i>(Jika Ada)</i></label>
+                    <textarea type="text" class="form-control" id="message" name="message" rows="3"></textarea>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 mt-4">
                     <button type="submit" class="btn btn-primary"><i class="bi bi-send me-1"></i> SUBMIT</button>
                   </div>
                 </form>
@@ -162,4 +229,15 @@
   </footer>
 </section>
 {{-- Footer Section --}}
+
+@push('scripts')
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+  config = {
+      enableTime: true,
+      dateFormat: 'Y-m-d H:i',
+  }
+  flatpickr("input[type=datetime-local]", config);
+</script>
+@endpush
 @endsection

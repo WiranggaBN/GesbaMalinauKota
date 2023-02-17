@@ -49,22 +49,22 @@
           <a class="nav-link dropdown-toggle {{ Request::is('kamipeduli') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Pemberkatan Nikah</a></li>
-            <li><a class="dropdown-item" href="#">Penyerahan Anak</a></li>
-            <li><a class="dropdown-item" href="#">Baptisan</a></li>
+            <li><a class="dropdown-item" href="/dashboard/penyerahananak">Penyerahan Anak</a></li>
+            <li><a class="dropdown-item" href="/dashboard/baptisan">Baptisan</a></li>
             <li><a class="dropdown-item" href="#">Penghiburan</a></li>
-            <li><a class="dropdown-item" href="#">Kunjungan Doa</a></li>
+            <li><a class="dropdown-item" href="/dashboard/kunjungandoa">Kunjungan Doa</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-            <a class="nav-link {{ Request::is('hubungi') ? 'active' : '' }}" aria-current="page" href="#">
-              <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-telephone-forward"></i>
-              Hubungi Kami
-            </a>
-          </li>
         <li class="nav-item">
           <a class="nav-link {{ Request::is('persembahan') ? 'active' : '' }}" aria-current="page" href="#">
             <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-cash"></i>
             Persembahan
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('hubungi') ? 'active' : '' }}" aria-current="page" href="/dashboard/hubungikami">
+            <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-telephone-forward"></i>
+            Hubungi Kami
           </a>
         </li>
       </ul>

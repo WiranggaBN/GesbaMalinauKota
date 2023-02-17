@@ -20,7 +20,7 @@
 </button>
 @foreach ($sejarah as $sejarahs) 
     <article>
-      <h2><a href="/sejarahs/{{ $sejarahs->slug }}"></a></h2>
+      {{-- {{ $sejarahs->slug }} --}}
       {!! $sejarahs->body !!}
     </article>
 @endforeach

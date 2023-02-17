@@ -5,6 +5,18 @@ body {
     background: rgb(245, 245, 245);
 }
 
+/* @media screen and {max-width : 922px) {
+    
+}
+
+@media screen and {max-width : 576px) {
+    
+}
+
+@media screen and {max-width : 350px) {
+    
+} */
+
 .navbar {
     z-index: 3;
     background-color: rgb(98, 46, 130);
@@ -151,6 +163,22 @@ h2 {
     color: #000;
 }
 /* Kabar Penganten Kristus */
+
+/* Ringkasan Khotbah */
+#ringkasankhotbah {
+    background-color: #fff;
+    height: auto;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.ayatpokok {
+    font-size: 17px;
+}
+
+.oleh {
+    font-size: 17px;
+}
+/* Ringkasan Khotbah */
 
 /* Materi Pengajaran */
 #content-kpk {

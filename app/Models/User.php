@@ -45,8 +45,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function sejarah() 
-    {
-        return $this->hasMany(Sejarah::class);
-    }
+    // public function sejarah() 
+    // {
+    //     return $this->hasMany(Sejarah::class);
+    // }
 }

@@ -101,7 +101,7 @@
         @enderror
     </div>
     <div class="form-floating">
-      <input type="text" name="username" class="form-control @error('username') is-invalid @enderror" id="name" placeholder="Masukkan username anda" required autofocus value="{{ old('username') }}">
+      <input type="text" name="username" class="form-control @error('username') is-invalid @enderror" id="name" placeholder="Masukkan username anda" required value="{{ old('username') }}">
       <label for="floatingPassword"> Username</label>
       @error('username')
       <div class="invalid-feedback">

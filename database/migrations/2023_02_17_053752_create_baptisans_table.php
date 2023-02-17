@@ -13,10 +13,17 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('gembalasidangs', function (Blueprint $table) {
+        Schema::create('baptisans', function (Blueprint $table) {
             $table->id();
-            $table->string('slug')->unique();
-            $table->text('body');
+            $table->string('fullname');
+            $table->string('fathername');
+            $table->string('gender');
+            $table->string('mothername');
+            $table->string('place_of_birth');
+            $table->dateTime('birth_day')->nullable();
+            $table->string('phone');
+            $table->string('email');
+            $table->string('address')->unique();
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
@@ -29,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gembalasidangs');
+        Schema::dropIfExists('baptisans');
     }
 };

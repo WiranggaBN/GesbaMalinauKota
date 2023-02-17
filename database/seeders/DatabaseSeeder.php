@@ -3,9 +3,12 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
+
+use App\Models\Gembalasidang;
 use App\Models\User;
 use App\Models\Sejarah;
+use App\Models\Visimisi;
+use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,9 +19,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        User::factory(3)->create();
+        User::factory(1)->create();
 
-        Sejarah::factory(5)->create();
+        Sejarah::factory(3)->create();
+
+        // Visimisi::factory(2)->create();
+
+        // Gembalasidang::factory(1)->create();
 
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',

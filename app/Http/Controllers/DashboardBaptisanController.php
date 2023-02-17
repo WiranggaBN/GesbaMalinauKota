@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Sejarah;
+use App\Models\Baptisan;
 use Illuminate\Http\Request;
 
-class DashboardSejarahController extends Controller
+class DashboardBaptisanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,12 +14,8 @@ class DashboardSejarahController extends Controller
      */
     public function index()
     {
-        // return view('dashboard.sejarah.index', [
-        //     'sejarah' => Sejarah::where('user_id', auth()->user()->id)->get()
-        // ]);
-
-        return view('dashboard.sejarah.index', [
-            'sejarah' => Sejarah::all() 
+        return view('dashboard.baptisan.index', [
+            'baptisan' => Baptisan::all() 
         ]);
     }
 
@@ -40,30 +36,30 @@ class DashboardSejarahController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    { 
+    {
         //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Baptisan  $baptisan
      * @return \Illuminate\Http\Response
      */
-    public function show(Sejarah $sejarah)
+    public function show(Baptisan $baptisan)
     {
-        return view('dashboard.sejarah.show', [
-            'sejarah' => $sejarah
+        return view('dashboard.baptisan.show', [
+            'baptisan' => $baptisan
         ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Baptisan  $baptisan
      * @return \Illuminate\Http\Response
      */
-    public function edit(Sejarah $sejarah)
+    public function edit(Baptisan $baptisan)
     {
         //
     }
@@ -72,10 +68,10 @@ class DashboardSejarahController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Baptisan  $baptisan
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Sejarah $sejarah)
+    public function update(Request $request, Baptisan $baptisan)
     {
         //
     }
@@ -83,10 +79,10 @@ class DashboardSejarahController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Sejarah  $sejarah
+     * @param  \App\Models\Baptisan  $baptisan
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Sejarah $sejarah)
+    public function destroy(Baptisan $baptisan)
     {
         //
     }
