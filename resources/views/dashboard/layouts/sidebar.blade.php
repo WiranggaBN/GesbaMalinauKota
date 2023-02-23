@@ -6,11 +6,11 @@
             <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-houses"></i> Dashboard
           </a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link {{ Request::is('home') ? 'active' : '' }}" aria-current="page" href="/dashboard/home">
               <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-house-door"></i> Home
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {{ Request::is('dashboard/sejarah', 'dashboard/visimisi', 'dashboard/gembalasidang') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Profil</a>
             <ul class="dropdown-menu">
@@ -33,7 +33,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {{ Request::is('inforohani') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Materi Pengajaran</a></li>
+            <li><a class="dropdown-item" href="/dashboard/materipengajarann">Materi Pengajaran</a></li>
             <li><a class="dropdown-item" href="#">Ringkasan Khotbah</a></li>
           </ul>
         </li>

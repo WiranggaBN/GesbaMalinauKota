@@ -9,7 +9,9 @@ class PenyerahananakController extends Controller
 {
     public function index()
     {
-        return view('halpenyerahananak');
+        return view('halpenyerahananak', [
+            "title" => "Kami Peduli",
+        ]);
     }
 
     public function store(Request $request) 

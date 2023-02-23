@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="logo.png">
+    <link rel="icon" href="../logo.png">
 
     {{-- Bootstrap CSS --}}   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
@@ -20,17 +21,18 @@
     
     {{-- My Style --}}
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/masuk.css">
     @stack('style')
 
-    <title>GESBA</title>
+    <title>GESBA | {{ $title }}</title>
 </head>
 <body>
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
         <div class="container-fluid">
-          <a class="navbar-brand me-5 mx-4" href="/">
-            <img src="logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
+          <a class="navbar-brand me-4 mx-5" href="/">
+            <img src="../logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
             <b>GESBA Malinau Kota</b>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,12 +68,12 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('kabarpengantenkristus', 'khotbah') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('materipengajarann', 'khotbahh') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   INFO ROHANI
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/kabarpengantenkristus">Materi Pengajaran</a></li>
-                  <li><a class="dropdown-item" href="/khotbah">Ringkasan Khotbah</a></li>                  
+                  <li><a class="dropdown-item" href="/materipengajarann">Materi Pengajaran</a></li>
+                  <li><a class="dropdown-item" href="/khotbahh">Ringkasan Khotbah</a></li>                  
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -102,7 +104,10 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link {{ Request::is('hubungikami') ? 'active' : '' }}" aria-current="page" href="/hubungikami">HUBUNGI KAMI</a>
-              </li>                
+              </li>
+              {{-- <li class="nav-item">
+                <a class="nav-link {{ Request::is('masuk') ? 'active' : '' }}" aria-current="page" href="/masuk">LOGIN</a>
+              </li>                 --}}
           </div>
         </div>
       </nav>

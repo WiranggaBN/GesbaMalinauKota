@@ -9,7 +9,9 @@ class BaptisanController extends Controller
 {
     public function index()
     {
-        return view('baptisan');
+        return view('baptisan', [
+            "title" => "Kami Peduli",
+        ]);
     }
 
     public function store(Request $request) 

@@ -9,7 +9,9 @@ class KunjungandoaController extends Controller
 {
     public function index()
     {
-        return view('kunjungandoa');
+        return view('kunjungandoa', [
+            "title" => "Kami Peduli",
+        ]);
     }
 
     public function store(Request $request) 

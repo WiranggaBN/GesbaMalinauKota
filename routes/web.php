@@ -4,8 +4,11 @@
 use App\Models\User;
 use App\Models\Sejarah;
 use App\Http\Controllers\Home;
+use App\Models\Materipengajaran;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MasukController;
+use App\Http\Controllers\DaftarController;
 use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\BaptisanController;
 use App\Http\Controllers\RegisterController;
@@ -15,6 +18,7 @@ use App\Http\Controllers\KunjungandoaController;
 use App\Http\Controllers\GembalasidangController;
 use App\Http\Controllers\PenyerahananakController;
 use App\Http\Controllers\DashboardSejarahController;
+use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\DashboardBaptisanController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\DashboardHubungikamiController;
@@ -22,6 +26,7 @@ use App\Http\Controllers\DashboardKunjungandoaController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\DashboardGembalasidangController;
 use App\Http\Controllers\DashboardPenyerahananakController;
+use App\Http\Controllers\DashboardMateripengajaranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +42,9 @@ use App\Http\Controllers\DashboardPenyerahananakController;
 // Frontend Route
 
 Route::get('/', function() {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/sejarah', [SejarahController::class, 'index']);
@@ -54,67 +61,99 @@ Route::get('/gembalasidang/{gembalasidang:body}', [GembalasidangController::clas
 // });
 
 Route::get('/ibadahraya', function() {
-    return view('ibadahraya');
+    return view('ibadahraya', [
+        "title" => "Jadwal Ibadah"
+    ]);
 });
 
 Route::get('/ibadahpemuda', function() {
-    return view('ibadahpemuda');
+    return view('ibadahpemuda', [
+        "title" => "Jadwal Ibadah"
+    ]);
 });
 
 Route::get('/ibadahsm', function() {
-    return view('ibadahsm');
+    return view('ibadahsm', [
+        "title" => "Jadwal Ibadah"
+    ]);
 });
 
 Route::get('/ibadahrt', function() {
-    return view('ibadahrt');
+    return view('ibadahrt', [
+        "title" => "Jadwal Ibadah"
+    ]);
 });
 
 Route::get('/ibadahpersekutuan', function() {
-    return view('ibadahpersekutuan');
+    return view('ibadahpersekutuan', [
+        "title" => "Jadwal Ibadah"
+    ]);
 });
 
 Route::get('/doadanpuasa', function() {
-    return view('doadanpuasa');
+    return view('doadanpuasa', [
+        "title" => "Layanan"
+    ]);
 });
 
 Route::get('/jadwaldoadanpuasa', function() {
-    return view('jadwaldoadanpuasa');
+    return view('jadwaldoadanpuasa', [
+        "title" => "Layanan"
+    ]);
 });
 
-Route::get('/kabarpengantenkristus', function() {
-    return view('kabarpengantenkristus');
+// KPK
+Route::get('/materipengajarann', [MateripengajaranController::class, 'index']);
+Route::get('/materipengajarann/{materipengajaran:slug}', [MateripengajaranController::class, 'show']);
+
+// KPK
+
+Route::get('/khotbahh', function() {
+    return view('khotbahh', [
+        "title" => "Info Rohani"
+    ]);
 });
 
-Route::get('/khotbah', function() {
-    return view('khotbah');
-});
-
-Route::get('ringkasankhotbah', function() {
-    return view('ringkasankhotbah');
+Route::get('khotbah', function() {
+    return view('khotbah', [
+        "title" => "Info Rohani"
+    ]);
 });
 
 Route::get('/doasemalaman', function() {
-    return view('doasemalaman');
+    return view('doasemalaman', [
+        "title" => "Layanan"
+    ]);
 });
 
 Route::get('/jadwaldoasemalaman', function() {
-    return view('jadwaldoasemalaman');
+    return view('jadwaldoasemalaman', [
+        "title" => "Layanan"
+    ]);
 });
 
 Route::get('/pencariandana', function() {
-    return view('pencariandana');
+    return view('pencariandana', [
+        "title" => "Layanan"
+    ]);
 });
 
 Route::get('/jadwalpencariandana', function() {
-    return view('jadwalpencariandana');
+    return view('jadwalpencariandana', [
+        "title" => "Layanan"
+    ]);
 });
 
 Route::get('/pemberkatannikah', function() {
-    return view('pemberkatannikah');
+    return view('pemberkatannikah', [
+        "title" => "Kami Peduli"
+    ]);
 });
 
 Route::get('/penyerahananak', function() {
-    return view('penyerahananak');
+    return view('penyerahananak', [
+        "title" => "Kami Peduli"
+    ]);
 });
 
 Route::get('/halpenyerahananak', [PenyerahananakController::class, 'index']);
@@ -124,18 +163,29 @@ Route::get('/baptisan', [BaptisanController::class, 'index']);
 Route::post('/baptisan', [BaptisanController::class, 'store']);
 
 Route::get('/penghiburan', function() {
-    return view('penghiburan');
+    return view('penghiburan', [
+        "title" => "Kami Peduli"
+    ]);
 });
 
 Route::get('/kunjungandoa', [KunjungandoaController::class, 'index']);
 Route::post('/kunjungandoa', [KunjungandoaController::class, 'store']);
 
 Route::get('/persembahan', function() {
-    return view('persembahan');
+    return view('persembahan', [
+    "title" => "Persembahan"
+    ]);
 });
 
 Route::get('/hubungikami', [HubungikamiController::class, 'index']);
 Route::post('/hubungikami', [HubungikamiController::class, 'store']);
+
+Route::get('/masuk', [MasukController::class, 'index'])->name('masuk')->middleware('guest');
+Route::post('/masuk', [MasukController::class, 'authenticate']);
+Route::post('/logout', [MasukController::class, 'logout']);
+
+Route::get('/daftar', [DaftarController::class, 'index'])->middleware('guest');
+Route::post('/daftar', [DaftarController::class, 'store']);
 
 // Backend Route
 
@@ -213,3 +263,8 @@ Route::get('/authors/{author:username}', function (User $author) {
         'kunjungandoa' => $author->kunjungandoa->load('author'),
     ]);
 });
+
+Route::resource('/dashboard/materipengajarann', DashboardMateripengajaranController::class)-> middleware('auth');
+
+
+

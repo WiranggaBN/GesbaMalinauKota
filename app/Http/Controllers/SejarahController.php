@@ -14,6 +14,7 @@ class SejarahController extends Controller
         // ]);
 
         return view('sejarah', [
+            "title" => "Profil",
             "sejarah" => Sejarah::all()
         ]);
     }

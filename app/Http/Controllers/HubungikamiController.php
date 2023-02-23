@@ -9,7 +9,9 @@ class HubungikamiController extends Controller
 {
     public function index()
     {
-        return view('hubungikami');
+        return view('hubungikami', [
+            "title" => "Hubungi Kami",
+        ]);
     }
 
     public function store(Request $request) 

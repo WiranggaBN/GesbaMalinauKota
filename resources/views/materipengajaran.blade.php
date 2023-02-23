@@ -20,25 +20,28 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 mt-5">          
-          <img src="kpk1.jpg" alt="" class="gambarsatu">
-          {{-- <a href=""><h3 class="ksatu-judul">Ringkasan Khotbah Minggu, <br> 12 Februari 2023</h3></a>
-          <small class="ksatu-span">February 12, 2023</small> --}}
+        <div class="col-md-12">
+        <div class="mt-4">
+            <a href="/materipengajarann"><button class="button-sejarah mt-4 mb-3">
+                <img src="../Vector1.png" alt="">
+            </button></a>          
+        
         </div>
-        <div class="col-md-6 mt-5">          
-          <img src="kpk2.jpg" alt="" class="gambarsatu">
+        <div class="mt-5">
+          <h3 class="text-dark text-decoration-none">
+            {{ $materipengajaran->title }}
+          </h3>
+          <hr>
+          <img src="../kpk6.jpg" alt="" class="gambarsatu mt-2"><br>
+          <p class="mt-2 text-center">{{ $materipengajaran->title_image }}</p>
+          {!! $materipengajaran->body !!}
         </div>
-        <div class="col-md-6 mt-3">          
-          <img src="kpk3.jpg" alt="" class="gambarsatu">
-        </div>
-        <div class="col-md-6 mt-3">          
-          <img src="kpk4.jpg" alt="" class="gambarsatu">
-        </div>
-        <div class="unduh-materi mt-5">
+        
+        {{-- <div class="unduh-materi mt-5">
           <a href="https://drive.google.com/file/d/12QjzCY58s_kge5BxrSi3gscdUqPpBIwW/view?usp=sharing"  terget="_blank">
             <button class="btn-unduh-materi"><i class="fa fa-download"></i> Download</button>
           </a>
-        </div>
+        </div> --}}
       </div>
     </div>
   </div>
@@ -65,7 +68,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 align-items-center">
-            <img src="logo.png" alt="" width="100" height="100" class="ogol">
+            <img src="../logo.png" alt="" width="100" height="100" class="ogol">
           </div>
           <a href="#" class="ng text-center">Gereja Segala Bangsa Malinau Kota</a>
           

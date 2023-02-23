@@ -11,6 +11,7 @@ class VisimisiController extends Controller
     public function index() 
     {
         return view('visimisi', [
+            "title" => "Profil",
             "visimisi" => Visimisi::all()
         ]);
     }

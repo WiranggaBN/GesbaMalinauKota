@@ -11,6 +11,7 @@ class GembalasidangController extends Controller
     public function index() 
     {
         return view('gembalasidang', [
+            "title" => "Profil",
             "gembalasidang" => Gembalasidang::all()
         ]);
     }

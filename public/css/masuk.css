@@ -1,0 +1,74 @@
+/* Masuk Section */
+#masuk {
+    /* background-image: url(../pray.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-right: -116.7px;
+    color: #000;
+    margin-left: -150px;
+    padding: 100px 0px;
+}
+
+#masuk .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+}
+
+.form-signin-in {
+    margin-top: 100px;
+}
+
+/* Hero Section */
+
+.footer-masuk {
+    width: 1349px;
+    height: 340px;
+    /* margin-left: -130px; */
+    /* margin-top: 200px; */
+    background: #000000;
+}
+
+.ogoll {
+    margin-left: 500px;
+    margin-top: -100px;
+}
+
+.ngg {
+    margin-top: -10px;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* .ala {
+    margin-left: 360px;
+}
+
+.alam {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+} */
+
+.grss {
+    border: 1px solid #fff;
+    width: 1349px;
+    margin-left: -120px;
+}
+
+.papaa {
+    margin-left: 424px;
+}
+
+.cpp {
+    margin-left: 24px;
+}

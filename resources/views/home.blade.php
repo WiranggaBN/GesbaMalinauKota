@@ -36,19 +36,6 @@
 </section>
 {{-- Slider Section --}}
 
-{{-- Hero Section --}}
-{{-- <section id="hero">
-  <div class="container h-100 ">
-    <div class="row h-100">
-      <div class="col-12 text-center">
-        <h2>Keep Update</h2>
-        <span>Update Renungan Harian, Warta, News, Pesan Gembala, Jadwal Ibadah, dll</span>
-      </div>
-    </div>
-  </div>
-</section> --}}
-{{-- Hero Section --}}
-
 {{-- KPK Section --}}
 <section id="kpk">
   <div class="container">
