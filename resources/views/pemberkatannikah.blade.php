@@ -20,24 +20,41 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <button class="button-sejarah mt-4 mb-3">
-                        <img src="Vector1.png" alt="">
-                    </button>
-                    <div class="card-juduldoadanpuasa">
-                      <h4>Pemberkatan Nikah</h4>
+              <div class="persyaratan col-md-12">
+                <p class="mt-4">
+                  Pernikahan adalah gambaran yang Allah berikan agar dunia dapat melihat betapa indahnya hubungan Kristus dengan jemaatNya (Ef 5 : 22-23), yakni melalui hubungan yang mesra dan intim antara suami istri. Hubungan suami istri yang indah tidak datang dengan sendirinya, tetapi perlu diusahakan secara bersama-sama oleh pasangan suami istri di dalam anugerah Tuhan.
+                </p>
+                <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan</h4>
+                <p>
+                  Mendaftar min. 6 bulan sebelumnya dan mengisi formulir.
+                </p>
+                  <ol>
+                    <li>Fotocopy KAJ/KKJ masing-masing 1 lembar</li>
+                    <li>Fotocopy surat Baptis, masing-masing 1 lembar</li>        
+                    <li>Surat pernyataan persetujuan dari orang tua kedua belah pihak, bermaterai (Rp. 10.000,-)</li>
+                    <li>Fotocopy N1-N4 masing-masing dari Kelurahan</li>
+                    <li>Fotocopy Kartu Keluarga masing-masing 1 lembar</li>
+                    <li>Fotocopy Akte Kelahiran, masing-masing 1 lembar</li>
+                    <li>Foto bersama/Foto gandeng uk. 6x4 sebanyak 4 lembar</li>
+                    <li>Foto Pre-Wedding (min. 5 foto berupa softcopy) untuk ditampilkan saat pengumuman dan acara pemberkatan</li>
+                  </ol>
+                  <p>
+                    Wajib mengikuti Bimbingan Pra Nikah (BPN) dan konseling, setelah mendaftar dan mengisi formulir.
+                  </p>
+                  <p>
+                    "Kami mengharapkan agar setiap pasangan jemaat dapat mendaftarkan rencana pernikahannya ke gereja SEBELUM mencari gedung, catering dsb. Hal ini dikarenakan untuk menghindari terlalu banyak pemberkatan pernikahan dalam satu waktu."
+                  </p>
+                  <p>
+                    Bidang Pernikahan (BPPN), dapat menghubungi: <br>
+                    Jeffrida Harianja <br>
+                    Telp. 0819 791 2007 <br>
+                  </p>
+                  <hr class="m-t-20 m-b-20">
+                  <div class="confirm-next mb-3" style="display :block;">
+                    <a class="btn btn-primary btn-block visible-sm visible-xs" href="/halpemberkatannikah" target="_blank">SELANJUTNYA<i class="fa fa-angle-double-right m-l-10"></i></a>
                     </div>
-                    <p>Informasi Persyaratan dan Pendaftaran Pernikahan di GESBA Malinau Kota dapat menghubungi :</p>
-                      <ul>
-                        <li>GESBA Malinau Kota Jemaat Service
-                          Ibu Grace Natalia (08568505054)
-                        </li>
-                        <li>
-                          GESBA Malinau Kota
-                          Ibu Regina (081314452402)
-                        </li>
-                      </ul>
-                </div>
+            </div>
+            
             </div>
         </div>
     </div>

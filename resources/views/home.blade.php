@@ -42,7 +42,7 @@
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="judulkpk mt-4">Kabar Penganten Kristus</h2>
-        <span class="subtitle-kpk">“Sebab seorang anak telah lahir untuk kita, seorang putera telah diberikan untuk kita; lambang pemerintahan ada di atas bahunya, dan namanya disebutkan orang: Penasihat Ajaib, Allah yang Perkasa, Bapa yang Kekal, Raja Damai.” <br> (Yesaya 9: 6)</span>
+        <span class="subtitle-kpk">“Hendaklah kamu sempurna, sama seperti Bapa di Surga sempurna” <br> (Matius 5:48)</span>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <h2>Keep Update</h2>
-        <span class="subtitle">Update Renungan Harian, Warta, News, Pesan Gembala, Jadwal Ibadah, dll</span>
+        <span class="subtitle">Update Jadwal Ibadah, Pencarian Dana, Doa dan Puasa, dll</span>
       </div>      
     </div>
     <div class="row mt-5">

@@ -34,10 +34,13 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
-              <div class="card-ibadahraya">
-                <h3 class="">Pencarian Dana</h3>                
-                <p class="mt-3"><img src="jam.png" alt="" class="jam"> Sabtu, Pk. 00:00 - 16:00 WIB</p>
-                <p class="mt-3"><img src="tempat.png" alt="" class="tempat"> GESBA Malinau Kota</p>
+              <div class="card-ibadahraya">    
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> Kamis, 19 Maret 2023</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 15:00 WITA</p>          
+                <p class="mt-3"><i class="bi bi-pin-map"></i> Tempat : <br>&nbsp;&nbsp;&nbsp;&nbsp; Lapangan Bola Malinau</p>
+                <p class="mt-3"><i class="bi bi-activity"></i> Kegiatan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Menebas rumput</p>
+                <p class="mt-3"><i class="bi bi-chat-square-text"></i> Pesan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Jangan lupa membawa parang dan arit</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</p>
               </div>
             </div>    
         </div>

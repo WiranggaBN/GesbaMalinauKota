@@ -25,21 +25,26 @@
               <img src="Vector1.png" alt="">
             </button>
           </div>
-          @foreach ($visimisi as $visimisis)
+          {{-- @foreach ($visimisi as $visimisis)
           <div class="col-md-6 text-center">          
             <h2>{{ $visimisis->title }}</h2>
             <span>
               {{ $visimisis->body }}
             </span>
           </div>
-          @endforeach
-          {{-- <div class="col-md-6 text-center">
-            <h2>{{ $visimisis->title }}</h2>
+          @endforeach --}}
+          <div class="col-md-6 text-center">
+            <h2>Visi</h2>
             <span>
-              Ayo!! Bergabung menjadi Merchant CK7 Emoney
-              Saling memberkati, dari Jemaat untuk Jemaat
+              Menjadi Gereja sempurna / Gereja Penganten Kristus. <br> (Matius 5:48, 1 Tesalonika 2:23 dan Wahyu 12:1-2).
             </span>
-          </div>         --}}
+          </div>
+          <div class="col-md-6 text-center">
+            <h2>Misi</h2>
+            <span>
+              Memberitakan injil Tuhan Yesus Kristus kepada segala bangsa dan menjadikan mereka murid agar bertumbuh sempurna tubuh, jiwa dan roh sama dengan kristus melalui pengajaran Kabar Penganten Kristus. (Matius 28:19-20 dan Kisah Para Rasul 1:8).
+            </span>
+          </div>         
         </div>
       </div>
     </div>

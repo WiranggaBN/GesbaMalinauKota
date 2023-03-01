@@ -68,12 +68,12 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('materipengajarann', 'khotbahh') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('posts', 'materipengajaran') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   INFO ROHANI
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/materipengajarann">Materi Pengajaran</a></li>
-                  <li><a class="dropdown-item" href="/khotbahh">Ringkasan Khotbah</a></li>                  
+                  <li><a class="dropdown-item" href="/materipengajarann">Materi Pengajaran</a></li>  
+                  <li><a class="dropdown-item" href="/posts">Ringkasan Khotbah</a></li>                
                 </ul>
               </li>
               <li class="nav-item dropdown">

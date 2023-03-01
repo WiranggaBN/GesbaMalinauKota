@@ -51,10 +51,10 @@
                         <li>Apabila Kedua orang tua telah meninggal dunia, maka anak dapat didampingi oleh Wali dengan mengisi dan menandatangani Surat Pernyataan yang telah disediakan sebagai penanggung jawab.</li>
                     </ul>
                 </ol>
-                <hr class="m-t-30 m-b-30">
-                <div class="checkbox checkbox-success">
+                {{-- <hr class="m-t-30 m-b-30"> --}}
+                {{-- <div class="checkbox checkbox-success">
                   <input id="setuju" type="checkbox" autocomplete="off"><label for="setuju" class="ms-2">Dengan melanjutkan proses pendaftaran ini saya mengkonfirmasi bahwa saya sudah mengerti dan menyetujui.</label>
-              </div>
+              </div> --}}
               <hr class="m-t-30 m-b-20">
               <div class="confirm-next mb-3" style="display :block;">
                 <a class="btn btn-primary btn-block visible-sm visible-xs" href="/halpenyerahananak" target="_blank">SELANJUTNYA<i class="fa fa-angle-double-right m-l-10"></i></a>

@@ -33,7 +33,7 @@
             </a>
           </div>
           <div>
-            <p>Shalom . . . Merupakan suatu kehormatan bagi GESBA Malinau KOtayang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk rela datang bekerjasama untuk Tuhan pada Pencarian Dana. Selamat Berjuang . . . !</p>
+            <p>Shalom . . . Merupakan suatu kehormatan bagi GESBA Malinau Kota yang dipercayakan Tuhan untuk mengembalakan Jemaat dan Pengerja yang adalah milik Kristus, yang militan dan siap bayar harga untuk rela datang bekerjasama untuk Tuhan pada Pencarian Dana. Selamat Berjuang . . . !</p>
             <div class="card-juduldoadanpuasa">
               <h4>Definisi Pencarian Dana</h4>
             </div>

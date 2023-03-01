@@ -22,11 +22,22 @@
       <div class="row">
         <div class="col-md-12">
         <div class="mt-4">
-            <a href="/materipengajarann"><button class="button-sejarah mt-4 mb-3">
+            <a href="/posts"><button class="button-sejarah mt-4 mb-3">
                 <img src="../Vector1.png" alt="">
-            </button></a>          
+            </button></a>  
         
         </div>
+        <div class="mt-5">
+          <h3 class="text-dark text-decoration-none">
+            {{ $post->title }}
+          </h3>
+          <hr>
+          <img src="../f.jpg" alt="" class="gambarsatudua mt-2"><br>
+          <p class="mt-2 text-center">{{ $post->title_image }}</p>
+          {!! $post->body !!}
+        </div>
+        
+        {{-- </div>
         <div class="mt-5">
           <h3 class="text-dark text-decoration-none">
             {{ $materipengajaran->title }}
@@ -35,7 +46,7 @@
           <img src="../kpk6.jpg" alt="" class="gambarsatu mt-2"><br>
           <p class="mt-2 text-center">{{ $materipengajaran->title_image }}</p>
           {!! $materipengajaran->body !!}
-        </div>
+        </div> --}}
         
         {{-- <div class="unduh-materi mt-5">
           <a href="https://drive.google.com/file/d/12QjzCY58s_kge5BxrSi3gscdUqPpBIwW/view?usp=sharing"  terget="_blank">

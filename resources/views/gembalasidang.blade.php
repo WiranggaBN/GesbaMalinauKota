@@ -20,13 +20,27 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <button class="button-sejarah mt-4 mb-3">
-                        <img src="Vector1.png" alt="">
-                    </button>
-                    @foreach ($gembalasidang as $gembalasidangs)
+              <a href="/"><button class="button-sejarah mt-4 mb-3">
+                <img src="Vector1.png" alt="">
+            </button></a>
+                <div class="col-md-12 d-flex">
+                    
+                    {{-- @foreach ($gembalasidang as $gembalasidangs)
                     <p>{!! $gembalasidangs->body !!}</p>
-                    @endforeach
+                    @endforeach --}}
+                    <div class="col-6">
+                      <img src="foto_gembala.jpeg" alt="" class="foto_gembala mt-2">
+                    </div>
+                    <div class="col-6">
+                      <h2 class="text-dark">Profil Gembala Sidang </h2>
+                      <ol>
+                        <li>Nama : Pdt.Daud Pakiding, S.Th</li>
+                        <li>Tempat tanggal lahir: Tana Toraja,16 April 1973</li>
+                        <li>Pendidikan Terakhir : S1 Teologi STT Sunergio</li>
+                        <li>Pengalaman ikut organisasi: Kordinator daerah kaltim 2005-2010, ketua bpd kaltim 2010-2015, ketua BPD Kaltara 2015-2022, Ketua PGPI Malinau 2017-2018, pegurus pusat ketua depetemen misi dan perintisan 2015-2021.</li>
+                        <li>Pengalaman kerja gembala sidang :</li>
+                      </ol>
+                    </div>
                 </div>
             </div>
         </div>

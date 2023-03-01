@@ -20,21 +20,81 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <button class="button-sejarah mt-4 mb-3">
-                        <img src="Vector1.png" alt="">
-                    </button>
-                    <p>
-                      Pelayanan kepada keluarga jemaat yang mengalami kedukaan karena anggota keluarga yang meninggal dunia. Pelayanan ini meliputi ibadah penghiburan, pelepasan dan pemakaman. <br><br>
-
-                      Bagi Bapak / Ibu yang memerlukan Pelayanan Penghiburan dapat menghubungi Hot Line Service 24 Jam kami :
-
-                        <ul class="text-align-justify">
-                            <li>08788 157 6979 - Pdp. Grace Suhadi</li>
-                            <li>0817 093 8063 - Pdp. Handri</li>
-                        </ul>
-                    </p> 
-                    
+              <div class="persyaratan col-md-12">
+                <p class="mt-4">Pelayanan untuk melayani keluarga yang sedang berduka karena ditinggal oleh anggota keluarga yang meninggal dunia. Kami melayani ibadah penghiburan di rumah duka sampai kepada acara pemakaman.</p>
+                <hr class="m-t-20 m-b-20">
+              </div>
+                <div class="datadiri col-md-12">
+                    <form class="row g-3 mt-3" method="post" action="/penhiburan">
+                      @csrf
+                      <div class="col-6">
+                        <label for="inputNama" class="form-label">Nama Anda</label>
+                        <input type="text" name="yourname" class="form-control @error('yourname') is-invalid @enderror" id="yourname" placeholder="" required autofocus value="{{ old('yourname') }}">
+                        @error('yourname')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" required value="{{ old('email') }}">
+                        @error('email')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="col-6">
+                        <label for="inputNama" class="form-label">No. HP / Whatsapp</label>
+                        <input type="text" name="phone" class="form-control @error('phone') is-invalid @enderror" id="phone" placeholder="" required value="{{ old('phone') }}">
+                        @error('phone')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="col-6">
+                        <label for="inputNama" class="form-label">Nama Orang yang Meninggal Dunia</label>
+                        <input type="text" name="who_dead" class="form-control @error('who_dead') is-invalid @enderror" id="who_dead" placeholder="" required value="{{ old('who_dead') }}">
+                        @error('who_dead')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="col-6">
+                        <label for="inputNama" class="form-label">Hubungan Anda dengan Orang Tersebut</label>
+                        <input type="text" name="relationship" class="form-control @error('relationship') is-invalid @enderror" id="relationship" placeholder="" required value="{{ old('relationship') }}">
+                        @error('relationship')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="col-6">
+                        <label for="join" class="form-label">Tanggal dan Waktu Penguburan</label>
+                            <input type="datetime-local" class="form-control @error('date_time') is-invalid @enderror" name="date_time" id="date_time" required>
+                            @error('date_time')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                            @enderror
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Lokasi Penguburan</label>
+                        {{-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> --}}
+                        <textarea class="form-control @error('location') is-invalid @enderror" name="location" id="location" rows="3" required value="{{ old('location') }}"></textarea>
+                        @error('location')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                        @enderror
+                      </div>
+                      <div class="confirm-next mb-3" style="display :block;">
+                      <button class="btn btn-primary btn-block visible-sm visible-xs submit mb-4 mt-3"><i class="bi bi-send me-1"></i> SUBMIT</button>
+                      </div>
+                    </form>
                 </div>
             </div>
         </div>

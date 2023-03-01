@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Materipengajaran;
+use App\Models\Post;
 use Illuminate\Http\Request;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
-class DashboardMateripengajaranController extends Controller
+class DashboardPostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +15,8 @@ class DashboardMateripengajaranController extends Controller
      */
     public function index()
     {
-        return view('dashboard.materipengajarann.index', [
-            'materipengajaran' => Materipengajaran::all() 
+        return view('dashboard.posts.index', [
+            'posts' => Post::all()
         ]);
     }
 
@@ -43,23 +44,23 @@ class DashboardMateripengajaranController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Materipengajaran  $materipengajaran
+     * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function show(Materipengajaran $materipengajaran)
+    public function show(Post $post)
     {
-        return view('dashboard.materipengajarann.show', [
-            'materipengajarann' => $materipengajaran
+        return view('dashboard.posts.show', [
+            'post' => $post
         ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Materipengajaran  $materipengajaran
+     * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function edit(Materipengajaran $materipengajaran)
+    public function edit(Post $post)
     {
         //
     }
@@ -68,10 +69,10 @@ class DashboardMateripengajaranController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Materipengajaran  $materipengajaran
+     * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Materipengajaran $materipengajaran)
+    public function update(Request $request, Post $post)
     {
         //
     }
@@ -79,10 +80,10 @@ class DashboardMateripengajaranController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Materipengajaran  $materipengajaran
+     * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Materipengajaran $materipengajaran)
+    public function destroy(Post $post)
     {
         //
     }

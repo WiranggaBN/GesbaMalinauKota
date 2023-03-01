@@ -11,14 +11,14 @@
               <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-house-door"></i> Home
             </a>
           </li> --}}
-          <li class="nav-item dropdown">
+          {{-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {{ Request::is('dashboard/sejarah', 'dashboard/visimisi', 'dashboard/gembalasidang') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Profil</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/dashboard/sejarah">Sejarah Gereja</a></li>
               <li><a class="dropdown-item" href="/dashboard/visimisi">Visi Misi</a></li>
               <li><a class="dropdown-item" href="/dashboard/gembalasidang">Gembala Sidang</a></li>
             </ul>
-          </li>
+          </li> --}}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {{ Request::is('jadwalibadah') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Jadwal Ibadah</a>
           <ul class="dropdown-menu">
@@ -31,9 +31,9 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('inforohani') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/posts') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/dashboard/materipengajarann">Materi Pengajaran</a></li>
+            {{-- <li><a class="dropdown-item" href="/dashboard/posts">Materi Pengajaran</a></li> --}}
             <li><a class="dropdown-item" href="#">Ringkasan Khotbah</a></li>
           </ul>
         </li>
@@ -55,12 +55,12 @@
             <li><a class="dropdown-item" href="/dashboard/kunjungandoa">Kunjungan Doa</a></li>
           </ul>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link {{ Request::is('persembahan') ? 'active' : '' }}" aria-current="page" href="#">
             <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-cash"></i>
             Persembahan
           </a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link {{ Request::is('hubungi') ? 'active' : '' }}" aria-current="page" href="/dashboard/hubungikami">
             <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-telephone-forward"></i>

@@ -1,11 +1,13 @@
 <?php
 
 
+use App\Models\Post;
 use App\Models\User;
 use App\Models\Sejarah;
 use App\Http\Controllers\Home;
 use App\Models\Materipengajaran;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MasukController;
 use App\Http\Controllers\DaftarController;
@@ -15,6 +17,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
 use App\Http\Controllers\HubungikamiController;
 use App\Http\Controllers\KunjungandoaController;
+use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\GembalasidangController;
 use App\Http\Controllers\PenyerahananakController;
 use App\Http\Controllers\DashboardSejarahController;
@@ -103,19 +106,42 @@ Route::get('/jadwaldoadanpuasa', function() {
 });
 
 // KPK
-Route::get('/materipengajarann', [MateripengajaranController::class, 'index']);
-Route::get('/materipengajarann/{materipengajaran:slug}', [MateripengajaranController::class, 'show']);
+// Route::get('/materipengajarann', [MateripengajaranController::class, 'index']);
+// Route::get('/materipengajarann/{materipengajaran:slug}', [MateripengajaranController::class, 'show']);
+
+
+
+Route::get('/posts', [PostController::class, 'index']);
+Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
 // KPK
 
-Route::get('/khotbahh', function() {
-    return view('khotbahh', [
+Route::get('/materipengajarann', function() {
+    return view('materipengajarann', [
         "title" => "Info Rohani"
     ]);
 });
 
-Route::get('khotbah', function() {
-    return view('khotbah', [
+Route::get('dari-timur', function() {
+    return view('dari-timur', [
+        "title" => "Info Rohani"
+    ]);
+});
+
+Route::get('tabernakel-iii', function() {
+    return view('tabernakel-iii', [
+        "title" => "Info Rohani"
+    ]);
+});
+
+Route::get('tabernakel-ii', function() {
+    return view('tabernakel-ii', [
+        "title" => "Info Rohani"
+    ]);
+});
+
+Route::get('tabernakel-i', function() {
+    return view('tabernakel-i', [
         "title" => "Info Rohani"
     ]);
 });
@@ -146,6 +172,12 @@ Route::get('/jadwalpencariandana', function() {
 
 Route::get('/pemberkatannikah', function() {
     return view('pemberkatannikah', [
+        "title" => "Kami Peduli"
+    ]);
+});
+
+Route::get('/halpemberkatannikah', function() {
+    return view('halpemberkatannikah', [
         "title" => "Kami Peduli"
     ]);
 });
@@ -264,7 +296,7 @@ Route::get('/authors/{author:username}', function (User $author) {
     ]);
 });
 
-Route::resource('/dashboard/materipengajarann', DashboardMateripengajaranController::class)-> middleware('auth');
+Route::resource('/dashboard/posts', DashboardPostController::class)-> middleware('auth');
 
 
 
