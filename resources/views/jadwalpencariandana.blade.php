@@ -35,12 +35,12 @@
           <div class="row mt-3">
             <div class="col-md-12">
               <div class="card-ibadahraya">    
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Kamis, 19 Maret 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 15:00 WITA</p>          
-                <p class="mt-3"><i class="bi bi-pin-map"></i> Tempat : <br>&nbsp;&nbsp;&nbsp;&nbsp; Lapangan Bola Malinau</p>
-                <p class="mt-3"><i class="bi bi-activity"></i> Kegiatan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Menebas rumput</p>
-                <p class="mt-3"><i class="bi bi-chat-square-text"></i> Pesan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Jangan lupa membawa parang dan arit</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> Rabu, 22 Februari 2023</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 08:00 WITA</p>          
+                <p class="mt-3"><i class="bi bi-pin-map"></i> Tempat : <br>&nbsp;&nbsp;&nbsp;&nbsp; Kebun Bapak Sem</p>
+                <p class="mt-3"><i class="bi bi-activity"></i> Kegiatan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Membersihkan Kebun</p>
+                <p class="mt-3"><i class="bi bi-chat-square-text"></i> Pesan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Jangan lupa membawa parang dan cangkul</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i>  Jl. holing batu lidung,Malinau Hilir Kabupaten Malinau, Kalimantan Utara</p>
               </div>
             </div>    
         </div>

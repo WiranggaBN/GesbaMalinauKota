@@ -84,34 +84,6 @@
                             </div>
                           @enderror                  
                       </div>
-                      {{-- <div class="col-6">
-                        <label for="inputNama" class="form-label">Nama Ibu</label>
-                        <input type="text" name="mothername" class="form-control @error('mothername') is-invalid @enderror" id="mothername" placeholder="" required value="{{ old('mothername') }}">
-                        @error('mothername')
-                            <div class="invalid-feedback">  
-                              {{ $message }}
-                            </div>
-                        @enderror
-                      </div> --}}
-                      {{-- <div class="col-6">
-                        <label for="inputNama" class="form-label">Tempat Lahir</label>
-                        <input type="text" name="place_of_birth" class="form-control @error('place_of_birth') is-invalid @enderror" id="place_of_birth" placeholder="" required value="{{ old('place_of_birth') }}">
-                        @error('place_of_birth')
-                            <div class="invalid-feedback">  
-                              {{ $message }}
-                            </div>
-                        @enderror
-                      </div> --}}
-                      {{-- <div class="col-6">
-                        <label for="join" class="form-label">Tanggal Lahir</label>
-                            <input type="datetime-local" class="form-control @error('birth_day') is-invalid @enderror" name="birth_day" id="birth_day" required>
-                            @error('birth_day')
-                            <div class="invalid-feedback">  
-                              {{ $message }}
-                            </div>
-                            @enderror
-                      </div> --}}
-                      
                       <div class="col-6">
                         <label for="inputNama" class="form-label">No. HP / Whatsapp Mempelai Pria</label>
                         <input type="text" name="phone_grooms" class="form-control @error('phone_grooms') is-invalid @enderror" id="phone_grooms" placeholder="" required value="{{ old('phone_grooms') }}">
@@ -150,7 +122,6 @@
                       </div>
                       <div class="col-6">
                         <label for="inputAddress" class="form-label">Alamat Mempelai Pria</label>
-                        {{-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> --}}
                         <textarea class="form-control @error('address_grooms') is-invalid @enderror" name="address_grooms" id="address_grooms" rows="3" required value="{{ old('address_grooms') }}"></textarea>
                         @error('address_grooms')
                             <div class="invalid-feedback">  
@@ -159,8 +130,7 @@
                         @enderror
                       </div>
                       <div class="col-6">
-                        <label for="inputAddress" class="form-label">Alamat Mempelai Wanita</label>
-                        {{-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> --}}
+                        <label for="inputAddress" class="form-label">Alamat Mempelai Wanita</label> 
                         <textarea class="form-control @error('address_brides') is-invalid @enderror" name="address_brides" id="address_brides" rows="3" required value="{{ old('address_brides') }}"></textarea>
                         @error('address_brides')
                             <div class="invalid-feedback">  
@@ -172,15 +142,6 @@
                       <button class="btn btn-primary btn-block visible-sm visible-xs submit mb-4 mt-3"><i class="bi bi-send me-1"></i> SUBMIT</button>
                       </div>
                     </form>
-                    {{-- <hr class="m-t-50"> --}}
-                      {{-- <div class="form-group">
-                          <!-- <label class="label-title">Centang untuk setuju</label> -->
-                          <div class="checkbox checkbox-info mt-3">
-                              <input id="setuju" type="checkbox" name="setuju" value="1">
-                              <label for="setuju">Dengan ini saya menyatakan telah membaca dan menyetujui.</label>
-                          </div>
-                      </div> --}}
-                      {{-- <div class="alert alert-danger errormsg m-b-20" id="form_baptisan_air_error">Periksa Kembali Data Yang Diinput</div> --}}
                 </div>
             </div>
         </div>

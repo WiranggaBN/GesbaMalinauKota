@@ -22,6 +22,7 @@ use App\Http\Controllers\GembalasidangController;
 use App\Http\Controllers\PenyerahananakController;
 use App\Http\Controllers\DashboardSejarahController;
 use App\Http\Controllers\MateripengajaranController;
+use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\DashboardHubungikamiController;
@@ -176,11 +177,8 @@ Route::get('/pemberkatannikah', function() {
     ]);
 });
 
-Route::get('/halpemberkatannikah', function() {
-    return view('halpemberkatannikah', [
-        "title" => "Kami Peduli"
-    ]);
-});
+Route::get('/halpemberkatannikah', [PemberkatannikahController::class, 'index']);
+Route::post('/halpemberkatannikah', [PemberkatannikahController::class, 'store']);
 
 Route::get('/penyerahananak', function() {
     return view('penyerahananak', [

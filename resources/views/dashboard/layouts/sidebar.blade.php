@@ -46,9 +46,9 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('kamipeduli') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/pemberkatannikah', 'dashboard/penyerahananak', 'dashboard/baptisan', 'dashboard/kunjungandoa', 'dashboard/penghiburan') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Pemberkatan Nikah</a></li>
+            <li><a class="dropdown-item" href="/dashboard/pemberkatannikah">Pemberkatan Nikah</a></li>
             <li><a class="dropdown-item" href="/dashboard/penyerahananak">Penyerahan Anak</a></li>
             <li><a class="dropdown-item" href="/dashboard/baptisan">Baptisan</a></li>
             <li><a class="dropdown-item" href="#">Penghiburan</a></li>

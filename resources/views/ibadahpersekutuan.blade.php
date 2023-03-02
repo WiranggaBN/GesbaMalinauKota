@@ -32,11 +32,11 @@
             <div class="col-md-12">
               <div class="card-ibadahraya">
                 <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Daud Pakiding, S.Th</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Bangkit dari Titik Terendah</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Minggu, 19 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 09:00 WITA</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Hidup Sesuai Teladan Kristus</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> Kamis, 23 Februari 2023</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 19:30 WITA</p>
                 <p class="mt-3"><i class="bi bi-pin-map"></i> GESBA Malinau Kota</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara 77554</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
               </div>
             </div>    
             </div>      
