@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Materi Pengajaran</h2>
+                    <h2>Ringkasan Khotbah</h2>
                 </div>
             </div>
         </div>
@@ -27,13 +27,16 @@
             </button></a>  
         
         </div>
-        <div class="mt-5">
+        <div class="mt-3">
           <h3 class="text-dark text-decoration-none">
             {{ $post->title }}
           </h3>
+          <small class="mt-2 text-center">{{ $post->date }}</small>
+          <p class="mt-2"><b> Ayat Pokok : {{ $post->main_verse }} </b></p>
+          <p><b> Pembicara : {{ $post->speaker }} </b></p>
           <hr>
-          <img src="../f.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">{{ $post->title_image }}</p>
+          <img src="../f.jpg" alt="" class="gambarsatu mt-2 mb-2"><br>
+          
           {!! $post->body !!}
         </div>
         

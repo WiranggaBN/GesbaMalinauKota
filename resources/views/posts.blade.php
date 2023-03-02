@@ -37,12 +37,12 @@
         @foreach ($posts as $post)
         <div class="mt-5">
           <h3 class="text-dark">
-            <a href="/posts/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a>
+            <a href="/posts/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a><br>
+            <small class="mt-2 text-center">{{ $post->date }}</small>
           </h3>
           <hr>
-          <img src="F.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">{{ $post->title_image }}</p>
-          <p>{{ $post->excerpt }}</p><a href="/posts/{{ $post->slug }}" class="text-decoration-none"> Lanjutkan membaca...</a>
+          <img src="F.jpg" alt="" class="gambarsatu mt-2"><br>
+          <p class="mt-2">{{ $post->excerpt }}<a href="/posts/{{ $post->slug }}" class="text-decoration-none"> Lanjutkan membaca...</a></p>
         </div>
         @endforeach
         {{-- <div class="mt-5">
