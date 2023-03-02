@@ -16,6 +16,7 @@ use App\Http\Controllers\BaptisanController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
 use App\Http\Controllers\HubungikamiController;
+use App\Http\Controllers\PenghiburanController;
 use App\Http\Controllers\KunjungandoaController;
 use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\GembalasidangController;
@@ -26,11 +27,13 @@ use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\DashboardHubungikamiController;
+use App\Http\Controllers\DashboardPenghiburanController;
 use App\Http\Controllers\DashboardKunjungandoaController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\DashboardGembalasidangController;
 use App\Http\Controllers\DashboardPenyerahananakController;
 use App\Http\Controllers\DashboardMateripengajaranController;
+use App\Http\Controllers\DashboardPemberkatannikahController;
 
 /*
 |--------------------------------------------------------------------------
@@ -192,11 +195,8 @@ Route::post('/halpenyerahananak', [PenyerahananakController::class, 'store']);
 Route::get('/baptisan', [BaptisanController::class, 'index']);
 Route::post('/baptisan', [BaptisanController::class, 'store']);
 
-Route::get('/penghiburan', function() {
-    return view('penghiburan', [
-        "title" => "Kami Peduli"
-    ]);
-});
+Route::get('/penghiburan', [PenghiburanController::class, 'index']);
+Route::post('/penghiburan', [PenghiburanController::class, 'store']);
 
 Route::get('/kunjungandoa', [KunjungandoaController::class, 'index']);
 Route::post('/kunjungandoa', [KunjungandoaController::class, 'store']);
@@ -232,69 +232,30 @@ Route::get('/dashboard', function() {
 
 Route::resource('/dashboard/sejarah', DashboardSejarahController::class)-> middleware('auth');
 
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('sejarah', [
-        'slug' => 'sejarah-gereja',
-        'sejarah' => $author->sejarah->load('author'),
-    ]);
-});
+// Route::get('/authors/{author:username}', function (User $author) {
+//     return view('sejarah', [
+//         'slug' => 'sejarah-gereja',
+//         'sejarah' => $author->sejarah->load('author'),
+//     ]);
+// });
 
 Route::resource('/dashboard/visimisi', DashboardVisimisiController::class)-> middleware('auth');
 
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('visimisi', [
-        'title' => 'Visi',
-        'body' => 'Visi',
-        'visimisi' => $author->visimisi->load('author'),
-    ]);
-});
-
 Route::resource('/dashboard/gembalasidang', DashboardGembalasidangController::class)-> middleware('auth');
-
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('gembalasidang', [
-        'slug' => 'gembala-sidang',
-        'gembalasidang' => $author->gembalasidang->load('author'),
-    ]);
-});
 
 Route::resource('/dashboard/hubungikami', DashboardHubungikamiController::class)-> middleware('auth');
 
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('hubungikami', [
-        // 'slug' => 'gembala-sidang',
-        'hubungikami' => $author->hubungikami->load('author'),
-    ]);
-});
+Route::resource('/dashboard/pemberkatannikah', DashboardPemberkatannikahController::class)-> middleware('auth');
 
 Route::resource('/dashboard/penyerahananak', DashboardPenyerahananakController::class)-> middleware('auth');
 
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('penyerahananak', [
-        // 'slug' => 'gembala-sidang',
-        'penyerahananak' => $author->penyerahananak->load('author'),
-    ]);
-});
-
 Route::resource('/dashboard/baptisan', DashboardBaptisanController::class)-> middleware('auth');
-
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('baptisan', [
-        // 'slug' => 'gembala-sidang',
-        'baptisan' => $author->baptisan->load('author'),
-    ]);
-});
 
 Route::resource('/dashboard/kunjungandoa', DashboardKunjungandoaController::class)-> middleware('auth');
 
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('kunjungandoa', [
-        // 'slug' => 'gembala-sidang',
-        'kunjungandoa' => $author->kunjungandoa->load('author'),
-    ]);
-});
-
 Route::resource('/dashboard/posts', DashboardPostController::class)-> middleware('auth');
+
+Route::resource('/dashboard/penghiburan', DashboardPenghiburanController::class)-> middleware('auth');
 
 
 

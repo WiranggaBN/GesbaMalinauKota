@@ -51,7 +51,7 @@
             <li><a class="dropdown-item" href="/dashboard/pemberkatannikah">Pemberkatan Nikah</a></li>
             <li><a class="dropdown-item" href="/dashboard/penyerahananak">Penyerahan Anak</a></li>
             <li><a class="dropdown-item" href="/dashboard/baptisan">Baptisan</a></li>
-            <li><a class="dropdown-item" href="#">Penghiburan</a></li>
+            <li><a class="dropdown-item" href="/dashboard/penghiburan">Penghiburan</a></li>
             <li><a class="dropdown-item" href="/dashboard/kunjungandoa">Kunjungan Doa</a></li>
           </ul>
         </li>

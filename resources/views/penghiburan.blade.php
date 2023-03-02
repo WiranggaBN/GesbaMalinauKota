@@ -1,6 +1,10 @@
 @extends('layouts.main')
 
 @section('container')
+@push('style')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+@endpush
+
 {{-- hero section --}}
 <section id="pemberkatannikah">
     <div class="container-fluid overlay h-100">
@@ -24,13 +28,29 @@
                 <p class="mt-4">Pelayanan untuk melayani keluarga yang sedang berduka karena ditinggal oleh anggota keluarga yang meninggal dunia. Kami melayani ibadah penghiburan di rumah duka sampai kepada acara pemakaman.</p>
                 <hr class="m-t-20 m-b-20">
               </div>
+              <div class="datadiri col-md-12 mt-4">
+                <div class="col-4">
+                  @if(session()->has('success'))
+                  <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+                    {{ session('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  @endif
+        
+                  @if(session()->has('loginError'))
+                  <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                    {{ session('loginError') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  @endif
+                </div>
                 <div class="datadiri col-md-12">
-                    <form class="row g-3 mt-3" method="post" action="/penhiburan">
+                    <form class="row g-3 mt-3" method="post" action="/penghiburan">
                       @csrf
                       <div class="col-6">
                         <label for="inputNama" class="form-label">Nama Anda</label>
-                        <input type="text" name="yourname" class="form-control @error('yourname') is-invalid @enderror" id="yourname" placeholder="" required autofocus value="{{ old('yourname') }}">
-                        @error('yourname')
+                        <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="" required autofocus value="{{ old('name') }}">
+                        @error('name')
                             <div class="invalid-feedback">  
                               {{ $message }}
                             </div>
@@ -56,8 +76,8 @@
                       </div>
                       <div class="col-6">
                         <label for="inputNama" class="form-label">Nama Orang yang Meninggal Dunia</label>
-                        <input type="text" name="who_dead" class="form-control @error('who_dead') is-invalid @enderror" id="who_dead" placeholder="" required value="{{ old('who_dead') }}">
-                        @error('who_dead')
+                        <input type="text" name="who_died" class="form-control @error('who_died') is-invalid @enderror" id="who_died" placeholder="" required value="{{ old('who_died') }}">
+                        @error('who_died')
                             <div class="invalid-feedback">  
                               {{ $message }}
                             </div>
@@ -147,4 +167,15 @@
   </footer>
 </section>
 {{-- Footer Section --}}
+
+@push('scripts')
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+  config = {
+      enableTime: true,
+      dateFormat: 'Y-m-d H:i',
+  }
+  flatpickr("input[type=datetime-local]", config);
+</script>
+@endpush
 @endsection
