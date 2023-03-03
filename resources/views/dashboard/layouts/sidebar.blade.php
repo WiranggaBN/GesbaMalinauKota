@@ -31,10 +31,10 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/posts') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/posts*') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-info-square"></i> Info Rohani</a>
           <ul class="dropdown-menu">
-            {{-- <li><a class="dropdown-item" href="/dashboard/posts">Materi Pengajaran</a></li> --}}
-            <li><a class="dropdown-item" href="#">Ringkasan Khotbah</a></li>
+            <li><a class="dropdown-item" href="/dashboard/posts">Ringkasan Khotbah</a></li>
+            {{-- <li><a class="dropdown-item" href="/dashboard/pemberkatannikah">Ringkasan Khotbah</a></li> --}}
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -46,7 +46,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/pemberkatannikah', 'dashboard/penyerahananak', 'dashboard/baptisan', 'dashboard/kunjungandoa', 'dashboard/penghiburan') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('dashboard/pemberkatannikah*', 'dashboard/penyerahananak*', 'dashboard/baptisan*', 'dashboard/kunjungandoa*', 'dashboard/penghiburan*') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-box2-heart"></i> Kami Peduli</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/dashboard/pemberkatannikah">Pemberkatan Nikah</a></li>
             <li><a class="dropdown-item" href="/dashboard/penyerahananak">Penyerahan Anak</a></li>
@@ -62,7 +62,7 @@
           </a>
         </li> --}}
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('hubungi') ? 'active' : '' }}" aria-current="page" href="/dashboard/hubungikami">
+          <a class="nav-link {{ Request::is('dashboard/hubungikami*') ? 'active' : '' }}" aria-current="page" href="/dashboard/hubungikami">
             <span data-feather="home" class="align-text-bottom"></span><i class="bi bi-telephone-forward"></i>
             Hubungi Kami
           </a>

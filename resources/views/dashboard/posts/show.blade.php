@@ -13,9 +13,11 @@
                 <h3 class="text-dark text-decoration-none">
                     {{ $post->title }}
                 </h3>
+                <p>{{ $post->date }}</p>
+                <p>{{ $post->main_verse }}</p>
+                <p>{{ $post->speaker }}</p>
                 <hr>
-                <img src="../../kpk6.jpg" alt="" class="gambarsatudua mt-2"><br>
-                <p class="mt-2 text-center">{{ $post->title_image }}</p>
+                <img src="../../f.jpg" alt="" class="gambarsatu mt-2"><br>
                 {!! $post->body !!}
             </div>
         </div>

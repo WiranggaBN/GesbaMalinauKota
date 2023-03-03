@@ -27,7 +27,7 @@ class DashboardPostController extends Controller
      */
     public function create()
     {
-        //
+        return view('dashboard.posts.create');
     }
 
     /**
@@ -38,7 +38,14 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'title' => 'required|max:255',
+            'slug' => 'required',
+            'date' => 'required',
+            'main_verse' => 'required',
+            'speaker' => 'required',
+            'body' => 'required'
+        ]);
     }
 
     /**

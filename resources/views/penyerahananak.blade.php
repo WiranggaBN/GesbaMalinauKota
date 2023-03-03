@@ -26,7 +26,7 @@
                     <li><strong>Penyerahan Anak</strong> baru dapat dijalankan jika jumlah pendaftar <strong>minimal 5 peserta</strong>.</li>
                     <li>Mengisi e-form dengan lengkap</li>
                     <li>Menyerahkan Pas Foto berwarna anak <strong>ukuran 3x4 sebanyak 2 (dua) lembar</strong>, untuk sertifikat Penyerahan Anak, <strong>dengan menuliskan nama anak di belakang</strong> di counter secretariat cabang masing-masing. Atau dapat dikirim ke alamat sbb:</li>
-                    <pre class="batam mt-1"> Sekretariat GBI PRJ <br> Jl. Angkasa 1 No. 9, Kemayoran, Jakarta Pusat 10610 <br> Up. Grace Natalia / Yemima.</pre>
+                    <pre class="batam mt-1"> Sekretariat GESBA Malinau Kota <br> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara <br> Up. Grace Natalia / Yemima.</pre>
                     <li>Melampirkan :</li>
                     <ol>
                         <li>Foto Keluarga dengan minimal resolusi 1920 x 1080 pxl dengan ketentuan:</li>

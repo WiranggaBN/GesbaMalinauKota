@@ -31,13 +31,13 @@
                         
                         <li>Membawa Hand Sanitizer</li>
                         <li>Peserta wajib mengikuti pengarahan Baptisan melalui ZOOM 3 hari sebelum pelaksanaan Baptisan Air</li>
-                        <li>Format penulisan di ZOOM : NAMA (Sesuai KTP) - Cabang/Asal Gereja. Contoh : <br> Jack - PRJ <br> Dana Permana - Non Jemaat</li>
+                        <li>Format penulisan di ZOOM : NAMA (Sesuai KTP) - Cabang/Asal Gereja. Contoh : <br> Jack - GESBA <br> Dana Permana - Non Jemaat</li>
                         <li>Jika peserta tidak mengikuti Pengarahan Baptisan Air, maka tidak dapat mengikuti Sakramen Baptisan Air</li>
                         <li>Bersedia untuk menandatangani surat pernyataan sehat.</li>
                         <li>Pendamping maks. 1 orang, khusus bagi Peserta yang Lanjut Usia (> 70 thn) / handicapped / dibawah 17 tahun.</li>
                         <li>Wajib membawa Handuk (tidak disediakan) & Baju Ganti</li>
                         <li>Pk. 08.30 - 09.00 (registrasi ulang)</li>
-                        <li>Tempat pelaksanaan baptisan air: <br> GBI Intercon : Komplek Intercon Plaza Blok A.7-8, Jl. Meruya Ilir Raya No. 14, RT. 1 RW. 9, Srengseng, Kembangan, Jakarta Barat, <br> 021-5863208</li>
+                        <li>Tempat pelaksanaan baptisan air: <br> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara <br> 021-5863208</li>
                       </ol>
                       <hr class="m-t-20 m-b-20">
                 </div>
