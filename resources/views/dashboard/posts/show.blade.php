@@ -12,7 +12,7 @@
                 <button class="btn btn-primary border-0" onclick="return confirm('Yakin Menghapus?')">
                   <i class="bi bi-x-square"></i> Hapus
                 </button>
-              </form>
+            </form>
 
             <div class="mt-3">
                 <h3 class="text-dark text-decoration-none">

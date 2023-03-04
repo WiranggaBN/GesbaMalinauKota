@@ -23,8 +23,8 @@ return new class extends Migration
             $table->string('phone_brides');
             $table->string('email_grooms');
             $table->string('email_brides');
-            $table->string('address_grooms')->unique();
-            $table->string('address_brides')->unique();
+            $table->string('address_grooms');
+            $table->string('address_brides');
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });

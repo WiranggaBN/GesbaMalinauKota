@@ -72,7 +72,9 @@ class DashboardIbadahrayaController extends Controller
      */
     public function edit(Ibadahraya $ibadahraya)
     {
-        //
+        return view('dashboard.ibadahraya.edit', [
+            'ibadahraya' => $ibadahraya
+        ]);
     }
 
     /**
@@ -95,6 +97,7 @@ class DashboardIbadahrayaController extends Controller
      */
     public function destroy(Ibadahraya $ibadahraya)
     {
-        //
+        Ibadahraya::destroy($ibadahraya->id);
+        return redirect('dashboard/ibadahraya')->with('success', 'Berhasil Menghapus Ibadah Raya!');
     }
 }
