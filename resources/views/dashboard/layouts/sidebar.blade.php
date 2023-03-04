@@ -22,7 +22,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {{ Request::is('jadwalibadah') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Jadwal Ibadah</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Ibadah Raya</a></li>
+            <li><a class="dropdown-item" href="/dashboard/ibadahraya">Ibadah Raya</a></li>
             <li><a class="dropdown-item" href="#">Ibadah Pemuda</a></li>
             <li><a class="dropdown-item" href="#">Ibadah Sekolah Minggu</a></li>
             {{-- <li><hr class="dropdown-divider"></li> --}}

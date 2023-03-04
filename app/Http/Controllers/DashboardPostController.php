@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+use Illuminate\Support\Str;
 
 class DashboardPostController extends Controller
 {
@@ -40,12 +41,18 @@ class DashboardPostController extends Controller
     {
         $validatedData = $request->validate([
             'title' => 'required|max:255',
-            'slug' => 'required',
+            'slug' => 'required|unique:posts',
             'date' => 'required',
             'main_verse' => 'required',
             'speaker' => 'required',
             'body' => 'required'
         ]);
+
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+
+        Post::create($validatedData);
+
+        return redirect('dashboard/posts')->with('success', 'Berhasil Menambahkan Ringkasan Khotbah Baru!');
     }
 
     /**
@@ -69,7 +76,9 @@ class DashboardPostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        return view('dashboard.posts.edit', [
+            'post' => $post
+        ]);
     }
 
     /**
@@ -81,7 +90,26 @@ class DashboardPostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $rules = [
+            'title' => 'required|max:255', 
+            'date' => 'required',
+            'main_verse' => 'required',
+            'speaker' => 'required',
+            'body' => 'required'
+        ];
+
+        if($request->slug != $post->slug) {
+            $rules['slug'] = 'required|unique:posts';
+        }
+
+        $validatedData = $request->validate($rules);
+
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+
+        Post::where('id', $post->id)
+            ->update($validatedData);   
+
+        return redirect('/dashboard/posts')->with('success', 'Berhasil Mengubah Ringkasan Khotbah!');
     }
 
     /**
@@ -92,6 +120,7 @@ class DashboardPostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        Post::destroy($post->id);
+        return redirect('dashboard/posts')->with('success', 'Berhasil Menghapus Ringkasan Khotbah!');
     }
 }

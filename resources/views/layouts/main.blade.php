@@ -55,7 +55,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('ibadahraya', 'ibadahpemuda', 'ibadahsm', 'ibadahrt', 'ibadahpersekutuan') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('ibadahraya*', 'ibadahpemuda*', 'ibadahsm*', 'ibadahrt*', 'ibadahpersekutuan*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   JADWAL IBADAH
                 </a>
                 <ul class="dropdown-menu">
@@ -68,7 +68,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('posts', 'materipengajaran') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('posts*', 'materipengajaran*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   INFO ROHANI
                 </a>
                 <ul class="dropdown-menu">
@@ -77,7 +77,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('doasemalaman', 'doadanpuasa', 'pencariandana') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('doasemalaman*', 'jadwaldoasemalaman*', 'doadanpuasa*', 'jadwaldoadanpuasa*', 'pencariandana*', 'jadwalpencariandana*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   LAYANAN
                 </a>
                 <ul class="dropdown-menu">
@@ -87,7 +87,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle {{ Request::is('pemberkatannikah', 'penyerahananak', 'baptisan', 'penghiburan', 'kunjungandoa') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle {{ Request::is('pemberkatannikah*', 'halpemberkatannikah*', 'penyerahananak*', 'halpenyerahananak*', 'baptisan*', 'penghiburan*', 'kunjungandoa*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   KAMI PEDULI
                 </a>
                 <ul class="dropdown-menu">

@@ -15,6 +15,7 @@ use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\BaptisanController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
+use App\Http\Controllers\IbadahrayaController;
 use App\Http\Controllers\HubungikamiController;
 use App\Http\Controllers\PenghiburanController;
 use App\Http\Controllers\KunjungandoaController;
@@ -26,6 +27,7 @@ use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
 use App\Http\Controllers\DashboardVisimisiController;
+use App\Http\Controllers\DashboardIbadahrayaController;
 use App\Http\Controllers\DashboardHubungikamiController;
 use App\Http\Controllers\DashboardPenghiburanController;
 use App\Http\Controllers\DashboardKunjungandoaController;
@@ -63,15 +65,8 @@ Route::get('/visimisi/{visimisis:title}', [VisimisiController::class, 'show']);
 Route::get('/gembalasidang', [GembalasidangController::class, 'index']);
 Route::get('/gembalasidang/{gembalasidang:body}', [GembalasidangController::class, 'show']);
 
-// Route::get('/pendeta', function() {
-//     return view('pendeta');
-// });
-
-Route::get('/ibadahraya', function() {
-    return view('ibadahraya', [
-        "title" => "Jadwal Ibadah"
-    ]);
-});
+Route::get('/ibadahraya', [IbadahrayaController::class, 'index']);
+Route::get('/ibadahraya/{ibadahraya:theme}', [IbadahrayaController::class, 'show']);
 
 Route::get('/ibadahpemuda', function() {
     return view('ibadahpemuda', [
@@ -232,12 +227,12 @@ Route::get('/dashboard', function() {
 
 Route::resource('/dashboard/sejarah', DashboardSejarahController::class)-> middleware('auth');
 
-// Route::get('/authors/{author:username}', function (User $author) {
-//     return view('sejarah', [
-//         'slug' => 'sejarah-gereja',
-//         'sejarah' => $author->sejarah->load('author'),
-//     ]);
-// });
+Route::get('/authors/{author:username}', function (User $author) {
+    return view('sejarah', [
+        'slug' => 'sejarah-gereja',
+        'sejarah' => $author->sejarah->load('author'),
+    ]);
+});
 
 Route::resource('/dashboard/visimisi', DashboardVisimisiController::class)-> middleware('auth');
 
@@ -256,6 +251,8 @@ Route::resource('/dashboard/kunjungandoa', DashboardKunjungandoaController::clas
 Route::resource('/dashboard/posts', DashboardPostController::class)-> middleware('auth');
 
 Route::resource('/dashboard/penghiburan', DashboardPenghiburanController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ibadahraya', DashboardIbadahrayaController::class)-> middleware('auth');
 
 
 

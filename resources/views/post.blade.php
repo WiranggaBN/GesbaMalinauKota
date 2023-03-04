@@ -25,17 +25,17 @@
             <a href="/posts"><button class="button-sejarah mt-4 mb-3">
                 <img src="../Vector1.png" alt="">
             </button></a>  
-        
         </div>
+        
         <div class="mt-3">
           <h3 class="text-dark text-decoration-none">
             {{ $post->title }}
           </h3>
-          <small class="mt-2 text-center">{{ $post->date }}</small>
-          <p class="mt-2"><b> Ayat Pokok : {{ $post->main_verse }} </b></p>
-          <p><b> Pembicara : {{ $post->speaker }} </b></p>
+          <p><small>{{ $post->date }}</small></p>
+          <p>Ayat Pokok : <b> {{ $post->main_verse }} </b></p>
+          <p>Pembicara : <b> {{ $post->speaker }} </b></p>
           <hr>
-          <img src="../f.jpg" alt="" class="gambarsatu mt-2 mb-2"><br>
+          <img src="https://source.unsplash.com/1200x300?{{ $post->excerpt }}" class="card-img-top mb-2" alt="{{ $post->slug }}">
           
           {!! $post->body !!}
         </div>
