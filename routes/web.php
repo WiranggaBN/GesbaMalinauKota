@@ -34,6 +34,7 @@ use App\Http\Controllers\JadwaldoadanpuasaController;
 use App\Http\Controllers\JadwaldoasemalamanController;
 use App\Http\Controllers\DashboardIbadahrayaController;
 use App\Http\Controllers\IbadahsekolahmingguController;
+use App\Http\Controllers\JadwalpencariandanaController;
 use App\Http\Controllers\DashboardHubungikamiController;
 use App\Http\Controllers\DashboardPenghiburanController;
 use App\Http\Controllers\DashboardIbadahpemudaController;
@@ -48,6 +49,7 @@ use App\Http\Controllers\DashboardIbadahrumahtanggaController;
 use App\Http\Controllers\DashboardJadwaldoadanpuasaController;
 use App\Http\Controllers\DashboardJadwaldoasemalamanController;
 use App\Http\Controllers\DashboardIbadahsekolahmingguController;
+use App\Http\Controllers\DashboardJadwalpencariandanaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -116,11 +118,8 @@ Route::get('/pencariandana', function() {
     ]);
 });
 
-Route::get('/jadwalpencariandana', function() {
-    return view('jadwalpencariandana', [
-        "title" => "Layanan"
-    ]);
-});
+Route::get('/jadwalpencariandana', [JadwalpencariandanaController::class, 'index']);
+Route::get('/jadwalpencariandana/{Jadwalpencariandana:theme}', [JadwalpencariandanaController::class, 'show']);
 
 // KPK
 // Route::get('/materipengajarann', [MateripengajaranController::class, 'index']);
@@ -259,6 +258,8 @@ Route::resource('/dashboard/ibadahpersekutuan', DashboardIbadahpersekutuanContro
 Route::resource('/dashboard/jadwaldoadanpuasa', DashboardJadwaldoadanpuasaController::class)-> middleware('auth');
 
 Route::resource('/dashboard/jadwaldoasemalaman', DashboardJadwaldoasemalamanController::class)-> middleware('auth');
+
+Route::resource('/dashboard/jadwalpencariandana', DashboardJadwalpencariandanaController::class)-> middleware('auth');
 
 
 

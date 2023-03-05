@@ -32,8 +32,8 @@
               <th scope="col">Hari Tanggal</th>
               <th scope="col">Ayat Pokok</th>
               <th scope="col">Pembicara</th>
-              <th scope="col">Excerpt</th>
-              <th scope="col">Body</th>
+              <th scope="col">Kutipan</th>
+              <th scope="col">Isi</th>
               <th scope="col">Action</th>
             </tr>
           </thead>

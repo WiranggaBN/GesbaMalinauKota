@@ -58,7 +58,7 @@
                 <input type="text" class="form-control" id="excerpt" name="excerpt">
             </div> --}}
             <div class="mb-3">
-                <label for="body" class="form-label">Body</label>
+                <label for="body" class="form-label">Isi</label>
                 @error('body')
                     <p class="text-danger">{{ $message }}</p>
                 @enderror
