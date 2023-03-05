@@ -34,14 +34,16 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
+              @foreach ($jadwalpencariandana as $jadwalpencariandanas) 
               <div class="card-ibadahraya">    
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Rabu, 22 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 08:00 WITA</p>          
-                <p class="mt-3"><i class="bi bi-pin-map"></i> Tempat : <br>&nbsp;&nbsp;&nbsp;&nbsp; Kebun Bapak Sem</p>
-                <p class="mt-3"><i class="bi bi-activity"></i> Kegiatan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Membersihkan Kebun</p>
-                <p class="mt-3"><i class="bi bi-chat-square-text"></i> Pesan : <br>&nbsp;&nbsp;&nbsp;&nbsp; Jangan lupa membawa parang dan cangkul</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i>  Jl. holing batu lidung,Malinau Hilir Kabupaten Malinau, Kalimantan Utara</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $jadwalpencariandanas->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $jadwalpencariandanas->time }} WITA</p>          
+                <p class="mt-3"><i class="bi bi-pin-map"></i> Tempat : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $jadwalpencariandanas->place }}</p>
+                <p class="mt-3"><i class="bi bi-activity"></i> Kegiatan : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $jadwalpencariandanas->activity }}</p>
+                <p class="mt-3"><i class="bi bi-chat-square-text"></i> Pesan : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $jadwalpencariandanas->message }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i>  {{ $jadwalpencariandanas->address }}</p>
               </div>
+              @endforeach
             </div>    
         </div>
       </div>
