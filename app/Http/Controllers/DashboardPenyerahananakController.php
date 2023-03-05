@@ -84,6 +84,7 @@ class DashboardPenyerahananakController extends Controller
      */
     public function destroy(Penyerahananak $penyerahananak)
     {
-        //
+        Penyerahananak::destroy($penyerahananak->id);
+        return redirect('dashboard/penyerahananak')->with('success', 'Berhasil Menghapus Penyerahan Anak!');
     }
 }

@@ -84,6 +84,7 @@ class DashboardKunjungandoaController extends Controller
      */
     public function destroy(Kunjungandoa $kunjungandoa)
     {
-        //
+        Kunjungandoa::destroy($kunjungandoa->id);
+        return redirect('dashboard/kunjungandoa')->with('success', 'Berhasil Menghapus Kunjungan Doa!');
     }
 }

@@ -84,6 +84,7 @@ class DashboardPemberkatannikahController extends Controller
      */
     public function destroy(Pemberkatannikah $pemberkatannikah)
     {
-        //
+        Pemberkatannikah::destroy($pemberkatannikah->id);
+        return redirect('dashboard/pemberkatannikah')->with('success', 'Berhasil Menghapus Pemberkatan Nikah!');
     }
 }

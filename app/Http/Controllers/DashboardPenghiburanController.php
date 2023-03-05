@@ -84,6 +84,7 @@ class DashboardPenghiburanController extends Controller
      */
     public function destroy(Penghiburan $penghiburan)
     {
-        //
+        Penghiburan::destroy($penghiburan->id);
+        return redirect('dashboard/penghiburan')->with('success', 'Berhasil Menghapus Penghiburan!');
     }
 }

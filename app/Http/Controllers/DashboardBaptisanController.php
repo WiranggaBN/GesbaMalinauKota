@@ -84,6 +84,7 @@ class DashboardBaptisanController extends Controller
      */
     public function destroy(Baptisan $baptisan)
     {
-        //
+        Baptisan::destroy($baptisan->id);
+        return redirect('dashboard/baptisan')->with('success', 'Berhasil Menghapus Baptisan!');
     }
 }

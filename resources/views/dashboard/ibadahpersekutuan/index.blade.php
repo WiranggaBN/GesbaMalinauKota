@@ -42,13 +42,13 @@
               <td>
                 <a href="/dashboard/ibadahpersekutuan/{{ $ibadahpersekutuans->theme }}" class="badge bg-info"><i class="bi bi-eye-fill"></i></a>
                 <a href="/dashboard/ibadahpersekutuan/{{ $ibadahpersekutuans->theme }}/edit" class="badge bg-warning"><i class="bi bi-pencil-square"></i></a>
-                <form action="/dashboard/ibadahpersekutuan/{{ $ibadahpersekutuans->theme }}" method="post" class="d-inline">
+                {{-- <form action="/dashboard/ibadahpersekutuan/{{ $ibadahpersekutuans->theme }}" method="post" class="d-inline">
                   @method('delete')
                   @csrf
                   <button class="badge bg-danger border-0" onclick="return confirm('Yakin Menghapus?')">
                     <i class="bi bi-x-square"></i>
                   </button>
-                </form>
+                </form> --}}
               </td>
             </tr>
             @endforeach

@@ -84,6 +84,7 @@ class DashboardHubungikamiController extends Controller
      */
     public function destroy(Hubungikami $hubungikami)
     {
-        //
+        Hubungikami::destroy($hubungikami->id);
+        return redirect('dashboard/hubungikami')->with('success', 'Berhasil Menghapus Hubungi Kami!');
     }
 }

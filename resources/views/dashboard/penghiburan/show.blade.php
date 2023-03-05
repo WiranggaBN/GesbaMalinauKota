@@ -5,8 +5,14 @@
     <div class="row my-3">
         <div class="col-lg-9">
             <a href="/dashboard/baptisan" class="btn btn-primary"><i class="bi bi-arrow-left-square"></i></i></i> Kembali</a>
-            <a href="/dashboard/baptisan" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Ubah</a>
-            <a href="/dashboard/baptisan" class="btn btn-primary"><i class="bi bi-x-square"></i></i> Hapus</a>
+            {{-- <a href="/dashboard/baptisan" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Ubah</a> --}}
+            <form action="/dashboard/penghiburan/{{ $penghiburan->name }}" method="post" class="d-inline">
+              @method('delete')
+              @csrf
+              <button class="btn btn-primary" onclick="return confirm('Yakin Menghapus?')">
+                <i class="bi bi-x-square"></i> Hapus
+              </button>
+            </form>
 
             <div class="table-responsive col-lg-12 mt-4">
                 <table class="table table-striped table-sm border-dark">

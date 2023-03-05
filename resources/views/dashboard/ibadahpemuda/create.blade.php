@@ -61,7 +61,7 @@
                       {{ $message }}
                     </div>
                 @enderror
-              </div>
+            </div>
             <button type="submit" class="btn btn-primary mb-5 me-3">Submit</button>
             <button type="reset" class="btn btn-primary mb-5">Reset</button>
           </form>

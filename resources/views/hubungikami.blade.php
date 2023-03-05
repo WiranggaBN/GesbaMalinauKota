@@ -86,16 +86,15 @@
                       </div>
                   </div>
               </div>
-              <div class="form-group mt-3">
-                  <label>Pesan</label>
-                  <textarea type="text" class="form-control @error('pesan') is-invalid @enderror" rows="5" name="pesan" id="pesan" required value="{{ old('pesan') }}">
-                  </textarea>
-                  @error('pesan')
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control @error('pesan') is-invalid @enderror" name="pesan" id="pesan" rows="5" required value="{{ old('pesan') }}"></textarea>
+                @error('pesan')
                     <div class="invalid-feedback">  
                       {{ $message }}
                     </div>
-                  @enderror
-              </div>
+                @enderror
+            </div>
               {{-- <div class="alert alert-danger errormsg mt-3 text-center" id="form_contact_error">Periksa Kembali Data Yang Diinput</div> --}}
               <div class="text-center mt-5">
                   <button class="btn btn-primary m-t-15 btn-rounded">
