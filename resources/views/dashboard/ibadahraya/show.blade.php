@@ -5,7 +5,7 @@
     <div class="row my-3">
         <div class="col-lg-8">
             <a href="/dashboard/ibadahraya" class="btn btn-primary"><i class="bi bi-arrow-left-square"></i></i></i> Kembali</a>
-            <a href="/dashboard/ibadahraya" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Ubah</a>
+            <a href="/dashboard/ibadahraya/{{ $ibadahraya->theme }}/edit" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Ubah</a>
             <form action="/dashboard/ibadahraya/{{ $ibadahraya->theme }}" method="post" class="d-inline">
               @method('delete')
               @csrf

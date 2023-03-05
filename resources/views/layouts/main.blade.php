@@ -62,8 +62,8 @@
                   <li><a class="dropdown-item" href="/ibadahraya">Ibadah Raya</a></li>
                   <li><a class="dropdown-item" href="/ibadahpemuda">Ibadah Pemuda</a></li>
                   {{-- <li><hr class="dropdown-divider"></li> --}}
-                  <li><a class="dropdown-item" href="/ibadahsm">Ibadah Sekolah Minggu</a></li>
-                  <li><a class="dropdown-item" href="/ibadahrt">Ibadah Rumah Tangga</a></li>
+                  <li><a class="dropdown-item" href="/ibadahsekolahminggu">Ibadah Sekolah Minggu</a></li>
+                  <li><a class="dropdown-item" href="/ibadahrumahtangga">Ibadah Rumah Tangga</a></li>
                   <li><a class="dropdown-item" href="/ibadahpersekutuan">Ibadah Persekutuan</a></li>                  
                 </ul>
               </li>

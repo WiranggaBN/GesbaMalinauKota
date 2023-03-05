@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Ibadahraya;
+use App\Models\Jadwaldoadanpuasa;
 use Illuminate\Http\Request;
 
-class DashboardIbadahrayaController extends Controller
+class DashboardJadwaldoadanpuasaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class DashboardIbadahrayaController extends Controller
      */
     public function index()
     {
-        return view('dashboard.ibadahraya.index', [
-            'ibadahraya' => Ibadahraya::all() 
+        return view('dashboard.jadwaldoadanpuasa.index', [
+            'jadwaldoadanpuasa' => Jadwaldoadanpuasa::all() 
         ]);
     }
 
@@ -26,7 +26,7 @@ class DashboardIbadahrayaController extends Controller
      */
     public function create()
     {
-        return view('dashboard.ibadahraya.create');
+        return view('dashboard.jadwaldoadanpuasa.create');
     }
 
     /**
@@ -46,34 +46,34 @@ class DashboardIbadahrayaController extends Controller
             'address' => 'required'
         ]);
 
-        Ibadahraya::create($validatedData);
+        Jadwaldoadanpuasa::create($validatedData);
 
-        return redirect('dashboard/ibadahraya')->with('success', 'Berhasil Menambahkan Ibadah Raya!');
+        return redirect('dashboard/jadwaldoadanpuasa')->with('success', 'Berhasil Menambahkan Jadwal Doa dan Puasa!');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Jadwaldoadanpuasa  $jadwaldoadanpuasa
      * @return \Illuminate\Http\Response
      */
-    public function show(Ibadahraya $ibadahraya)
+    public function show(Jadwaldoadanpuasa $jadwaldoadanpuasa)
     {
-        return view('dashboard.ibadahraya.show', [
-            'ibadahraya' => $ibadahraya
+        return view('dashboard.jadwaldoadanpuasa.show', [
+            'jadwaldoadanpuasa' => $jadwaldoadanpuasa
         ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Jadwaldoadanpuasa  $jadwaldoadanpuasa
      * @return \Illuminate\Http\Response
      */
-    public function edit(Ibadahraya $ibadahraya)
+    public function edit(Jadwaldoadanpuasa $jadwaldoadanpuasa)
     {
-        return view('dashboard.ibadahraya.edit', [
-            'ibadahraya' => $ibadahraya
+        return view('dashboard.jadwaldoadanpuasa.edit', [
+            'jadwaldoadanpuasa' => $jadwaldoadanpuasa
         ]);
     }
 
@@ -81,10 +81,10 @@ class DashboardIbadahrayaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Jadwaldoadanpuasa  $jadwaldoadanpuasa
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Ibadahraya $ibadahraya)
+    public function update(Request $request, Jadwaldoadanpuasa $jadwaldoadanpuasa)
     {
         $rules = [
             'speaker' => 'required',
@@ -95,27 +95,23 @@ class DashboardIbadahrayaController extends Controller
             'address' => 'required',
         ];
 
-        // if($request->theme != $ibadahraya->theme) {
-        //     $rules['ibadahraya'] = 'required|unique:ibadahraya';
-        // }
-
         $validatedData = $request->validate($rules);
 
-        Ibadahraya::where('id', $ibadahraya->id)
+        Jadwaldoadanpuasa::where('id', $jadwaldoadanpuasa->id)
             ->update($validatedData);   
 
-        return redirect('/dashboard/ibadahraya')->with('success', 'Berhasil Mengubah Ibadah Raya!');
+        return redirect('/dashboard/jadwaldoadanpuasa')->with('success', 'Berhasil Mengubah Jadwal Doa dan Puasa!');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Jadwaldoadanpuasa  $jadwaldoadanpuasa
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Ibadahraya $ibadahraya)
+    public function destroy(Jadwaldoadanpuasa $jadwaldoadanpuasa)
     {
-        Ibadahraya::destroy($ibadahraya->id);
-        return redirect('dashboard/ibadahraya')->with('success', 'Berhasil Menghapus Ibadah Raya!');
+        Jadwaldoadanpuasa::destroy($jadwaldoadanpuasa->id);
+        return redirect('dashboard/jadwaldoadanpuasa')->with('success', 'Berhasil Menghapus Jadwal Doa dan Puasa!');
     }
 }

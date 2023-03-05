@@ -30,14 +30,16 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
+              @foreach ($ibadahrumahtangga as $ibadahrumahtanggas) 
               <div class="card-ibadahraya">
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Daud Pakiding, S.Th</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Hidup Adalah Anugrah</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Selasa, 21 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 19:30 WITA</p>
-                <p class="mt-3"><i class="bi bi-pin-map"></i> Rumah Bapak Mesak</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. AMD RT 20 No 82 Gg kelapa Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahrumahtanggas->speaker }}</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahrumahtanggas->theme }}</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $ibadahrumahtanggas->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $ibadahrumahtanggas->time }} WITA</p>
+                <p class="mt-3"><i class="bi bi-pin-map"></i> {{ $ibadahrumahtanggas->place }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> {{ $ibadahrumahtanggas->address }}</p>
               </div>
+              @endforeach
             </div>    
             </div>      
         </div>

@@ -34,14 +34,16 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
-              <div class="card-ibadahraya">             
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Daud Pakiding, S.Th</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Memikul Salib Kristus</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Sabtu, 25 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 09:00 WITA</p>
-                <p class="mt-3"><i class="bi bi-pin-map"></i> GESBA Malinau Kota</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
+              @foreach ($jadwaldoadanpuasa as $jadwaldoadanpuasas) 
+              <div class="card-ibadahraya">
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $jadwaldoadanpuasas->speaker }}</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $jadwaldoadanpuasas->theme }}</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $jadwaldoadanpuasas->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $jadwaldoadanpuasas->time }} WITA</p>
+                <p class="mt-3"><i class="bi bi-pin-map"></i> {{ $jadwaldoadanpuasas->place }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> {{ $jadwaldoadanpuasas->address }}</p>
               </div>
+              @endforeach
             </div>    
         </div>
       </div>

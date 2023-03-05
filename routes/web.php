@@ -18,6 +18,7 @@ use App\Http\Controllers\VisimisiController;
 use App\Http\Controllers\IbadahrayaController;
 use App\Http\Controllers\HubungikamiController;
 use App\Http\Controllers\PenghiburanController;
+use App\Http\Controllers\IbadahpemudaController;
 use App\Http\Controllers\KunjungandoaController;
 use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\GembalasidangController;
@@ -27,15 +28,26 @@ use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
 use App\Http\Controllers\DashboardVisimisiController;
+use App\Http\Controllers\IbadahpersekutuanController;
+use App\Http\Controllers\IbadahrumahtanggaController;
+use App\Http\Controllers\JadwaldoadanpuasaController;
+use App\Http\Controllers\JadwaldoasemalamanController;
 use App\Http\Controllers\DashboardIbadahrayaController;
+use App\Http\Controllers\IbadahsekolahmingguController;
 use App\Http\Controllers\DashboardHubungikamiController;
 use App\Http\Controllers\DashboardPenghiburanController;
+use App\Http\Controllers\DashboardIbadahpemudaController;
 use App\Http\Controllers\DashboardKunjungandoaController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\DashboardGembalasidangController;
 use App\Http\Controllers\DashboardPenyerahananakController;
 use App\Http\Controllers\DashboardMateripengajaranController;
 use App\Http\Controllers\DashboardPemberkatannikahController;
+use App\Http\Controllers\DashboardIbadahpersekutuanController;
+use App\Http\Controllers\DashboardIbadahrumahtanggaController;
+use App\Http\Controllers\DashboardJadwaldoadanpuasaController;
+use App\Http\Controllers\DashboardJadwaldoasemalamanController;
+use App\Http\Controllers\DashboardIbadahsekolahmingguController;
 
 /*
 |--------------------------------------------------------------------------
@@ -68,29 +80,17 @@ Route::get('/gembalasidang/{gembalasidang:body}', [GembalasidangController::clas
 Route::get('/ibadahraya', [IbadahrayaController::class, 'index']);
 Route::get('/ibadahraya/{ibadahraya:theme}', [IbadahrayaController::class, 'show']);
 
-Route::get('/ibadahpemuda', function() {
-    return view('ibadahpemuda', [
-        "title" => "Jadwal Ibadah"
-    ]);
-});
+Route::get('/ibadahpemuda', [IbadahpemudaController::class, 'index']);
+Route::get('/ibadahpemuda/{ibadahpemuda:theme}', [IbadahpemudaController::class, 'show']);
 
-Route::get('/ibadahsm', function() {
-    return view('ibadahsm', [
-        "title" => "Jadwal Ibadah"
-    ]);
-});
+Route::get('/ibadahsekolahminggu', [IbadahsekolahmingguController::class, 'index']);
+Route::get('/ibadahsekolahminggu/{Ibadahsekolahminggu:theme}', [IbadahsekolahmingguController::class, 'show']);
 
-Route::get('/ibadahrt', function() {
-    return view('ibadahrt', [
-        "title" => "Jadwal Ibadah"
-    ]);
-});
+Route::get('/ibadahrumahtangga', [IbadahrumahtanggaController::class, 'index']);
+Route::get('/ibadahrumahtangga/{Ibadahrumahtangga:theme}', [IbadahrumahtanggaController::class, 'show']);
 
-Route::get('/ibadahpersekutuan', function() {
-    return view('ibadahpersekutuan', [
-        "title" => "Jadwal Ibadah"
-    ]);
-});
+Route::get('/ibadahpersekutuan', [IbadahpersekutuanController::class, 'index']);
+Route::get('/ibadahpersekutuan/{Ibadahpersekutuan:theme}', [IbadahpersekutuanController::class, 'show']);
 
 Route::get('/doadanpuasa', function() {
     return view('doadanpuasa', [
@@ -98,8 +98,26 @@ Route::get('/doadanpuasa', function() {
     ]);
 });
 
-Route::get('/jadwaldoadanpuasa', function() {
-    return view('jadwaldoadanpuasa', [
+Route::get('/jadwaldoadanpuasa', [JadwaldoadanpuasaController::class, 'index']);
+Route::get('/jadwaldoadanpuasa/{Jadwaldoadanpuasa:theme}', [JadwaldoadanpuasaController::class, 'show']);
+
+Route::get('/doasemalaman', function() {
+    return view('doasemalaman', [
+        "title" => "Layanan"
+    ]);
+});
+
+Route::get('/jadwaldoasemalaman', [JadwaldoasemalamanController::class, 'index']);
+Route::get('/jadwaldoasemalaman/{Jadwaldoasemalaman:theme}', [JadwaldoasemalamanController::class, 'show']);
+
+Route::get('/pencariandana', function() {
+    return view('pencariandana', [
+        "title" => "Layanan"
+    ]);
+});
+
+Route::get('/jadwalpencariandana', function() {
+    return view('jadwalpencariandana', [
         "title" => "Layanan"
     ]);
 });
@@ -142,30 +160,6 @@ Route::get('tabernakel-ii', function() {
 Route::get('tabernakel-i', function() {
     return view('tabernakel-i', [
         "title" => "Info Rohani"
-    ]);
-});
-
-Route::get('/doasemalaman', function() {
-    return view('doasemalaman', [
-        "title" => "Layanan"
-    ]);
-});
-
-Route::get('/jadwaldoasemalaman', function() {
-    return view('jadwaldoasemalaman', [
-        "title" => "Layanan"
-    ]);
-});
-
-Route::get('/pencariandana', function() {
-    return view('pencariandana', [
-        "title" => "Layanan"
-    ]);
-});
-
-Route::get('/jadwalpencariandana', function() {
-    return view('jadwalpencariandana', [
-        "title" => "Layanan"
     ]);
 });
 
@@ -253,6 +247,18 @@ Route::resource('/dashboard/posts', DashboardPostController::class)-> middleware
 Route::resource('/dashboard/penghiburan', DashboardPenghiburanController::class)-> middleware('auth');
 
 Route::resource('/dashboard/ibadahraya', DashboardIbadahrayaController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ibadahpemuda', DashboardIbadahpemudaController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ibadahsekolahminggu', DashboardIbadahsekolahmingguController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ibadahrumahtangga', DashboardIbadahrumahtanggaController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ibadahpersekutuan', DashboardIbadahpersekutuanController::class)-> middleware('auth');
+
+Route::resource('/dashboard/jadwaldoadanpuasa', DashboardJadwaldoadanpuasaController::class)-> middleware('auth');
+
+Route::resource('/dashboard/jadwaldoasemalaman', DashboardJadwaldoasemalamanController::class)-> middleware('auth');
 
 
 

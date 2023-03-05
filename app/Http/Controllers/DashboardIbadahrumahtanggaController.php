@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Ibadahraya;
+use App\Models\Ibadahrumahtangga;
 use Illuminate\Http\Request;
 
-class DashboardIbadahrayaController extends Controller
+class DashboardIbadahrumahtanggaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class DashboardIbadahrayaController extends Controller
      */
     public function index()
     {
-        return view('dashboard.ibadahraya.index', [
-            'ibadahraya' => Ibadahraya::all() 
+        return view('dashboard.ibadahrumahtangga.index', [
+            'ibadahrumahtangga' => Ibadahrumahtangga::all() 
         ]);
     }
 
@@ -26,7 +26,7 @@ class DashboardIbadahrayaController extends Controller
      */
     public function create()
     {
-        return view('dashboard.ibadahraya.create');
+        return view('dashboard.ibadahrumahtangga.create');
     }
 
     /**
@@ -46,34 +46,34 @@ class DashboardIbadahrayaController extends Controller
             'address' => 'required'
         ]);
 
-        Ibadahraya::create($validatedData);
+        Ibadahrumahtangga::create($validatedData);
 
-        return redirect('dashboard/ibadahraya')->with('success', 'Berhasil Menambahkan Ibadah Raya!');
+        return redirect('dashboard/ibadahrumahtangga')->with('success', 'Berhasil Menambahkan Ibadah Rumah Tangga!');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Ibadahrumahtangga  $ibadahrumahtangga
      * @return \Illuminate\Http\Response
      */
-    public function show(Ibadahraya $ibadahraya)
+    public function show(Ibadahrumahtangga $ibadahrumahtangga)
     {
-        return view('dashboard.ibadahraya.show', [
-            'ibadahraya' => $ibadahraya
+        return view('dashboard.ibadahrumahtangga.show', [
+            'ibadahrumahtangga' => $ibadahrumahtangga
         ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Ibadahrumahtangga  $ibadahrumahtangga
      * @return \Illuminate\Http\Response
      */
-    public function edit(Ibadahraya $ibadahraya)
+    public function edit(Ibadahrumahtangga $ibadahrumahtangga)
     {
-        return view('dashboard.ibadahraya.edit', [
-            'ibadahraya' => $ibadahraya
+        return view('dashboard.ibadahrumahtangga.edit', [
+            'ibadahrumahtangga' => $ibadahrumahtangga
         ]);
     }
 
@@ -81,10 +81,10 @@ class DashboardIbadahrayaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Ibadahrumahtangga  $ibadahrumahtangga
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Ibadahraya $ibadahraya)
+    public function update(Request $request, Ibadahrumahtangga $ibadahrumahtangga)
     {
         $rules = [
             'speaker' => 'required',
@@ -95,27 +95,23 @@ class DashboardIbadahrayaController extends Controller
             'address' => 'required',
         ];
 
-        // if($request->theme != $ibadahraya->theme) {
-        //     $rules['ibadahraya'] = 'required|unique:ibadahraya';
-        // }
-
         $validatedData = $request->validate($rules);
 
-        Ibadahraya::where('id', $ibadahraya->id)
+        Ibadahrumahtangga::where('id', $ibadahrumahtangga->id)
             ->update($validatedData);   
 
-        return redirect('/dashboard/ibadahraya')->with('success', 'Berhasil Mengubah Ibadah Raya!');
+        return redirect('/dashboard/ibadahrumahtangga')->with('success', 'Berhasil Mengubah Ibadah Rumah Tangga!');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Ibadahraya  $ibadahraya
+     * @param  \App\Models\Ibadahrumahtangga  $ibadahrumahtangga
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Ibadahraya $ibadahraya)
+    public function destroy(Ibadahrumahtangga $ibadahrumahtangga)
     {
-        Ibadahraya::destroy($ibadahraya->id);
-        return redirect('dashboard/ibadahraya')->with('success', 'Berhasil Menghapus Ibadah Raya!');
+        Ibadahrumahtangga::destroy($ibadahrumahtangga->id);
+        return redirect('dashboard/ibadahrumahtangga')->with('success', 'Berhasil Menghapus Ibadah Rumah Tangga!');  
     }
 }

@@ -30,14 +30,16 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
+              @foreach ($ibadahpersekutuan as $ibadahpersekutuans) 
               <div class="card-ibadahraya">
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Daud Pakiding, S.Th</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Hidup Sesuai Teladan Kristus</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Kamis, 23 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 19:30 WITA</p>
-                <p class="mt-3"><i class="bi bi-pin-map"></i> GESBA Malinau Kota</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahpersekutuans->speaker }}</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahpersekutuans->theme }}</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $ibadahpersekutuans->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $ibadahpersekutuans->time }} WITA</p>
+                <p class="mt-3"><i class="bi bi-pin-map"></i> {{ $ibadahpersekutuans->place }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> {{ $ibadahpersekutuans->address }}</p>
               </div>
+              @endforeach
             </div>    
             </div>      
         </div>

@@ -20,14 +20,13 @@
             </ul>
           </li> --}}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('jadwalibadah') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Jadwal Ibadah</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('jadwalibadah*') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-calendar-event"></i> Jadwal Ibadah</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/dashboard/ibadahraya">Ibadah Raya</a></li>
-            <li><a class="dropdown-item" href="#">Ibadah Pemuda</a></li>
-            <li><a class="dropdown-item" href="#">Ibadah Sekolah Minggu</a></li>
-            {{-- <li><hr class="dropdown-divider"></li> --}}
-            <li><a class="dropdown-item" href="#">Ibadah Rumah Tangga</a></li>
-            <li><a class="dropdown-item" href="#">Ibadah Persekutuan</a></li>
+            <li><a class="dropdown-item" href="/dashboard/ibadahpemuda">Ibadah Pemuda</a></li>
+            <li><a class="dropdown-item" href="/dashboard/ibadahsekolahminggu">Ibadah Sekolah Minggu</a></li>
+            <li><a class="dropdown-item" href="/dashboard/ibadahrumahtangga">Ibadah Rumah Tangga</a></li>
+            <li><a class="dropdown-item" href="/dashboard/ibadahpersekutuan">Ibadah Persekutuan</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -38,11 +37,11 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ Request::is('layanan') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-trello"></i> Layanan</a>
+          <a class="nav-link dropdown-toggle {{ Request::is('layanan*') ? 'active' : '' }}" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-trello"></i> Layanan</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Doa Semalaman</a></li>
-            <li><a class="dropdown-item" href="#">Doa dan Puasa</a></li>
-            <li><a class="dropdown-item" href="#">Pencarian Dana</a></li>
+            <li><a class="dropdown-item" href="/dashboard/jadwaldoasemalaman">Doa Semalaman</a></li>
+            <li><a class="dropdown-item" href="/dashboard/jadwaldoadanpuasa">Doa dan Puasa</a></li>
+            <li><a class="dropdown-item" href="/dashboard/jadwalpencariandana">Pencarian Dana</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

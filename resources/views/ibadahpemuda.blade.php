@@ -24,20 +24,19 @@
             <button class="button-ibadahraya mt-4 mb-3 me-2">
               <img src="Vector1.png" alt="">
             </button>
-            {{-- <button class="button-ibadahraya mt-4 mb-3">
-                <img src="icons8-calendar-48.png" alt="" class="img-calendar">
-              </button> --}}
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
+              @foreach ($ibadahpemuda as $ibadahpemudas) 
               <div class="card-ibadahraya">
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Agustina Mandi'</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Generasi Penerang</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Jumat, 24 Februari 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 19:30 WITA</p>
-                <p class="mt-3"><i class="bi bi-pin-map"></i> GESBA Malinau Kota</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahpemudas->speaker }}</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahpemudas->theme }}</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $ibadahpemudas->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $ibadahpemudas->time }} WITA</p>
+                <p class="mt-3"><i class="bi bi-pin-map"></i> {{ $ibadahpemudas->place }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> {{ $ibadahpemudas->address }}</p>
               </div>
+              @endforeach
             </div>    
             </div>      
         </div>

@@ -24,22 +24,21 @@
             <button class="button-ibadahraya mt-4 mb-3 me-2">
               <img src="Vector1.png" alt="">
             </button>
-            {{-- <button class="button-ibadahraya mt-4 mb-3">
-                <img src="icons8-calendar-48.png" alt="" class="img-calendar">
-              </button> --}}
           </div>
           <div class="row mt-3">
             <div class="col-md-12">
+              @foreach ($ibadahsekolahminggu as $ibadahsekolahminggus) 
               <div class="card-ibadahraya">
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; Pdt. Agustina Mandi'</p>
-                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; Yunus di Perut Ikan</p>
-                <p class="mt-3"><i class="bi bi-calendar-event"></i> Minggu, 5 Maret 2023</p>                
-                <p class="mt-3"><i class="bi bi-clock"></i> Pukul 07:30 WITA</p>
-                <p class="mt-3"><i class="bi bi-pin-map"></i> GESBA Malinau Kota</p>
-                <p class="mt-3"><i class="bi bi-geo-alt"></i> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Pembicara : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahsekolahminggus->speaker }}</p>
+                <p class="mt-3"><i class="bi bi-person-circle"></i> Tema : <br>&nbsp;&nbsp;&nbsp;&nbsp; {{ $ibadahsekolahminggus->theme }}</p>
+                <p class="mt-3"><i class="bi bi-calendar-event"></i> {{ $ibadahsekolahminggus->date }}</p>                
+                <p class="mt-3"><i class="bi bi-clock"></i> Pukul {{ $ibadahsekolahminggus->time }} WITA</p>
+                <p class="mt-3"><i class="bi bi-pin-map"></i> {{ $ibadahsekolahminggus->place }}</p>
+                <p class="mt-3"><i class="bi bi-geo-alt"></i> {{ $ibadahsekolahminggus->address }}</p>
               </div>
+              @endforeach
             </div>    
-            </div>      
+          </div>      
         </div>
       </div>
     </div>
