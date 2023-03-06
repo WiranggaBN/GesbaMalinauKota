@@ -16,7 +16,7 @@ class DashboardPemberkatannikahController extends Controller
     {
         return view('dashboard.pemberkatannikah.index', [
             'pemberkatannikah' => Pemberkatannikah::all() 
-        ]);
+        ]);   
     }
 
     /**

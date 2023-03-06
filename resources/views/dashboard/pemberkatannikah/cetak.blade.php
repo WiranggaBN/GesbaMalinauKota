@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Pemberkatan Nikah</h1>
+        <h1 class="h2">Cetak Pemberkatan Nikah</h1>
     </div>
 
     <div class="col-6">
@@ -15,7 +15,6 @@
     </div>
 
     <div class="table-responsive col-lg-12">
-      <a href="/dashboard/pemberkatannikah/cetak" class="btn text-light mb-3"><i class="bi bi-printer"></i> Cetak Pemberkatan Nikah</a>
         <table class="table table-striped table-sm">
           <thead>
             <tr>

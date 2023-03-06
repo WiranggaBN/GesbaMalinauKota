@@ -26,7 +26,7 @@
           @if ($posts->count())
           <div class="card mb-3">
             {{-- <img src="https://source.unsplash.com/1200x300/?{{ $posts[0]->title }}" class="card-img-top" alt="..."> --}}
-            <img src="https://source.unsplash.com/1200x300?spiritual" class="card-img-top" alt="{{ $posts[0]->slug }}">
+            {{-- <img src="https://source.unsplash.com/1200x300?spiritual" class="card-img-top" alt="{{ $posts[0]->slug }}"> --}}
             <div class="card-body text-center">
               <h3 class="card-title"><a href="/posts/{{ $posts[0]->slug }}" class="text-decoration-none text-dark">{{ $posts[0]->title }}</a></h3>
               <p class="text-center"><small>{{ $posts[0]->date }}</small></p>
@@ -45,7 +45,7 @@
               @foreach ($posts->skip(1) as $post)
               <div class="col-md-4 mb-3">
                 <div class="card">
-                  <img src="https://source.unsplash.com/300x200?{{ $post->excerpt }}" class="card-img-top" alt="{{ $post->slug }}">
+                  {{-- <img src="https://source.unsplash.com/300x200?{{ $post->excerpt }}" class="card-img-top" alt="{{ $post->slug }}"> --}}
                   <div class="card-body">
                     <h5 class="card-title">{{ $post->title }}</h5>
                     <p class="card-text">{{ $post->excerpt }}</p>

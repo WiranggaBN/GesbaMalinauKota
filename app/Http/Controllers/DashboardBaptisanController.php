@@ -17,7 +17,7 @@ class DashboardBaptisanController extends Controller
         return view('dashboard.baptisan.index', [
             'baptisan' => Baptisan::all() 
         ]);
-    }
+    }  
 
     /**
      * Show the form for creating a new resource.

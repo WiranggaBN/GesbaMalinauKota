@@ -27,6 +27,7 @@ use App\Http\Controllers\DashboardSejarahController;
 use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
+use App\Http\Controllers\DashboardBaptisancetakController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\IbadahpersekutuanController;
 use App\Http\Controllers\IbadahrumahtanggaController;
@@ -182,6 +183,7 @@ Route::post('/halpenyerahananak', [PenyerahananakController::class, 'store']);
 
 Route::get('/baptisan', [BaptisanController::class, 'index']);
 Route::post('/baptisan', [BaptisanController::class, 'store']);
+Route::get('/dashboard/baptisan/cetak', [DashboardBaptisancetakController::class, 'cetak']);
 
 Route::get('/penghiburan', [PenghiburanController::class, 'index']);
 Route::post('/penghiburan', [PenghiburanController::class, 'store']);

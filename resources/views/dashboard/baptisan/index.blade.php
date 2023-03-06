@@ -15,6 +15,7 @@
     </div>
 
     <div class="table-responsive col-lg-10">
+      <a href="/dashboard/baptisan/cetak" target="_blank" class="btn text-light mb-3"><i class="bi bi-printer"></i> Cetak Baptisan</a>
         <table class="table table-striped table-sm">
           <thead>
             <tr>

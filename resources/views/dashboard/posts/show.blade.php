@@ -22,7 +22,7 @@
                 <p>Ayat Pokok : <b> {{ $post->main_verse }} </b></p>
                 <p>Pembicara : <b> {{ $post->speaker }} </b></p>
                 <hr>
-                <img src="https://source.unsplash.com/1200x300?{{ $post->excerpt }}" class="card-img-top mb-2" alt="{{ $post->slug }}">
+                {{-- <img src="https://source.unsplash.com/1200x300?{{ $post->excerpt }}" class="card-img-top mb-2" alt="{{ $post->slug }}"> --}}
                 
                 {!! $post->body !!}
               </div>
