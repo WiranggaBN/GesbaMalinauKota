@@ -27,7 +27,6 @@ use App\Http\Controllers\DashboardSejarahController;
 use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
-use App\Http\Controllers\DashboardBaptisancetakController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\IbadahpersekutuanController;
 use App\Http\Controllers\IbadahrumahtanggaController;
@@ -41,16 +40,21 @@ use App\Http\Controllers\DashboardPenghiburanController;
 use App\Http\Controllers\DashboardIbadahpemudaController;
 use App\Http\Controllers\DashboardKunjungandoaController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+use App\Http\Controllers\DashboardBaptisancetakController;
 use App\Http\Controllers\DashboardGembalasidangController;
 use App\Http\Controllers\DashboardPenyerahananakController;
 use App\Http\Controllers\DashboardMateripengajaranController;
 use App\Http\Controllers\DashboardPemberkatannikahController;
+use App\Http\Controllers\DashboardPenghiburancetakController;
 use App\Http\Controllers\DashboardIbadahpersekutuanController;
 use App\Http\Controllers\DashboardIbadahrumahtanggaController;
 use App\Http\Controllers\DashboardJadwaldoadanpuasaController;
+use App\Http\Controllers\DashboardKunjungandoacetakController;
 use App\Http\Controllers\DashboardJadwaldoasemalamanController;
 use App\Http\Controllers\DashboardIbadahsekolahmingguController;
 use App\Http\Controllers\DashboardJadwalpencariandanaController;
+use App\Http\Controllers\DashboardPenyerahananakcetakController;
+use App\Http\Controllers\DashboardPemberkatannikahcetakController;
 
 /*
 |--------------------------------------------------------------------------
@@ -171,6 +175,7 @@ Route::get('/pemberkatannikah', function() {
 
 Route::get('/halpemberkatannikah', [PemberkatannikahController::class, 'index']);
 Route::post('/halpemberkatannikah', [PemberkatannikahController::class, 'store']);
+Route::get('/dashboard/pemberkatannikah/cetak', [DashboardPemberkatannikahcetakController::class, 'cetak']);
 
 Route::get('/penyerahananak', function() {
     return view('penyerahananak', [
@@ -180,6 +185,7 @@ Route::get('/penyerahananak', function() {
 
 Route::get('/halpenyerahananak', [PenyerahananakController::class, 'index']);
 Route::post('/halpenyerahananak', [PenyerahananakController::class, 'store']);
+Route::get('/dashboard/penyerahananak/cetak', [DashboardPenyerahananakcetakController::class, 'cetak']);
 
 Route::get('/baptisan', [BaptisanController::class, 'index']);
 Route::post('/baptisan', [BaptisanController::class, 'store']);
@@ -187,9 +193,11 @@ Route::get('/dashboard/baptisan/cetak', [DashboardBaptisancetakController::class
 
 Route::get('/penghiburan', [PenghiburanController::class, 'index']);
 Route::post('/penghiburan', [PenghiburanController::class, 'store']);
+Route::get('/dashboard/penghiburan/cetak', [DashboardPenghiburancetakController::class, 'cetak']);
 
 Route::get('/kunjungandoa', [KunjungandoaController::class, 'index']);
 Route::post('/kunjungandoa', [KunjungandoaController::class, 'store']);
+Route::get('/dashboard/kunjungandoa/cetak', [DashboardKunjungandoacetakController::class, 'cetak']);
 
 Route::get('/persembahan', function() {
     return view('persembahan', [

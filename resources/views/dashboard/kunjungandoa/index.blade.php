@@ -15,6 +15,7 @@
     </div>
 
     <div class="table-responsive col-lg-12">
+      <a href="/dashboard/kunjungandoa/cetak" target="_blank" class="btn text-light mb-3"><i class="bi bi-printer"></i> Cetak Kunjungan Doa</a>
         <table class="table table-striped table-sm">
           <thead>
             <tr>

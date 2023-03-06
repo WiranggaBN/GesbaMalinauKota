@@ -15,7 +15,7 @@
     </div>
 
     <div class="table-responsive col-lg-12">
-      <a href="/dashboard/pemberkatannikah/cetak" class="btn text-light mb-3"><i class="bi bi-printer"></i> Cetak Pemberkatan Nikah</a>
+      <a href="/dashboard/pemberkatannikah/cetak" target="_blank" class="btn text-light mb-3"><i class="bi bi-printer"></i> Cetak Pemberkatan Nikah</a>
         <table class="table table-striped table-sm">
           <thead>
             <tr>
