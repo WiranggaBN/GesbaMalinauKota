@@ -23,6 +23,7 @@
                         <th scope="col">Nama Mempelai Wanita</th>
                         <th scope="col">Status Mempelai Pria</th>
                         <th scope="col">Status Mempelai Wanita</th>
+                        <th scope="col">Tanggal Pernikahan</th>
                         <th scope="col">No. HP / Whatsapp Mempelai Pria</th>
                         <th scope="col">No. HP / Whatsapp Mempelai Wanita</th>
                         <th scope="col">Email Mempelai Pria</th>
@@ -37,6 +38,7 @@
                         <td>{{ $pemberkatannikah->brides_name }}</td>
                         <td>{{ $pemberkatannikah->status_grooms }}</td>
                         <td>{{ $pemberkatannikah->status_brides }}</td>
+                        <td>{{ $pemberkatannikah->date_wedding }}</td>
                         <td>{{ $pemberkatannikah->phone_grooms }}</td>
                         <td>{{ $pemberkatannikah->phone_brides }}</td>
                         <td>{{ $pemberkatannikah->email_grooms }}</td>

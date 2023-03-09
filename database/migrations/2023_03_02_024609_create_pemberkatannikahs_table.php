@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('brides_name');
             $table->string('status_grooms');
             $table->string('status_brides');
+            $table->string('date_wedding');
             $table->string('phone_grooms');
             $table->string('phone_brides');
             $table->string('email_grooms');

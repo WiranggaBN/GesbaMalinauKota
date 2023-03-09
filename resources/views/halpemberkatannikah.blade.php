@@ -84,6 +84,15 @@
                             </div>
                           @enderror                  
                       </div>
+                      <div class="col-12">
+                        <label for="join" class="form-label">Tanggal Pernikahan</label>
+                            <input type="datetime-local" class="form-control @error('date_wedding') is-invalid @enderror" name="date_wedding" id="date_wedding" required>
+                            @error('date_wedding')
+                            <div class="invalid-feedback">  
+                              {{ $message }}
+                            </div>
+                            @enderror
+                      </div>
                       <div class="col-6">
                         <label for="inputNama" class="form-label">No. HP / Whatsapp Mempelai Pria</label>
                         <input type="text" name="phone_grooms" class="form-control @error('phone_grooms') is-invalid @enderror" id="phone_grooms" placeholder="" required value="{{ old('phone_grooms') }}">

@@ -23,6 +23,7 @@ class PemberkatannikahController extends Controller
             'brides_name' => 'required|max:255',
             'status_grooms' => 'required',
             'status_brides' => 'required',
+            'date_wedding' => 'required|date_format:"Y-m-d"',
             'phone_grooms' => 'required|min:8|max:14|regex:/^([0-9\s\-\+\(\)]*)$/',
             'phone_brides' => 'required|min:8|max:14|regex:/^([0-9\s\-\+\(\)]*)$/',
             'email_grooms' => 'required|email:dns',
