@@ -89,8 +89,8 @@
 <main class="form-register w-100 m-auto">
   <form action="/register" method="post">
     @csrf
-    <img class="mb-4" src="logo.png" alt="" width="120" height="120">
-    <h1 class="h3 mb-3 fw-normal">Silahkan Mendaftar</h1>
+    <img class="mb-2" src="logo.png" alt="" width="120" height="120">
+    <h1 class="h3 mb-2 fw-normal">Silahkan Mendaftar</h1>
     <div class="form-floating">
         <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Masukkan nama anda" required autofocus value="{{ old('name') }}">
         <label for="floatingPassword"> Nama</label>
@@ -127,9 +127,18 @@
         </div>
         @enderror
     </div>
+    <div class="form-floating mb-2">
+      <input type="password" name="password_confirmation" class="form-control @error('password_confirmation') is-invalid @enderror" id="password_confirmation" placeholder="Konfirmasi Password" required>
+      <label for="floatingPassword"> Konfirmasi Sandi</label>
+        @error('password_confirmation')
+        <div class="invalid-feedback">
+            {{ $message }}
+        </div>
+        @enderror
+    </div>
     <button class="masuk w-100 btn btn-lg btn-primary" type="submit">Daftar</button>
     <small>Sudah mendaftar?<a href="/login" class="daftar"> Masuk.</a></small>
-    <p class="mt-2 mb-3 text-muted">&copy; 2023</p>
+    <p class="mt-1 mb-1 text-muted">&copy; 2023</p>
   </form>
 </main>
 

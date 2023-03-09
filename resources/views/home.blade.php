@@ -7,10 +7,10 @@
     <div class="container d-flex position-absolute w-100">
       <div class="row">
         <div class="col-md-12">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleAutoplaying" class="carousel slider" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="Sider follow.jpg" class="d-block" alt="...">
+                <img src="slidersatu.jpg" class="d-block" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="Slide-Profil.jpg" class="d-block" alt="...">
