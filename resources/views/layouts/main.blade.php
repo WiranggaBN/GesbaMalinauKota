@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/masuk.css">
     @stack('style')
 
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="cb8789e1-4920-486c-8496-b69486eb881c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    {{-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="cb8789e1-4920-486c-8496-b69486eb881c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> --}}
 
     <title>GESBA | {{ $title }}</title>
 </head>
