@@ -23,10 +23,9 @@
                 <div class="persyaratan col-md-12">
                   <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan Umum</h4>
                   <ol>
-                    <li><strong>Penyerahan Anak</strong> baru dapat dijalankan jika jumlah pendaftar <strong>minimal 5 peserta</strong>.</li>
                     <li>Mengisi e-form dengan lengkap</li>
-                    <li>Menyerahkan Pas Foto berwarna anak <strong>ukuran 3x4 sebanyak 2 (dua) lembar</strong>, untuk sertifikat Penyerahan Anak, <strong>dengan menuliskan nama anak di belakang</strong> di counter secretariat cabang masing-masing. Atau dapat dikirim ke alamat sbb:</li>
-                    <pre class="batam mt-1"> Sekretariat GESBA Malinau Kota <br> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara <br> Up. Grace Natalia / Yemima.</pre>
+                    <li>Menyerahkan Pas Foto berwarna anak ukuran 3x4 sebanyak 2 (dua) lembar, untuk sertifikat Penyerahan Anak, dengan menuliskan nama anak di belakang di counter secretariat. Atau dapat dikirim ke alamat sbb:</li>
+                    <pre class="batam mt-1"> Sekretariat GESBA Malinau Kota <br> Jl. Pasar Induk Gang Gesba RT.20, Kec. Malinau Kota, Kabupaten Malinau, Kalimantan Utara <br> Up. Murni / Palma.</pre>
                     <li>Melampirkan :</li>
                     <ol>
                         <li>Foto Keluarga dengan minimal resolusi 1920 x 1080 pxl dengan ketentuan:</li>

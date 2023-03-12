@@ -14,6 +14,13 @@ class HubungikamiController extends Controller
         ]);
     }
 
+    // public function show(Hubungikami $hubungikamis)
+    // {
+    //     return view('hubungikami', [
+    //         "hubungikami" => $hubungikamis
+    //     ]);
+    // }
+
     public function store(Request $request) 
     {
         $validatedData = $request->validate([

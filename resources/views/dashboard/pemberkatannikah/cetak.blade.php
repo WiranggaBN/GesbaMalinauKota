@@ -10,6 +10,17 @@
       position: relative;
       border: 1px solid #000;
     }
+
+    .mengetahui {
+      margin-top: 15px;
+      text-align: center;
+      /* margin-left: 700px; */
+    }
+
+    .ttd {
+      height: 50px;
+      width: 50px;
+    }
   </style>
   <title>GESBA | Dashboard</title>
 </head>
@@ -48,6 +59,13 @@
         </tr>
         @endforeach
     </table>
+  </div>
+
+  <div class="mengetahui">
+    Malinau, {{ date('d M Y') }}<br>
+    Bidang Pernikahan (BPPN)<br>
+    <img src="../../ttd.png" alt="" class="ttd"><br>
+    <b>Rispan</b>
   </div>
 
 <script type="text/javascript">

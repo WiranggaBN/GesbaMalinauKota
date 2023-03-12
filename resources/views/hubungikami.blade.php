@@ -111,6 +111,21 @@
 </section>
 {{-- Content Section --}}
 
+{{-- Comment Section --}}
+<div id="komentar-hubungikami">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        
+        {{-- @foreach ($hubungikami as $hubungikamis) 
+          {{ $hubungikamis->pesan }}
+        @endforeach
+      </div> --}}
+    </div>
+  </div>
+</div>
+{{-- Comment Section --}}
+
 {{-- Bg Pattern Bottom Section --}}
 <section id="bottom-sejarah">
     <div class="container-fluid">

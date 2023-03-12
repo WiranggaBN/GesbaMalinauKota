@@ -206,6 +206,7 @@ Route::get('/persembahan', function() {
 });
 
 Route::get('/hubungikami', [HubungikamiController::class, 'index']);
+// Route::get('/hubungikami/{hubungikamis:name}', [HubungikamiController::class, 'show']);
 Route::post('/hubungikami', [HubungikamiController::class, 'store']);
 
 Route::get('/masuk', [MasukController::class, 'index'])->name('masuk')->middleware('guest');

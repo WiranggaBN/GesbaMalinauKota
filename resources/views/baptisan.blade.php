@@ -27,11 +27,7 @@
                     <h4 class="mt-4"><i class="bi bi-caret-right-fill"></i> Persyaratan</h4>
                       <ol>
                         <li>Membawa Pas foto 3 x 4 (2 lembar) ditulis nama dibelakang foto</li>
-                        <li>Menggunakan Masker Medis</li>
-                        
-                        <li>Membawa Hand Sanitizer</li>
-                        <li>Peserta wajib mengikuti pengarahan Baptisan melalui ZOOM 3 hari sebelum pelaksanaan Baptisan Air</li>
-                        <li>Format penulisan di ZOOM : NAMA (Sesuai KTP) - Cabang/Asal Gereja. Contoh : <br> Jack - GESBA <br> Dana Permana - Non Jemaat</li>
+                        <li>Peserta wajib mengikuti pengarahan Baptisan di Gereja selama 3 hari sebelum pelaksanaan Baptisan Air</li>
                         <li>Jika peserta tidak mengikuti Pengarahan Baptisan Air, maka tidak dapat mengikuti Sakramen Baptisan Air</li>
                         <li>Bersedia untuk menandatangani surat pernyataan sehat.</li>
                         <li>Pendamping maks. 1 orang, khusus bagi Peserta yang Lanjut Usia (> 70 thn) / handicapped / dibawah 17 tahun.</li>

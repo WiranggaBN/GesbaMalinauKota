@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('telp');
             $table->string('email')->unique();
             $table->string('pesan');
+            $table->binary('foto_profil')->nullable();
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });

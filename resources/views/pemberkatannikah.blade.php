@@ -29,11 +29,9 @@
                   Mendaftar min. 6 bulan sebelumnya dan mengisi formulir.
                 </p>
                   <ol>
-                    <li>Fotocopy KAJ/KKJ masing-masing 1 lembar</li>
-                    <li>Fotocopy surat Baptis, masing-masing 1 lembar</li>        
+                    <li>Fotocopy surat Baptis, masing-masing 1 lembar</li>
                     <li>Surat pernyataan persetujuan dari orang tua kedua belah pihak, bermaterai (Rp. 10.000,-)</li>
-                    <li>Fotocopy N1-N4 masing-masing dari Kelurahan</li>
-                    <li>Fotocopy Kartu Keluarga masing-masing 1 lembar</li>
+                    <li>Fotocopy Kartu Keluarga masing-masing 1 lembar</li>        
                     <li>Fotocopy Akte Kelahiran, masing-masing 1 lembar</li>
                     <li>Foto bersama/Foto gandeng uk. 6x4 sebanyak 4 lembar</li>
                     <li>Foto Pre-Wedding (min. 5 foto berupa softcopy) untuk ditampilkan saat pengumuman dan acara pemberkatan</li>
@@ -46,7 +44,7 @@
                   </p>
                   <p>
                     Bidang Pernikahan (BPPN), dapat menghubungi: <br>
-                    Jeffrida Harianja <br>
+                    Rispan <br>
                     Telp. 0819 791 2007 <br>
                   </p>
                   <hr class="m-t-20 m-b-20">
