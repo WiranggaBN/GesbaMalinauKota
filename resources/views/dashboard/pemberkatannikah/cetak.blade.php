@@ -63,7 +63,7 @@
 
   <div class="mengetahui">
     Malinau, {{ date('d M Y') }}<br>
-    Bidang Pernikahan (BPPN)<br>
+    Koordinator Sosial dan Diakonia<br>
     <img src="../../ttd.png" alt="" class="ttd"><br>
     <b>Rispan</b>
   </div>
