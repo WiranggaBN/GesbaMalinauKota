@@ -21,9 +21,9 @@
       <div class="container">
         <div class="row">
           <div>
-            <button class="button-visimisi mt-4 mb-3">
-              <img src="Vector1.png" alt="">
-            </button>
+            <a href="/"><button class="button-sejarah mt-4 mb-3">
+              <img src="../Vector1.png" alt="">
+          </button></a>
           </div>
           {{-- @foreach ($visimisi as $visimisis)
           <div class="col-md-6 text-center">          

@@ -32,7 +32,7 @@
           <hr>
           <img src="../kpk6.jpg" alt="" class="gambarsatu mt-2"><br>
           <p class="mt-2 text-center">{{ $materipengajaran->title_image }}</p>
-          {!! $materipengajaran->excerpt !!}<a href="/kpksatu" class="text-decoration-none"> Lanjutkan membaca...</a>
+          {!! $materipengajaran->excerpt !!}<a href="/tabernakel-i" class="text-decoration-none"> Lanjutkan membaca...</a>
         </div>
         @endforeach --}}
         <div class="mt-5">
@@ -68,7 +68,7 @@
           <p class="text-justify">abernakel diambil dari bahasa asing bumi belahan barat yang diterjemahkan Rumah Allah. Rumah Sembahyang Baitulmukadis.Tabernakel ini dibangun berdasarkan hikmat Allah yang ditujukan kepada Nabi Musa tatkala Nabi Musa bersekutu dengan Tuhan. Hendaklah diketahui bahwa hikmat Allah itu menjadi kebodohan bagi manusia, 1 Korintus 1:21.<a href="/tabernakel-i" class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">PELAJARAN ROH KUDUS</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">PELAJARAN ROH KUDUS</h3></a>
           <hr>
           <img src="kpk4.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">PELAJARAN ROH KUDUS</p>
@@ -84,51 +84,51 @@
             <li>kesempurnaan.</li>
           </ol>
           Dalam susunan Tabernakel :
-          <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">LAMBANG PENYERAHAN DIRI</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">LAMBANG PENYERAHAN DIRI</h3></a>
           <hr>
           <img src="kpk5.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">LAMBANG PENYERAHAN DIRI</p>
-          <p class="text-justify">Tuhan Yesus memberi kita 2 lambang penyerahan diri yg besar. Keduanya terbuat dari kayu. Yang satu adalah  Salib dan lainnya adalah Kuk. Salib dan Kuk melambangkan 2 aspek penyerahan diri yg berbeda. Salib merupakan alat kematian; kuk merupakan alat untuk bekerja keras. Salib merupakan lambang pengorbanan; Kuk merupakan lambang pelayanan. Salib mengingatkan kita pada darah; Kuk mengingatkan kita pada keringat. Penyerahan diri Kristen itu berarti siap memikul Salib dan siap Memikul Kuk. Jadi siap mati bagi Kristus dan siap memeras keringat / bekerja keras bagi Kristus. Luk. 9:23 ; Mat. 11 : 29. Tuhan Yesus tidak hanya mengajak kita datang kepadaNya, tetapi juga menyuruh kita untuk memikul KukNya sehingga kita bisa belajar kepadaNya. Mat. 11:28-29.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <p class="text-justify">Tuhan Yesus memberi kita 2 lambang penyerahan diri yg besar. Keduanya terbuat dari kayu. Yang satu adalah  Salib dan lainnya adalah Kuk. Salib dan Kuk melambangkan 2 aspek penyerahan diri yg berbeda. Salib merupakan alat kematian; kuk merupakan alat untuk bekerja keras. Salib merupakan lambang pengorbanan; Kuk merupakan lambang pelayanan. Salib mengingatkan kita pada darah; Kuk mengingatkan kita pada keringat. Penyerahan diri Kristen itu berarti siap memikul Salib dan siap Memikul Kuk. Jadi siap mati bagi Kristus dan siap memeras keringat / bekerja keras bagi Kristus. Luk. 9:23 ; Mat. 11 : 29. Tuhan Yesus tidak hanya mengajak kita datang kepadaNya, tetapi juga menyuruh kita untuk memikul KukNya sehingga kita bisa belajar kepadaNya. Mat. 11:28-29.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">RAHASIA PEMBANGUNAN GEREJA HUJAN AWAL & GEREJA HUJAN AKHIR</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">RAHASIA PEMBANGUNAN GEREJA HUJAN AWAL & GEREJA HUJAN AKHIR</h3></a>
           <hr>
           <img src="kpk7.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">HAGAI 2:10</p>
-          <p class="text-justify">Adapun  Rumah ini, kemegahannya yang kemudian akan melebihi kemegahannya yang semula, Firman Tuhan semesta alam, dan ditempat ini Aku akan member damai sejahtera, demikianlah Firman Tuhan semesta alam. Hal ini berbicara tentang Kaabah Solaiman dan Kaabah Zerubabel. Kaabah Solaiman adalah Kaabah yang paling inidah yang dibuat oleh Raja Solaiman untuk Allah berdasarkan petunjuk Tuhan kepada ayahnya Daud. Raja Daud tidak diizinkan membangun Kaabah karena pada masa pemerintahannya dia banyak menumpahkan darah. Tapi Allah mempercayakan anaknya Solaiman yang menggantikan dia sebagai Raja bagi bangsa Israel, sebab itu dinamakan Kaabah Solaiman. Dia dikarunikan Allah akal budi dan pengertian yang luar biasa perh. 1Raja 4:29-34, hikmatnya hampir sama dengan Adam saat ditaman Eden selagi Adam belum jatuh dalam dosa Kej. 1:28-31; Kej. 2:19-20. Sebab itu Raja Solaiman dikatan raja hikmat , dan memerintah bangsa Israel selama 40 th 1Raja 11:42. Setelah dia mati diganti oleh anaknya Rehabeam 1Raja 11:43.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <p class="text-justify">Adapun  Rumah ini, kemegahannya yang kemudian akan melebihi kemegahannya yang semula, Firman Tuhan semesta alam, dan ditempat ini Aku akan member damai sejahtera, demikianlah Firman Tuhan semesta alam. Hal ini berbicara tentang Kaabah Solaiman dan Kaabah Zerubabel. Kaabah Solaiman adalah Kaabah yang paling inidah yang dibuat oleh Raja Solaiman untuk Allah berdasarkan petunjuk Tuhan kepada ayahnya Daud. Raja Daud tidak diizinkan membangun Kaabah karena pada masa pemerintahannya dia banyak menumpahkan darah. Tapi Allah mempercayakan anaknya Solaiman yang menggantikan dia sebagai Raja bagi bangsa Israel, sebab itu dinamakan Kaabah Solaiman. Dia dikarunikan Allah akal budi dan pengertian yang luar biasa perh. 1Raja 4:29-34, hikmatnya hampir sama dengan Adam saat ditaman Eden selagi Adam belum jatuh dalam dosa Kej. 1:28-31; Kej. 2:19-20. Sebab itu Raja Solaiman dikatan raja hikmat , dan memerintah bangsa Israel selama 40 th 1Raja 11:42. Setelah dia mati diganti oleh anaknya Rehabeam 1Raja 11:43.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DUKA CITA KUDUS</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">DUKA CITA KUDUS</h3></a>
           <hr>
           <img src="kpk8.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">2Korintus 7:10</p>
           <p class="text-center">Sebab dukacita menurut kehendak Allah menghasilkan pertobatan yang membawa keselamatan dan yang tidak akan disesalkan, tetapi dukacita yang dari dunia ini menghasilkan kematian.</p>
-          <p class="text-justify">Tangisan adalah suatu hal yang universal, hal ini terjadi sejak manusia jatuh dalam dosa. Tangian tidak mengenal siapapun, apakah dia anak kecil, remaja, pemuda, orang tua ataupun kakek nenek dalam segala lapisan masyarakat, pendidikan, kedudukan, sosial budaya, suku, bangsa manapun  yang ada didunia semua mengalaminya.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <p class="text-justify">Tangisan adalah suatu hal yang universal, hal ini terjadi sejak manusia jatuh dalam dosa. Tangian tidak mengenal siapapun, apakah dia anak kecil, remaja, pemuda, orang tua ataupun kakek nenek dalam segala lapisan masyarakat, pendidikan, kedudukan, sosial budaya, suku, bangsa manapun  yang ada didunia semua mengalaminya.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DILEMA PEMUDA AKHIR ZAMAN</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">DILEMA PEMUDA AKHIR ZAMAN</h3></a>
           <hr>
           <img src="kpk9.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="text-justify mt-2">Manusia diciptakan Allah pada hari yang ke enam,  setelah Allah menciptakan langit, bumi, laut dan sekalian isinya. Allah menempatkan manusia yaitu Adam dan Hawa di taman Eden dimana semua kebutuhan mereka telah disediakan.
 
-            Kemudian Allah berfirman kepada Adam : Adapun buah-buah segala pohon yang dalam Taman ini  boleh engkau makan sesuka mu. Tetapi buah pohon pengetahuan akan hal baik dan jahat itu jangan engkau makan, karena pada hari engkau makan dari padanya engkau akan mati Kej. 2:16-17.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+            Kemudian Allah berfirman kepada Adam : Adapun buah-buah segala pohon yang dalam Taman ini  boleh engkau makan sesuka mu. Tetapi buah pohon pengetahuan akan hal baik dan jahat itu jangan engkau makan, karena pada hari engkau makan dari padanya engkau akan mati Kej. 2:16-17.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">TABERNAKEL DIHUBUNGKAN DENGAN 7 TINGKAT IMAN</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">TABERNAKEL DIHUBUNGKAN DENGAN 7 TINGKAT IMAN</h3></a>
           <hr>
           <img src="kpk10.jpg" alt="" class="gambarsatudua mt-2"><br>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">KERANG MUTIARA</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">KERANG MUTIARA</h3></a>
           <hr>
           <img src="kpk11.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="text-justify mt-2">Pada suatu hari seekor anak kerang di dasar laut mengadu kepada ibunya kerana sebutir pasir yang tajam memasuki tubuhnya yang merah dan lembek.<br><br> “Anakku…”kata ibunya sambil bercucuran air mata..<br><br> “Tuhan tidak memberikan pada kita bangsa kerang sebuah tanganpun, sehingga ibu tak mampu menolongmu. Aku tahu anakku, ia sangat sakit, tetapi terimalah itu sebagai takdir alam.” <br><br> ” Kuatkan hatimu. Jangan terlalu lincah lagi. Kerahkan semangatmu melawan rasa ngilu dan pedih yang menggigit. Balutlah pasir itu dengan getah perutmu.” <br><br> “Hanya itu yang boleh kau buat..” kata ibunya dengan sendu dan lembut. Anak kerang pun melakukan nasihat ibunya.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <p class="text-justify mt-2">Pada suatu hari seekor anak kerang di dasar laut mengadu kepada ibunya kerana sebutir pasir yang tajam memasuki tubuhnya yang merah dan lembek.<br><br> “Anakku…”kata ibunya sambil bercucuran air mata..<br><br> “Tuhan tidak memberikan pada kita bangsa kerang sebuah tanganpun, sehingga ibu tak mampu menolongmu. Aku tahu anakku, ia sangat sakit, tetapi terimalah itu sebagai takdir alam.” <br><br> ” Kuatkan hatimu. Jangan terlalu lincah lagi. Kerahkan semangatmu melawan rasa ngilu dan pedih yang menggigit. Balutlah pasir itu dengan getah perutmu.” <br><br> “Hanya itu yang boleh kau buat..” kata ibunya dengan sendu dan lembut. Anak kerang pun melakukan nasihat ibunya.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">Wahyu pasal 2 & 3, 7 Sidang Jemaat di Asia kecil</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">Wahyu pasal 2 & 3, 7 Sidang Jemaat di Asia kecil</h3></a>
           <hr>
           <img src="kpk12.png" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">WAHYU PASAL DUA</p>
@@ -146,10 +146,10 @@
             <li>Kedua Yohanes</li>
             <li>Ketiga Yohanes</li>
           </ol>
-          <a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">ARAHKAN KE ZION</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">ARAHKAN KE ZION</h3></a>
           <hr>
           <img src="kpk13.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">ARAHKAN KE ZION <br>
@@ -160,10 +160,10 @@
               <li>Kerajaan Yehuda diselatan dengan ibu kota Yerusalem</li>
             </ol>
             Kerajaan Israel terbagi dua tatkala Raja Solaiman wafat. Pada mulanya Kerajaan Yehuda ini berjalan dengan baik dengan berpegang pada hukum Torat dan Syariatnya, mereka tetap menjalankan ibadah kepada Tuhan. Yerusalem sebagai pusat pemerintahan dan tempat kedudukan Raja, sekaligus sebagai pusat kegiatan beribadah, karena di Yerusalem berdiri Kaabah Solaiman yang megah.
-          <a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">RAHASIA KITAB WAHYU</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">RAHASIA KITAB WAHYU</h3></a>
           <hr>
           <img src="kpk14.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">KITAB WAHYU</p>
@@ -173,10 +173,10 @@
             
             Pendahuluan :<br><br>
             
-            Judul yang sesungguhnya dari kitab ini adalah : Wahyunya Aku [ Tuhan Yesus ] bukan Wahyunya Yohanes. Rasul Ku Yohanes menerima wahyu ini dari Aku tatkala rasul Ku ini diasingkan / dibuang ke pulau Patmos karena menyaksikan kebenaran Firman Ku [ lihat peta, letaknya pulau Patmos di Asia kecil dilaut tengah ]. Dipulau Patmos inilah Aku menunjukkan kepadanya melalui wahyu / penglihatan hal-hal yang sedang terjadi pada zamannya [ gereja hujan awal ]dan hal-hal yang akan terjadi diakhir zaman yang belum pernah dilihatnya dan ia sendiripun tidak mengerti. Hal ini terjadi selain ditetapkan kepadanya juga disebabkan karena pengalaman rohani yang indah serta persekutuan yang heran dengan Aku.<a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+            Judul yang sesungguhnya dari kitab ini adalah : Wahyunya Aku [ Tuhan Yesus ] bukan Wahyunya Yohanes. Rasul Ku Yohanes menerima wahyu ini dari Aku tatkala rasul Ku ini diasingkan / dibuang ke pulau Patmos karena menyaksikan kebenaran Firman Ku [ lihat peta, letaknya pulau Patmos di Asia kecil dilaut tengah ]. Dipulau Patmos inilah Aku menunjukkan kepadanya melalui wahyu / penglihatan hal-hal yang sedang terjadi pada zamannya [ gereja hujan awal ]dan hal-hal yang akan terjadi diakhir zaman yang belum pernah dilihatnya dan ia sendiripun tidak mengerti. Hal ini terjadi selain ditetapkan kepadanya juga disebabkan karena pengalaman rohani yang indah serta persekutuan yang heran dengan Aku.<a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DOA YANG SEHARUSNYA…………..</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">DOA YANG SEHARUSNYA…………..</h3></a>
           <hr>
           <img src="kpk15.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">HENDAKLAH BERDOA,  MINTA PELARIAN ITU JANGAN BERLAKU PADA <br>MUSIN DINGIN ATAU HARI SABAT <br>MATIUS 24:20-21</p>
@@ -192,10 +192,10 @@
             <li>Tahap pertama Dia hanya datang diatas awan-awan menjemput gereja Nya yang sudah dewasa rohani sempurna roh, jiwa dan tubuh tidak ada cacat cela atau gereja penganten Kristus 1Tess. 5:23-24; Mat. 5:48; Wah.12:1-2; Epes. 5:26-27,31-32.</li>
             <li>Tahap kedua yaitu untuk mengakhiri zaman antiKris dimana Dia akan turun kebumi dan berpijak diatas bukit Zaitun Zac. 14:1-4; Kisah 1:9-12; Wah. 19:11-21.</li>
           </ol>
-          <a href="/kpksatu " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
+          <a href="/tabernakel-i " class="text-decoration-none"> Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">RAHASIA PEKABARAN 12 RASUL HUJAN AWAN & 12 RASUL HUJAN AKHIR</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">RAHASIA PEKABARAN 12 RASUL HUJAN AWAN & 12 RASUL HUJAN AKHIR</h3></a>
           <hr>
           <img src="kpk16.jpg" alt="" class="gambarsatudua mt-2"><br>
           <p class="mt-2 text-center">RAHASIA PEKABARAN 12 RASUL HUJAN AWAL DAN 12 RASUL HUJAN AKHIR</p>
@@ -206,42 +206,42 @@
             </ol>
             Rahasia Pekabaran 12 Rasul Hujan Awal 1Raja 7:25 : <br><br>
             Maka tertanggunglah ia oleh Lembu 12 ekor, 3 ekor Lembuh kepalanya arah ke utara, dan 3 ekor Lembu kepalanya arah ke barat, dan 3 ekor Lembu arah kepalanya ke selatan, 3 ekor Lembu arah kepalanya ke timur dan kolam itupun tertanggunglah keatasnya, dan buntut segala lembu itu arah kedalam. <br><br> Dalam 1Raja 7:25 kita nampak 12 ekor lembu yg memikul kolam tembaga yg berada dihalaman pada Kaabah raja Salomo. Adapun 12 ekor Lembu ini yg memikul kolam tembaga yg berada dihalaman kaabah salomo, itu menunjuk kepada 12 rasul hujan awal yg membentuk gereja penganten pada hujan awal. Adapun sifat lembu adalah binatang penurut dan menenggala [ dipakai untuk membajak ] dan binatang yg dipakai untuk korban sembelihan. Lihat pelajaran Tabernakel Bil. 28 & 29. Kebanyakan orang suka membajak sawah dan ladang dengan mempergunakan Lembu daripada Kerbau, karena lebih cepat dan tahan panas. Adapun pekabaran rasul hujan awal adalah bersifat seperti lembu yakni pekabaran yg lemah lembut dan tidak suka melawan meskipun mereka mengalami banyak sengsara dan aniaya karena melayani Tuhan. Pekabaran mereka pada waktu itu hanya berhadapan dengan :
-          <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DARI TIMUR MEMANCAR KEBENARAN ALLAH DANIEL 9:20-27</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">TAHTA ALLAH WAH. 4</h3></a>
           <hr>
           <img src="kpk17.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">DARI TIMUR MEMANCAR KEBENARAN ALLAH <br> DANIEL 9 : 20 -27</p>
-          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <p class="mt-2 text-center">TAHTA ALLAH WAH. 4</p>
+          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DARI TIMUR MEMANCAR KEBENARAN ALLAH DANIEL 9:20-27</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">ANTIKRIS & GEREJA SUNDAL / BABEL POLITIK & BABEL AGAMA</h3></a>
           <hr>
           <img src="kpk18.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">DARI TIMUR MEMANCAR KEBENARAN ALLAH <br> DANIEL 9 : 20 -27</p>
-          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <p class="mt-2 text-center">ANTIKRIS & GEREJA SUNDAL / BABEL POLITIK & BABEL AGAMA</p>
+          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DARI TIMUR MEMANCAR KEBENARAN ALLAH DANIEL 9:20-27</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">RAHASIA KESELAMATAN DARI ZAMAN KE ZAMAN</h3></a>
           <hr>
           <img src="kpk19.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">DARI TIMUR MEMANCAR KEBENARAN ALLAH <br> DANIEL 9 : 20 -27</p>
-          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <p class="mt-2 text-center">RAHASIA KESELAMATAN DARI ZAMAN KE ZAMAN</p>
+          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DARI TIMUR MEMANCAR KEBENARAN ALLAH DANIEL 9:20-27</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">PELAJARAN 7 TINGKAT IMAN</h3></a>
           <hr>
           <img src="kpk20.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">DARI TIMUR MEMANCAR KEBENARAN ALLAH <br> DANIEL 9 : 20 -27</p>
-          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <p class="mt-2 text-center">PELAJARAN 7 TINGKAT IMAN</p>
+          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         <div class="mt-5">
-          <a href="/kpksatu" class="text-decoration-none"><h3 class="text-dark">DARI TIMUR MEMANCAR KEBENARAN ALLAH DANIEL 9:20-27</h3></a>
+          <a href="/tabernakel-i" class="text-decoration-none"><h3 class="text-dark">Wahyu 13 – Binatang – AntiKris – 666</h3></a>
           <hr>
           <img src="kpk21.jpg" alt="" class="gambarsatudua mt-2"><br>
-          <p class="mt-2 text-center">DARI TIMUR MEMANCAR KEBENARAN ALLAH <br> DANIEL 9 : 20 -27</p>
-          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/kpksatu " class="text-decoration-none">Lanjutkan membaca...</a> </p>
+          <p class="mt-2 text-center">Wahyu 13 – Binatang – AntiKris – 666</p>
+          <p class="text-justify">Dalam kitab Daniel 9:20-27 ini berbicara tentang umat Israel <a href="/tabernakel-i " class="text-decoration-none">Lanjutkan membaca...</a> </p>
         </div>
         {{-- <div class="unduh-materi mt-5">
           <a href="https://drive.google.com/file/d/12QjzCY58s_kge5BxrSi3gscdUqPpBIwW/view?usp=sharing"  terget="_blank">

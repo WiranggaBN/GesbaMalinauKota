@@ -31,9 +31,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <button class="button-sejarah mt-4 mb-3">
-                        <img src="Vector1.png" alt="">
-                    </button>
+                  <a href="/"><button class="button-sejarah mt-4 mb-3">
+                    <img src="../Vector1.png" alt="">
+                </button></a>
                     <p>
                       Gereja segala bangsa malinau kota (GESBA) dirintis pertama kali oleh Pdt. Daud pakiding S.Th, Bapak Isak Rau, Bapak Toding pong bulaan dan ibu Mely Toding yang diawali dengan ibadah persekutuan doa pada tanggal 25 Desember 2007 di pondok kebun Bpk Nurdin belakang Pasar Induk malinau. 
                       Kemudian GESBA Malinau Kota secara resmi dibuka dirumah pribadi Bpk pdt Daud Pakiding pada tanggal 19 September 2008, yang pada Tahun 2012 membeli sebidang tanah di Pasar Induk gang Gesba, setelah itu pada tahun 2013 mulai membangun gedung pastori untuk di jadikan tempat ibadah. Dan kemudian pada Tanggal 22 Juni 2013 gedung pertama kali digunakan dan hingga saat ini.

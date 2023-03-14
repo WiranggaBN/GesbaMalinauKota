@@ -21,9 +21,9 @@
       <div class="container">
         <div class="row">
           <div>
-            <button class="button-ibadahraya mt-4 mb-3 me-2">
-              <img src="Vector1.png" alt="">
-            </button>
+            <a href="/"><button class="button-sejarah mt-4 mb-3">
+              <img src="../Vector1.png" alt="">
+            </button></a>
             {{-- <button class="button-ibadahraya mt-4 mb-3">
                 <img src="icons8-calendar-48.png" alt="" class="img-calendar">
               </button> --}}

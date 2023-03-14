@@ -77,7 +77,7 @@
             class="position-absolute top-50 start-50 translate-middle">
           </div>
           <h3 class="mt-4">Pencarian Dana</h3>
-          <p class="mt-3">Jangan lewatkan update terbaru jadwal ibadah di Gereja Segala Bangsa Malinau Kota. Pastikan anda beribadah bersama kami.</p>
+          <p class="mt-3">Jangan lewatkan update terbaru pencarian dana di Gereja Segala Bangsa Malinau Kota. Pastikan anda bersama kami.</p>
         </div>
       </div>
 
@@ -88,7 +88,7 @@
             class="position-absolute top-50 start-50 translate-middle">
           </div>
           <h3 class="mt-4">Doa dan Puasa</h3>
-          <p class="mt-3">Jangan lewatkan update terbaru jadwal ibadah di Gereja Segala Bangsa Malinau Kota. Pastikan anda beribadah bersama kami.</p>
+          <p class="mt-3">Jangan lewatkan update terbaru doa dan puasa di Gereja Segala Bangsa Malinau Kota. Pastikan anda bersama kami.</p>
         </div>
       </div>
 
