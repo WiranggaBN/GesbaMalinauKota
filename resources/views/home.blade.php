@@ -62,10 +62,14 @@
       <div class="col-md-4 text-center">
         <div class="card-keep">
           <div class="circle-icon position-relative mx-auto">
-            <img src="Iconsmind-Outline-Calendar-4.48.png" alt=""
-            class="position-absolute top-50 start-50 translate-middle">
+            <a href="/ibadahraya">
+              <img src="Iconsmind-Outline-Calendar-4.48.png" alt=""
+              class="position-absolute top-50 start-50 translate-middle">
+            </a>
           </div>
+          <a href="/ibadahraya" class="text-decoration-none">
           <h3 class="mt-4">Jadwal Ibadah</h3>
+          </a>
           <p class="mt-3">Jangan lewatkan update terbaru jadwal ibadah di Gereja Segala Bangsa Malinau Kota. Pastikan anda beribadah bersama kami.</p>
         </div>
       </div>
@@ -73,10 +77,14 @@
       <div class="col-md-4 text-center">
         <div class="card-keep">
           <div class="circle-icon position-relative mx-auto">
-            <img src="Icons8-Windows-8-Holidays-Holy-Bible.48.png" alt=""
-            class="position-absolute top-50 start-50 translate-middle">
+            <a href="/pencariandana">
+              <img src="Icons8-Windows-8-Holidays-Holy-Bible.48.png" alt=""
+              class="position-absolute top-50 start-50 translate-middle">
+            </a>
           </div>
-          <h3 class="mt-4">Pencarian Dana</h3>
+          <a href="/pencariandana" class="text-decoration-none">
+            <h3 class="mt-4">Pencarian Dana</h3>
+          </a>
           <p class="mt-3">Jangan lewatkan update terbaru pencarian dana di Gereja Segala Bangsa Malinau Kota. Pastikan anda bersama kami.</p>
         </div>
       </div>
@@ -84,10 +92,14 @@
       <div class="col-md-4 text-center">
         <div class="card-keep">
           <div class="circle-icon position-relative mx-auto">
+            <a href="/doadanpuasa">
             <img src="Icons8-Windows-8-Time-Date.48.png" alt=""
             class="position-absolute top-50 start-50 translate-middle">
+            </a>
           </div>
+          <a href="/doadanpuasa" class="text-decoration-none">
           <h3 class="mt-4">Doa dan Puasa</h3>
+          </a>
           <p class="mt-3">Jangan lewatkan update terbaru doa dan puasa di Gereja Segala Bangsa Malinau Kota. Pastikan anda bersama kami.</p>
         </div>
       </div>
