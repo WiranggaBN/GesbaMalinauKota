@@ -82,7 +82,7 @@
               class="position-absolute top-50 start-50 translate-middle">
             </a>
           </div>
-          <a href="/pencariandana" class="text-decoration-none">
+          <a href="/pencariandana" class="text-decoration-none"> 
             <h3 class="mt-4">Pencarian Dana</h3>
           </a>
           <p class="mt-3">Jangan lewatkan update terbaru pencarian dana di Gereja Segala Bangsa Malinau Kota. Pastikan anda bersama kami.</p>

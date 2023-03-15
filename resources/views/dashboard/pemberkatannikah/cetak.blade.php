@@ -62,7 +62,11 @@
   </div>
 
   <div class="mengetahui">
-    Malinau, {{ date('d M Y') }}<br>
+    <?php
+      setlocale(LC_TIME, 'id_ID');
+      $date_now = strftime("%d %B %Y");
+    ?>
+    Malinau, <?php echo $date_now; ?> <br>
     Koordinator Sosial dan Diakonia<br>
     <img src="../../ttd.png" alt="" class="ttd"><br>
     <b>Rispan</b>
