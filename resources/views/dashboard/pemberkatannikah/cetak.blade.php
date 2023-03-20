@@ -62,11 +62,18 @@
   </div>
 
   <div class="mengetahui">
+    Malinau, 
     <?php
-      setlocale(LC_TIME, 'id_ID');
-      $date_now = strftime("%d %B %Y");
+    function translate_month($date_str) {
+        $en_months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        $id_months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+        return str_replace($en_months, $id_months, $date_str);
+    }
+    $date_str = date('d F Y');
+    $date_str_id = translate_month($date_str);
+    echo $date_str_id;
     ?>
-    Malinau, <?php echo $date_now; ?> <br>
+    <br>
     Koordinator Sosial dan Diakonia<br>
     <img src="../../ttd.png" alt="" class="ttd"><br>
     <b>Rispan</b>
