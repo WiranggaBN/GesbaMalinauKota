@@ -33,14 +33,18 @@
                     </div>
                     <div class="col-6">
                       <h2 class="text-dark">Profil Gembala Sidang </h2>
-                      <ol>
+                      <ul>
                         <li>Nama : Pdt.Daud Pakiding, S.Th</li>
-                        <li>Tempat tanggal lahir: Tana Toraja,16 April 1973</li>
+                        <li>Tempat tanggal lahir: Tana Toraja, 16 April 1973</li>
                         <li>Pendidikan Terakhir : S1 Teologi STT Sunergio</li>
                         <li>Pengalaman ikut organisasi: Kordinator daerah kaltim 2005-2010, ketua bpd kaltim 2010-2015, ketua BPD Kaltara 2015-2022, Ketua PGPI Malinau 2017-2018, pegurus pusat ketua depetemen misi dan perintisan 2015-2021.</li>
-                        <li>Pengalaman kerja gembala sidang :</li>
-                      </ol>
+                        {{-- <li>Pengalaman kerja gembala sidang : <br>   --}}
+                      </ul>
                     </div>
+                </div>
+                <div class="col-12 mt-3">
+                  <h2 class="text-center text-dark">Riwayat Pelayanan</h2>
+                  <p>Pada tahun 1990 saat masih umur 17 tahun ditawarkan oleh bapak Pdt. Barnabas di GESBA Sukamaju di dusun kambarak desa sukadamai kecamatan sukamaju kabupaten luwu  Sulawesi Selatan. pada saat itu ditanyakan siapa yang mau sekolah Alkitab, kemudian pak gembala menerima tawaran itu  dan sekolah Alkitab di SATFM Sekolah Alkitab Tiranus Filadelfia Makassar dan selesai 13 Agustus 1991, kemudian langsung menjadi pengerja di GESBA wasponda sampai 29 Desember 1992  dan januari 1993-desember 1997. Kemudian pada Januari 1998 mulai merintis pelayanan di kalimantan Timur di loa janan Samarinda sampai bulan Augustus 1998, kemudian pidah membuka persekutuan di kampung enam tarakan di Rumah Bpk Simon Toding sampai tahun 1999  dan membangun Gereja GPSI elsadai enam dan dan tahun  2000 mulai membuka pos PI  di lapangan dan tanggal 3 Oktober 2001 dibuka secara Resmi  Gereja Segala Bangsa Filadefia Tarakan.</li></p>
                 </div>
             </div>
         </div>

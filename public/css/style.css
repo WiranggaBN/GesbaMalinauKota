@@ -632,7 +632,12 @@ footer a {
     padding: 0;
 }
 
-#content-pendeta ol {
+#content-pendeta ul {
+    text-align: justify;
+    font-size: 24px;
+}
+
+#content-pendeta p {
     text-align: justify;
     font-size: 24px;
 }
