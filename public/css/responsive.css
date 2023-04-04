@@ -1,11 +1,22 @@
-@media screen and (max-width : 922px) {
+@media screen and (max-width : 1200px) {
+    #keep p {
+        font-size: 80%;
+    }
 
+    #keep h3 {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    
 }
 
 @media screen and (max-width : 576px) {
     
 }
 
-@media screen and (max-width : 350px) {
+@media screen and (max-width : 385px) {
     
 }
