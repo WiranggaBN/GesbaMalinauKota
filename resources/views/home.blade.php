@@ -3,10 +3,33 @@
 @section('container')
 {{-- Slider Section --}}
 <section id="slider">
-  <div class="container-fluid overlay">
-    <div class="container d-flex position-absolute w-100">
+  <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 d-flex">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Slider1.jpg" class="d-flex" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Slider2.jpg" class="d-flex" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Slider3.jpg" class="d-flex" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{-- <section id="slider">
+  <div class="container-fluid overlay position-absolute w-100">
+    <div class="container d-flex position-absolute">
+      <div class="row">
+        <div class="col-12">
           <div id="carouselExampleAutoplaying" class="carousel slider" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -33,7 +56,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 {{-- Slider Section --}}
 
 {{-- KPK Section --}}

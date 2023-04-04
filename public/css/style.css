@@ -40,20 +40,34 @@ body {
 
 /* Slider Section */
 #slider {
-    /* background-image: url(../pray.jpg); */
+    margin-right: 116,7px;
+    margin-left: -235px;
+    padding-top: 100px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #slider {
+    background-image: url(../pray.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     margin-right: -116.7px;
     color: #000;
     margin-left: -150px;
-    padding: 100px 0px;
+    padding-top: 100px;
 }
 
 #slider .overlay {
     background: rgba(0, 0, 0, 0.5);
     height: auto;
 }
+
+#slider img {
+    width: 1350px;
+    height: 500px;
+} */
 
 /* Hero Section */
 
