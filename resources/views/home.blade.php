@@ -122,7 +122,7 @@
         </button>
       </div>
       <div class="col-3">
-        <img src="qris.png" alt="" class="ms-4">
+        <img src="qris.jpg" alt="" class="qrs ms-4">
       </div>
     </div>
   </div> 

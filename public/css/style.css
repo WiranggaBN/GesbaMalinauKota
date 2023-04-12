@@ -5,17 +5,10 @@ body {
     background: rgb(245, 245, 245);
 }
 
-/* @media screen and {max-width : 922px) {
-    
+.qrs {
+    width: 200px;
+    height: 200px;
 }
-
-@media screen and {max-width : 576px) {
-    
-}
-
-@media screen and {max-width : 350px) {
-    
-} */
 
 .btn {
     background-color: rgb(122, 63, 158);
