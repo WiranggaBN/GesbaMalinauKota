@@ -13,9 +13,12 @@ use App\Http\Controllers\MasukController;
 use App\Http\Controllers\DaftarController;
 use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\BaptisanController;
+use App\Http\Controllers\KegiatanController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\VisimisiController;
+use App\Http\Controllers\DatajemaatController;
 use App\Http\Controllers\IbadahrayaController;
+use App\Http\Controllers\UlangtahunController;
 use App\Http\Controllers\HubungikamiController;
 use App\Http\Controllers\PenghiburanController;
 use App\Http\Controllers\IbadahpemudaController;
@@ -27,12 +30,15 @@ use App\Http\Controllers\DashboardSejarahController;
 use App\Http\Controllers\MateripengajaranController;
 use App\Http\Controllers\PemberkatannikahController;
 use App\Http\Controllers\DashboardBaptisanController;
+use App\Http\Controllers\DashboardKegiatanController;
 use App\Http\Controllers\DashboardVisimisiController;
 use App\Http\Controllers\IbadahpersekutuanController;
 use App\Http\Controllers\IbadahrumahtanggaController;
 use App\Http\Controllers\JadwaldoadanpuasaController;
 use App\Http\Controllers\JadwaldoasemalamanController;
+use App\Http\Controllers\DashboardDatajemaatController;
 use App\Http\Controllers\DashboardIbadahrayaController;
+use App\Http\Controllers\DashboardUlangtahunController;
 use App\Http\Controllers\IbadahsekolahmingguController;
 use App\Http\Controllers\JadwalpencariandanaController;
 use App\Http\Controllers\DashboardHubungikamiController;
@@ -83,6 +89,9 @@ Route::get('/visimisi/{visimisis:title}', [VisimisiController::class, 'show']);
 
 Route::get('/gembalasidang', [GembalasidangController::class, 'index']);
 Route::get('/gembalasidang/{gembalasidang:body}', [GembalasidangController::class, 'show']);
+
+Route::get('/datajemaat', [DatajemaatController::class, 'index']);
+Route::get('/datajemaat/{datajemaat:body}', [DatajemaatController::class, 'show']);
 
 Route::get('/ibadahraya', [IbadahrayaController::class, 'index']);
 Route::get('/ibadahraya/{ibadahraya:theme}', [IbadahrayaController::class, 'show']);
@@ -199,6 +208,12 @@ Route::get('/kunjungandoa', [KunjungandoaController::class, 'index']);
 Route::post('/kunjungandoa', [KunjungandoaController::class, 'store']);
 Route::get('/dashboard/kunjungandoa/cetak', [DashboardKunjungandoacetakController::class, 'cetak']);
 
+Route::get('/kegiatan', [KegiatanController::class, 'index']);
+Route::post('/kegiatan', [KegiatanController::class, 'store']);
+
+Route::get('/ulangtahun', [UlangtahunController::class, 'index']);
+Route::post('/ulangtahun', [UlangtahunController::class, 'store']);
+
 Route::get('/persembahan', function() {
     return view('persembahan', [
     "title" => "Persembahan"
@@ -242,6 +257,8 @@ Route::resource('/dashboard/visimisi', DashboardVisimisiController::class)-> mid
 
 Route::resource('/dashboard/gembalasidang', DashboardGembalasidangController::class)-> middleware('auth');
 
+Route::resource('/dashboard/datajemaat', DashboardDatajemaatController::class)-> middleware('auth');
+
 Route::resource('/dashboard/hubungikami', DashboardHubungikamiController::class)-> middleware('auth');
 
 Route::resource('/dashboard/pemberkatannikah', DashboardPemberkatannikahController::class)-> middleware('auth');
@@ -271,6 +288,10 @@ Route::resource('/dashboard/jadwaldoadanpuasa', DashboardJadwaldoadanpuasaContro
 Route::resource('/dashboard/jadwaldoasemalaman', DashboardJadwaldoasemalamanController::class)-> middleware('auth');
 
 Route::resource('/dashboard/jadwalpencariandana', DashboardJadwalpencariandanaController::class)-> middleware('auth');
+
+Route::resource('/dashboard/kegiatan', DashboardKegiatanController::class)-> middleware('auth');
+
+Route::resource('/dashboard/ulangtahun', DashboardUlangtahunController::class)-> middleware('auth');
 
 
 

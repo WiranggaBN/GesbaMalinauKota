@@ -32,15 +32,13 @@
     <link rel="stylesheet" href="css/responsive.css">
     @stack('style')
 
-    {{-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="cb8789e1-4920-486c-8496-b69486eb881c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> --}}
-
     <title>GESBA | {{ $title }}</title>
 </head>
 <body>
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
         <div class="container-fluid">
-          <a class="navbar-brand me-4 mx-5" href="/">
+          <a class="navbar-brand me-3 mx-2" href="/">
             <img src="../logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
             <b>GESBA Malinau Kota</b>
           </a>
@@ -59,8 +57,9 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/sejarah">Sejarah Gereja</a></li>
                   <li><a class="dropdown-item" href="/visimisi">Visi dan Misi</a></li>
-                  {{-- <li><hr class="dropdown-divider"></li> --}}
                   <li><a class="dropdown-item" href="/gembalasidang">Gembala Sidang</a></li>
+                  <li><a class="dropdown-item" href="/datajemaat">Data Jemaat</a></li>
+                  {{-- <li><hr class="dropdown-divider"></li> --}}
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -106,6 +105,15 @@
                   <li><a class="dropdown-item" href="/baptisan">Baptisan</a></li>
                   <li><a class="dropdown-item" href="/penghiburan">Penghiburan</a></li>
                   <li><a class="dropdown-item" href="/kunjungandoa">Kunjungan Doa</a></li>                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle {{ Request::is('kegiatan*', 'ulangtahun*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BERITA
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/kegiatan">Kegiatan / Acara</a></li>
+                  <li><a class="dropdown-item" href="/ulangtahun">Ulang Tahun</a></li>                 
                 </ul>
               </li>
               <li class="nav-item">

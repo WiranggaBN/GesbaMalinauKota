@@ -25,39 +25,6 @@
     </div>
   </div>
 </section>
-{{-- <section id="slider">
-  <div class="container-fluid overlay position-absolute w-100">
-    <div class="container d-flex position-absolute">
-      <div class="row">
-        <div class="col-12">
-          <div id="carouselExampleAutoplaying" class="carousel slider" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="slidersatu.jpg" class="d-block" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Slide-Profil.jpg" class="d-block" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Sider-jadwal-ibadah.jpg" class="d-block" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-</section> --}}
-{{-- Slider Section --}}
 
 {{-- KPK Section --}}
 <section id="kpk">
@@ -131,80 +98,6 @@
   </div>
 </section>
 {{-- Keep Update Section --}}
-
-{{-- Informasi Section --}}
-{{-- <section id="informasi" class="overflow-hidden">
-  <div class="container position-relative">
-    <div class="row">
-      <div class="col-9">
-        <h2>Informasi</h2>
-      </div>
-      <div class="col-3">
-        <button class="button-informasi">Lihat Semua..
-          <img src="Vector.png" alt="" class="ms-4">
-        </button>
-      </div>
-    </div>
-
-    <div class="container position-relative">
-      <div class="row">
-        <div class="col-12 d-flex justify-content-start">
-          <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info1.jpg" alt="">
-            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Baptisan</h5>
-                <span>Informasi tentang baptisan bersama</span>
-                <h6>Februari</h6>
-                <button>Lihat Info</button>
-              </div>
-            </div>
-          </div> 
-          <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info2.jpg" alt="">
-            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Fellowship</h5>
-                <span>Informasi tentang Fellowship Night</span>
-                <h6>Februari</h6>
-                <button>Lihat Info</button>
-              </div>
-            </div>
-          </div>
-          <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info3.jpg" alt="">
-            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Kesempatan Melayani</h5>
-                <span>Informasi tentang kesempatan melayani</span>
-                <h6>Februari</h6>
-                <button>Lihat Info</button>
-              </div>
-            </div>
-          </div>
-          <div class="card-informasi me-3 mt-4 position-relative">
-            <img src="info5.jpg" alt="">
-            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
-              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                <h5>Media Sosial</h5>
-                <span>Informasi tentang media sosial</span>
-                <h6>Februari</h6>
-                <button>Lihat Info</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="button-vector-left position-absolute start-0 top-50 translate-middle-y">
-        <img src="Vector1.png" alt="">
-      </button>
-      <button class="button-vector-right position-absolute end-0 top-50 translate-middle-y">
-        <img src="Vector2.png" alt="">
-      </button>
-    </div>
-  </div>
-</section> --}}
-{{-- Informasi Section --}}
 
 {{-- Persembahan Section --}}
 <section id="pers" class="overflow-hidden"> 
