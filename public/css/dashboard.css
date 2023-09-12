@@ -8,11 +8,11 @@ body {
 }
 
 .navbar {
-    background-color: rgb(98, 46, 130);
+    background-color: rgb(252, 163, 17);
 }
 
 .btn-form button {
-    background-color: rgb(98, 46, 130);
+    background-color: rgb(252, 163, 17);
 }
 
 /*
@@ -100,14 +100,14 @@ body {
 }
 
 .btn {
-    background-color: rgb(122, 63, 158);
-    border: 1px solid rgb(122, 63, 158);
+    background-color: rgb(252, 163, 17);
+    border: 1px solid rgb(252, 163, 17);
     transition: all ease-in-out 0.3s;
 }
 
 .btn:hover {
-    background-color: rgb(74, 15, 110);
-    border: 1px solid rgb(74, 15, 110);
+    background-color: rgb(252, 163, 17);
+    border: 1px solid rgb(252, 163, 17);
     transition: all ease-in-out 0.3s;
 }
 

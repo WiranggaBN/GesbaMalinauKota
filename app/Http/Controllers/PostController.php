@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function index() 
     {
-        return view('posts', [
+        return view('post', [
             "title" => "Info Rohani",
             "posts" => Post::latest()->get()
         ]);

@@ -3,7 +3,7 @@
 
 use App\Models\Post;
 use App\Models\User;
-use App\Models\Sejarah;
+use App\Models\Sejarah; 
 use App\Http\Controllers\Home;
 use App\Models\Materipengajaran;
 use Illuminate\Support\Facades\Route;
